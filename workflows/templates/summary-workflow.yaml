@@ -1,0 +1,4 @@
+workflow:
+  id: summary-workflow
+  name: Summary Workflow
+  version: v1

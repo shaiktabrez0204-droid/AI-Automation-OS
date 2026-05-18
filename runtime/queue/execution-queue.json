@@ -1,0 +1,25 @@
+{
+    "queue":  [
+                  {
+                      "execution_id":  "f38e0420-c94d-4006-bffb-1a1548178f49",
+                      "workflow":  "urgent-context-refresh",
+                      "priority":  "HIGH",
+                      "status":  "FAILED",
+                      "timestamp":  "2026-05-18 18:43:32"
+                  },
+                  {
+                      "execution_id":  "75711c9b-7d1a-4d0b-a889-12a47bb0dc69",
+                      "workflow":  "artifact-processing",
+                      "priority":  "MEDIUM",
+                      "status":  "PENDING",
+                      "timestamp":  "2026-05-18 18:43:41"
+                  },
+                  {
+                      "execution_id":  "4f0f8e79-afde-4452-96e5-c37f94067398",
+                      "workflow":  "nightly-maintenance",
+                      "priority":  "LOW",
+                      "status":  "PENDING",
+                      "timestamp":  "2026-05-18 18:43:23"
+                  }
+              ]
+}

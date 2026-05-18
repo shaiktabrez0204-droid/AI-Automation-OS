@@ -1,0 +1,47 @@
+execution_log:
+  execution_id:
+  workflow_id:
+  task_id:
+
+  timestamps:
+    started_at:
+    completed_at:
+
+  runtime:
+    status:
+    duration:
+    retries:
+
+  retrieval:
+    profiles_loaded:
+    memory_domains:
+    context_size:
+
+  execution_steps:
+    - step:
+      status:
+      duration:
+      result:
+
+  validations:
+    passed:
+    failed:
+
+  outputs:
+    generated_artifacts:
+    exported_contexts:
+
+  telemetry:
+    token_usage:
+    retrieval_latency:
+    execution_latency:
+
+  failures:
+    recoverable:
+    non_recoverable:
+
+  escalation:
+    triggered:
+    escalation_reason:
+
+  summary:

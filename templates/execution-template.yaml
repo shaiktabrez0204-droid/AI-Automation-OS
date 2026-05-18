@@ -1,0 +1,26 @@
+execution:
+  id:
+  workflow_id:
+  task_id:
+
+  status:
+  created_at:
+  updated_at:
+
+  retrieval_profile:
+  context_sources:
+
+  runtime_state:
+  artifacts:
+  logs:
+
+  metrics:
+    latency:
+    retries:
+    token_usage:
+
+  outputs:
+  validation_results:
+
+  failure_state:
+  escalation_state:

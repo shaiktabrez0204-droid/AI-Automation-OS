@@ -1,0 +1,14 @@
+task:
+  id:
+  type:
+  priority:
+
+  workflow:
+  context_profile:
+
+  dependencies:
+
+  status:
+
+  artifacts:
+  logs:

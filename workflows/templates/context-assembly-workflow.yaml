@@ -1,0 +1,91 @@
+workflow:
+  id: context-assembly
+  name: Context Assembly Workflow
+  version: v1
+
+  purpose:
+    Assemble operational context dynamically from retrieval profiles
+    before workflow execution.
+
+  retrieval:
+    profiles:
+      - architecture
+      - workflow
+      - project
+
+    memory_domains:
+      - architecture
+      - decisions
+      - workflows
+
+    exports:
+      - exports/combined-context.txt
+
+  inputs:
+    required:
+      - workflow_type
+      - retrieval_profile
+
+    optional:
+      - session_context
+      - execution_priority
+
+  execution:
+    steps:
+      - load_profiles
+      - retrieve_memory
+      - filter_duplicates
+      - prioritize_context
+      - assemble_context
+      - export_context
+
+    validations:
+      - retrieval_integrity
+      - duplicate_check
+      - export_validation
+
+    retries: 2
+    timeout: 120
+
+  outputs:
+    primary:
+      - combined_context_packet
+
+    secondary:
+      - retrieval_metadata
+      - context_summary
+
+  artifacts:
+    logs:
+      - retrieval_logs
+
+    summaries:
+      - context_summary
+
+    context_snapshots:
+      - combined-context.txt
+
+  telemetry:
+    track:
+      - retrieval_latency
+      - context_size
+      - duplicate_reduction
+      - export_success
+
+  failure_modes:
+    recoverable:
+      - missing_optional_context
+      - partial_retrieval_failure
+
+    non_recoverable:
+      - export_failure
+      - corrupted_retrieval_profile
+
+  escalation:
+    conditions:
+      - repeated_export_failure
+      - invalid_profile_configuration
+
+    actions:
+      - notify_operator
+      - generate_failure_log

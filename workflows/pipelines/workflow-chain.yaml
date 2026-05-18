@@ -1,0 +1,12 @@
+pipeline:
+  id: workflow-chain
+
+  chain:
+    - workflow: context-assembly-workflow
+      next: execution-planning-workflow
+
+    - workflow: execution-planning-workflow
+      next: artifact-generation-workflow
+
+    - workflow: artifact-generation-workflow
+      next: summary-workflow

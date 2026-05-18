@@ -1,0 +1,45 @@
+workflow:
+  id:
+  name:
+  version:
+
+  purpose:
+
+  retrieval:
+    profiles:
+    memory_domains:
+    exports:
+
+  inputs:
+    required:
+    optional:
+
+  execution:
+    steps:
+    validations:
+    retries:
+    timeout:
+
+  outputs:
+    primary:
+    secondary:
+
+  artifacts:
+    logs:
+    summaries:
+    context_snapshots:
+
+  telemetry:
+    track:
+      - latency
+      - retries
+      - failures
+      - token_usage
+
+  failure_modes:
+    recoverable:
+    non_recoverable:
+
+  escalation:
+    conditions:
+    actions:

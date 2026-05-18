@@ -1,0 +1,18 @@
+pipeline:
+  id:
+  name:
+
+  workflows:
+    - workflow_id:
+
+  orchestration:
+    execution_order:
+    retry_strategy:
+    escalation_policy:
+
+  telemetry:
+    enabled: true
+
+  outputs:
+    artifacts:
+    summaries:

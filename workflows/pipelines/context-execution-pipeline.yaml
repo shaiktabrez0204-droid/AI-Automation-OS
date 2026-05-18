@@ -1,0 +1,21 @@
+pipeline:
+  id: context-execution-pipeline
+
+  workflows:
+    - context-assembly-workflow
+    - execution-planning-workflow
+    - artifact-generation-workflow
+
+  execution_order:
+    - context-assembly-workflow
+    - execution-planning-workflow
+    - artifact-generation-workflow
+
+  retry_policy:
+    max_retries: 2
+
+  escalation_policy:
+    on_failure: stop_pipeline
+
+  telemetry:
+    enabled: true

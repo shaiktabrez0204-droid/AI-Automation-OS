@@ -1,0 +1,17 @@
+graph:
+  workflows:
+
+    - id: context-assembly-workflow
+      depends_on: []
+
+    - id: execution-planning-workflow
+      depends_on:
+        - context-assembly-workflow
+
+    - id: artifact-generation-workflow
+      depends_on:
+        - execution-planning-workflow
+
+    - id: summary-workflow
+      depends_on:
+        - artifact-generation-workflow

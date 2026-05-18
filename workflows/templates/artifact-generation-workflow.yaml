@@ -1,0 +1,4 @@
+workflow:
+  id: artifact-generation-workflow
+  name: Artifact Generation Workflow
+  version: v1
