@@ -1,0 +1,21 @@
+{
+    "mode": "agent",
+
+    "files": [
+
+        {
+            "path": "memory/agents/README.md",
+            "priority": "HIGH"
+        },
+
+        {
+            "path": "memory/architecture/system-patterns.md",
+            "priority": "HIGH"
+        },
+
+        {
+            "path": "workflows/workflow-index.md",
+            "priority": "MEDIUM"
+        }
+    ]
+}

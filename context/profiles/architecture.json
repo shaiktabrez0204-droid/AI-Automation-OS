@@ -1,0 +1,26 @@
+{
+    "mode": "architecture",
+
+    "files": [
+
+        {
+            "path": "README.md",
+            "priority": "HIGH"
+        },
+
+        {
+            "path": "core/operating-principles.md",
+            "priority": "HIGH"
+        },
+
+        {
+            "path": "docs/system-architecture.md",
+            "priority": "MEDIUM"
+        },
+
+        {
+            "path": "memory/architecture/system-patterns.md",
+            "priority": "MEDIUM"
+        }
+    ]
+}

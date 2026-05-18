@@ -1,0 +1,26 @@
+{
+    "mode": "workflow",
+
+    "files": [
+
+        {
+            "path": "workflows/workflow-index.md",
+            "priority": "HIGH"
+        },
+
+        {
+            "path": "workflows/context-loading-workflow.md",
+            "priority": "HIGH"
+        },
+
+        {
+            "path": "memory/workflows/README.md",
+            "priority": "MEDIUM"
+        },
+
+        {
+            "path": "context/current-context.md",
+            "priority": "MEDIUM"
+        }
+    ]
+}

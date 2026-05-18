@@ -1,0 +1,228 @@
+
+=========================================
+FILE: README.md
+=========================================
+
+# AI-Automation-OS
+
+## Identity
+
+AI-Automation-OS is a persistent AI-native operational infrastructure system designed for:
+
+- context engineering
+- automation engineering
+- AI-assisted execution
+- workflow orchestration
+- persistent operational memory
+- retrieval systems
+- autonomous workflows
+- scalable AI collaboration
+
+This system is NOT:
+- a note-taking workspace
+- a prompt collection
+- a productivity vault
+- a chatbot wrapper
+
+This system IS:
+- operational cognition infrastructure
+- execution continuity infrastructure
+- AI collaboration infrastructure
+- reusable workflow infrastructure
+- persistent context architecture
+
+---
+
+# Core Mission
+
+Build an AI-native operating system that enables:
+
+1. Persistent operational state
+2. Reusable execution workflows
+3. Dynamic context retrieval
+4. Long-term memory persistence
+5. AI-assisted engineering
+6. Autonomous workflow execution
+7. Reduced cognitive reload cost
+8. Compound operational leverage
+
+The objective is to transform AI from:
+- temporary chat interaction
+
+into:
+- persistent execution infrastructure
+
+=========================================
+FILE: core/operating-principles.md
+=========================================
+
+# Operating Principles
+
+## 1. Persistent State Over Stateless Interaction
+
+Important operational knowledge must persist across sessions, workflows, projects, and execution cycles.
+
+The system should continuously accumulate operational intelligence instead of resetting context repeatedly.
+
+---
+
+## 2. Retrieval Over Context Dumping
+
+Large unstructured prompts reduce execution quality.
+
+The system should retrieve:
+- relevant memory
+- relevant workflows
+- relevant architecture
+- relevant operational state
+
+dynamically and precisely.
+
+---
+
+## 3. Reusable Systems Over Repeated Thinking
+
+Repeated decisions indicate missing infrastructure.
+
+Recurring workflows should eventually become:
+- standardized
+- documented
+- reusable
+- automatable
+
+---
+
+## 4. Low Cognitive Reload Cost
+
+The system must minimize:
+- re-explaining context
+- reconstructing project state
+- rediscovering decisions
+- repeated onboarding
+
+Operational continuity is a primary design goal.
+
+---
+
+## 5. AI Collaboration Optimization
+
+All files, workflows, and system structures should optimize for:
+- AI readability
+- retrieval quality
+- execution continuity
+- operational clarity
+
+This repository is intentionally designed for AI-assisted execution.
+
+=========================================
+FILE: docs/system-architecture.md
+=========================================
+
+# System Architecture
+
+## Purpose
+
+AI-Automation-OS is designed as persistent AI-native operational infrastructure.
+
+The architecture prioritizes:
+- operational continuity
+- AI collaboration
+- retrieval precision
+- modularity
+- workflow orchestration
+- persistent memory
+
+---
+
+# Core Layers
+
+| Layer | Purpose |
+|---|---|
+| README | system identity |
+| core | operational principles |
+| memory | persistent intelligence |
+| context | active operational state |
+| workflows | reusable execution systems |
+| logs | execution continuity |
+| docs | architectural intelligence |
+| scripts | automation tooling |
+| agents | future autonomous systems |
+
+---
+
+# Architectural Philosophy
+
+The quality of AI execution depends heavily on:
+- context quality
+- retrieval precision
+- operational continuity
+- memory organization
+
+The repository exists to intentionally optimize those layers.
+
+=========================================
+FILE: memory/architecture/system-patterns.md
+=========================================
+
+# System Patterns
+
+## 1. Layer Separation
+
+Separate:
+- memory
+- context
+- workflows
+- logging
+- architecture
+- automation
+
+This improves:
+- retrieval quality
+- maintainability
+- AI reasoning clarity
+
+---
+
+## 2. Persistent vs Temporary State
+
+Persistent state:
+- architecture
+- workflows
+- important decisions
+
+Temporary state:
+- current session work
+- debugging state
+- active implementation focus
+
+---
+
+## 3. Retrieval-Oriented Organization
+
+Organize information for retrieval, not storage.
+
+The goal:
+- fast context loading
+- minimal noise
+- high signal
+- execution relevance
+
+---
+
+## 4. AI-Readable Structure
+
+Operational context should be:
+- explicit
+- modular
+- structured
+- high signal
+
+AI systems perform significantly better under these conditions.
+
+---
+
+## 5. Workflow Reusability
+
+Repeated execution should become reusable infrastructure.
+
+Repeated reasoning indicates missing systems.

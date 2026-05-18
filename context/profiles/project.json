@@ -1,0 +1,26 @@
+{
+    "mode": "project",
+
+    "files": [
+
+        {
+            "path": "memory/projects/README.md",
+            "priority": "HIGH"
+        },
+
+        {
+            "path": "context/current-context.md",
+            "priority": "HIGH"
+        },
+
+        {
+            "path": "context/session-context.md",
+            "priority": "MEDIUM"
+        },
+
+        {
+            "path": "logs/operational-log.md",
+            "priority": "LOW"
+        }
+    ]
+}
