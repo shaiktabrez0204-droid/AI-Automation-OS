@@ -1,0 +1,386 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5010501Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5018146Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5024874Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5029293Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5033419Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5037596Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.504189Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5049201Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5058733Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5067656Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5076227Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5085892Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5094164Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5100159Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5106072Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5111829Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5118504Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5127114Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5133676Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5139416Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5144969Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5152245Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5158095Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5162927Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5167744Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5172907Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5177689Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.518162Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5186098Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5190428Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5194678Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5198967Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5203338Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "HealingStrategy": "RUNTIME_RECOVERY",
+    "StabilityScore": 0,
+    "GovernanceScore": 20,
+    "RollbackRequired": true,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.523199Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5236693Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5240177Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5243648Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5247376Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5251347Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5254761Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.525816Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5261613Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5265284Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5269006Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5272477Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5275943Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 80,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5279536Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "HealingStrategy": "STABLE",
+    "StabilityScore": 100,
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "HealingGeneratedAt": "2026-05-19T07:37:12.5283302Z"
+  }
+]

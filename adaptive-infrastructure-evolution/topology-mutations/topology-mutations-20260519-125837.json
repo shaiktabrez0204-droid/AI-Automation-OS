@@ -1,0 +1,434 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5981244Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5983111Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5983591Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5984029Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5984468Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5984882Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5985311Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5985716Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5986117Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5986524Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5986928Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5988192Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.598865Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.5989056Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6012388Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6013293Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6015425Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6016148Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6016742Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6017541Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6017981Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6018383Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6018784Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6019188Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.60196Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6019997Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6020384Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6020789Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6021179Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6021601Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6022006Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6022394Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6022795Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "HIGH",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6023186Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6023618Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6024084Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6024676Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6025821Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6026318Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6026717Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6027107Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6027499Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6027907Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6028313Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6028731Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6029129Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "MODERATE",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.602954Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "SurvivabilityConstraint": "STRICT_GOVERNANCE",
+    "MutationRisk": "LOW",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "EvolutionPriority": "NORMAL",
+    "MutationGeneratedAt": "2026-05-19T07:28:37.6030128Z"
+  }
+]

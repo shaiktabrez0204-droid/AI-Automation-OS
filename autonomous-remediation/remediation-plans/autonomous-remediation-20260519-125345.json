@@ -1,0 +1,53 @@
+[
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "DivergenceState": "DIVERGED",
+    "RepairPlan": [
+      "EXECUTE_SEMANTIC_REINDEX",
+      "EXECUTE_LINEAGE_RECONSTRUCTION"
+    ],
+    "SurvivabilityPriority": "CRITICAL",
+    "GeneratedAt": "2026-05-19T07:23:45.7735534Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "DivergenceState": "DIVERGED",
+    "RepairPlan": [
+      "EXECUTE_SEMANTIC_REINDEX",
+      "EXECUTE_LINEAGE_RECONSTRUCTION",
+      "EXECUTE_INTENT_RECONSTRUCTION"
+    ],
+    "SurvivabilityPriority": "CRITICAL",
+    "GeneratedAt": "2026-05-19T07:23:45.7737514Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "DivergenceState": "DIVERGED",
+    "RepairPlan": [
+      "EXECUTE_SEMANTIC_REINDEX",
+      "EXECUTE_LINEAGE_RECONSTRUCTION"
+    ],
+    "SurvivabilityPriority": "CRITICAL",
+    "GeneratedAt": "2026-05-19T07:23:45.7738584Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "DivergenceState": "DIVERGED",
+    "RepairPlan": [
+      "EXECUTE_SEMANTIC_REINDEX",
+      "EXECUTE_LINEAGE_RECONSTRUCTION"
+    ],
+    "SurvivabilityPriority": "CRITICAL",
+    "GeneratedAt": "2026-05-19T07:23:45.773996Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "DivergenceState": "DIVERGED",
+    "RepairPlan": [
+      "EXECUTE_SEMANTIC_REINDEX",
+      "EXECUTE_LINEAGE_RECONSTRUCTION"
+    ],
+    "SurvivabilityPriority": "CRITICAL",
+    "GeneratedAt": "2026-05-19T07:23:45.7740894Z"
+  }
+]

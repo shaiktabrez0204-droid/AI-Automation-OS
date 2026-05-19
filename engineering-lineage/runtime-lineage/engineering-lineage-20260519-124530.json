@@ -1,0 +1,541 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "E9C4C1955E05A4DF9C6569A88A72A49315476DF006B9333F2A330534ED858239",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "f9b56d30-b2af-4fd6-af0e-59344f759ae6",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2633005Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "CB45CCEB18FC98EDBD2458F253B2866DE8331BB62FBF9BE4F72A1B353861087F",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "1909311d-7f2d-416d-be72-9440aeb02d2a",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2638819Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "2F9C074E1319154A352FEA16095B4100CD22801B6657657720B2590BBC101595",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "0ee2c162-1599-4039-baf2-a9fed1335ccd",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2643211Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "SemanticHash": "61C54E2ED8C7F9A1B89E21B39783E356C071097A5A28709634B715965B6DC253",
+    "OperationalIntent": null,
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "37c1e07d-70ad-4946-b301-6d14b8aa3d49",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2647166Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "21D039597CC6F37323A45CB97AA232748048E5A51316B84665C51C3CC99D9DD6",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "647e2145-99b8-4444-9f0f-d260b86d1991",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2651653Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "EFDF92E6880B66B3E5311A7E54427E3258D631727BAB95AB5A59CB1B4A0487A9",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "9d546d58-9e2f-4f02-b2ea-b02a00993b0f",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2656265Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "Role": "ENGINEERING_COGNITION",
+    "SemanticHash": "FC9483694342011A73156F2AF50C8B551DFAC52093D7D56059C4ED1BD63F73DB",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "65275fd8-6881-4669-af14-dfa27f2b75fc",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2660996Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "162588A3B77A021F85AC3F8CE9C506B40D0D379F26DAF3179126E04583CCB274",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "181ed805-922d-40d2-a7f6-9162a1028c23",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2666344Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "39519B279A40233033E097C63D0D302E91143286C7A2EBC2DB69F83355D85D7C",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "4d43f186-2825-4aab-9c54-15d3a34ca994",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2672518Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "Role": "ENGINEERING_MEMORY",
+    "SemanticHash": "4A7A1202311ED9B2322754F8F8C9EFCAA1310BD55B905711E2D37FD34FEA27AA",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "6fb091a9-fe80-4fb3-a39e-56fe1feaf572",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2677783Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "Role": "EXECUTION_PLANNING",
+    "SemanticHash": "E811CBE03669EC98558749B835220670918B3AB2066D5B1D15D2582F2A878958",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "1cb0cdab-6f2a-4633-9457-e529ead8ba4f",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2682482Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "Role": "EXECUTION_PLANNING",
+    "SemanticHash": "A3D6D2C21A728443A5EE1580D3655A687B75B6CEEF7496A028C453D7EDE1A4CC",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "ce8e946b-55c5-4138-a69e-ce5a7c5d93e1",
+    "LineageRecordedAt": "2026-05-19T07:15:30.26871Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "Role": "EXECUTION_PLANNING",
+    "SemanticHash": "CA06AF4C8E31B7213EE30E665A1F6DAF23B2B1762504C8D5E7AEFA7FD003BAFC",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "fb1d7187-0175-449b-93e7-5e7e8e05f32a",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2691257Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "Role": "EXECUTION_PLANNING",
+    "SemanticHash": "FF36B08B1235E4BC848D1C9B8AEB3B4CA7FC1FE0DB465FBD186AD5865C8F272E",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "73a19e1f-4534-41e7-bcb4-20d48e36ccdd",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2695035Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "Role": "EXECUTION_SIMULATION",
+    "SemanticHash": "9940F24F145DA25916B460B43271A4E38E13FAA55EE2448A2D9B71F4D0DC371C",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "e8e6bd35-d71e-41cb-a88d-a740cb217db3",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2698992Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "Role": "EXECUTION_PLANNING",
+    "SemanticHash": "A8DAB5CB38924BFE6C3642020EB908D3ED752150851948004E16465769599916",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "d10b8f3f-377d-4122-a0e9-5557ccb349a0",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2703062Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "Role": "EXECUTION_PLANNING",
+    "SemanticHash": "0FAABF26FD7B145A5BA9AD64DE398A574E4D43659FAA7365B85AC557E40BDDCC",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "bb30a68c-a54c-401b-a3f0-ba20c8c94408",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2707648Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "1257272A94BECAB3E835015EBDD17D504C041F3DDD36BDCF2E89FF93669F9318",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "2fe3f92a-18e1-4d5d-9b81-e978fe283ad6",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2712583Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "Role": "TOPOLOGY_ANALYSIS",
+    "SemanticHash": "22F7664C9CBAC388B0CA468E09303E24C765EB22DD92B820052E99889972E346",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "364a15e6-49a7-4740-96db-4a7f6d078721",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2719767Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "Role": "INFRASTRUCTURE_DIAGNOSTICS",
+    "SemanticHash": "937D473220B1591996A455294D3C352F1B16FE22579C0C283B09DE99F219F343",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "0420f80b-15b9-4f92-9a92-1016fd325bb6",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2725652Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "SemanticHash": "D157974A827FC8DE9BA82846AE8F5382544CBA357959E34645257A59BF2F723C",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "99813b67-a7f2-4b73-8619-dc430ead1ad1",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2730737Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "SemanticHash": "A83BBC05F8C7518CC4D4DECF19C977D76D14EE18AB1ACB4FF86A55D7460D237A",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "e3ddc38f-ab14-4b75-a369-4feb4083a972",
+    "LineageRecordedAt": "2026-05-19T07:15:30.273598Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "SemanticHash": "97DAE35A456C7DE85A30C8D30F71BA510797BD5CB052C4F447271330667CD027",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "eadb5fc2-07cf-437e-9f5c-e53c280d9a59",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2741141Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "Role": "ORCHESTRATION",
+    "SemanticHash": "23E9BC2218EB730EBE9236F02CA53648605185EE3500849CE462FC0C8E0B81D6",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "c63cb29c-b6a0-4a5a-a56c-1e3e2be02f63",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2746218Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "Role": "ORCHESTRATION",
+    "SemanticHash": "7628E86270F02E6ACA1C41DBF412986F4CC2D3590DDC3EF00F957AAAD1DE0F22",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "d40b61ac-e8fe-4047-a17f-ac2d2a7527c8",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2750891Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "Role": "ENGINEERING_COGNITION",
+    "SemanticHash": "FC1F557D7E02380A539CE08592672BA625CD6EB45E8441A3BE16F2CD62DC9BB3",
+    "OperationalIntent": [
+      "REPOSITORY_DISCOVERY",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "af3a8e61-9fd9-438c-b223-cd04ef8ccb0b",
+    "LineageRecordedAt": "2026-05-19T07:15:30.275592Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "79EC0E5371C2AC2250D69D38C01DE40CDE7BCFAA99E39B3DAA5B1FBF37C66130",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "4ee6d514-4f1c-4c4a-b6ca-de8fbadb334d",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2760869Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "EMPTY_RUNTIME",
+    "OperationalIntent": "EMPTY_RUNTIME",
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "1c8adb35-5bbc-41cb-bebf-182d79a6151e",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2765911Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "EMPTY_RUNTIME",
+    "OperationalIntent": "EMPTY_RUNTIME",
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "11fca0d8-06c0-4336-b22e-320f43242996",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2770682Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "0E5F380A375CC8CDFFBD3FB96E2DCD7A98891AC44FCA022D0B0A8AE7376AC6B9",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "268bcd8c-b781-4ce5-82ab-858560e2b52b",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2775685Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "2909DBF402A02EFECEC742447B172B53D1BC3B41214A083C1915C1CD2BA2EC45",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "eb012ef8-a158-4f3f-a755-e57be2ee14b3",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2783242Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "723EABE2A014B96D09BB25D1859FE9A1C638B40F73E74A5BE5F54F018A77A63F",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "0a1f2174-0348-4a32-865b-0be80f11f35b",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2789621Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "871613446FBAC8B75C4084307AB8714DC853B62FDCABCBBE2EBC011A351E04BD",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "731f3651-0889-4271-b2f1-c8c7ccb3529e",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2795455Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "7BC128D20B9056020A9F003B745F6B193EDBC2F11FB1FF2413ED654C0948790A",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "b06b8c73-6358-421e-9b19-cc74beebfa95",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2827456Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "Role": "ENGINEERING_MEMORY",
+    "SemanticHash": "C5A3FC7B7CC7EEFBD75CCA13D5FCFECECA62D7F45681D94CE68961A8E2F674F9",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "c37b945f-02d3-4e01-baab-6215feec6df0",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2832442Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "B604C57439315E239DD60FC546BA362D484DE8F715B296B1D2D22DD50FD4282C",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "c7a02d2b-cc4e-4fa1-a0b1-cdcaf24ccba2",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2835862Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "Role": "ENGINEERING_COGNITION",
+    "SemanticHash": "EE5EA9F3132EE98162DBB29A1F34BF9330F3CB55CE52184087C00A5B123CDB31",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "a873cfdf-d2b4-4f0f-84d7-4416234a57b1",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2838929Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "Role": "TOPOLOGY_ANALYSIS",
+    "SemanticHash": "308723D6EA647904BD368A9E4354F20EED9971910ACD4CBC91951A6148E6A18C",
+    "OperationalIntent": [
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "1d114813-8263-4595-acbe-45f11dd3bca8",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2841994Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "Role": "UNKNOWN",
+    "SemanticHash": "A29AFC6DA9240E794A523E8AD793370DF9D319909847D1DB4E575901D63F564D",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ConsistencyState": "CONSISTENT",
+    "LineageId": "d9b892ea-3ea4-4e36-8434-a2effa5ec62f",
+    "LineageRecordedAt": "2026-05-19T07:15:30.2845216Z"
+  }
+]

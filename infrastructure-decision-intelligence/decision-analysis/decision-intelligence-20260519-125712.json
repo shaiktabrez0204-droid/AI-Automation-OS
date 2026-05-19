@@ -1,0 +1,434 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6145559Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 131,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.614762Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 152,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6148315Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 1,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6148922Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 147,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6149512Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 152,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6150064Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 147,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6150602Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 147,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.615116Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6151707Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6152274Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 88,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6152793Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 131,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6153327Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6153884Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 147,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6154412Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 152,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6154958Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 131,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6155486Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6156293Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 152,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6156881Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 88,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6157509Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 131,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6158032Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6158565Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 131,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6159094Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 88,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6159617Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6160123Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6161003Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.616164Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 131,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6162264Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 88,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6162835Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 152,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6163327Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6163838Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 130,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6164345Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 88,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6164862Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 88,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6165351Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "HIGH",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 168,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6165851Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 130,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6166374Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 152,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.616687Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 0,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.616738Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 0,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6168027Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6168539Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 88,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6169046Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 88,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.616954Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6170052Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 130,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6170536Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6171039Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.617152Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 131,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6172005Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "MEDIUM",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 109,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6172503Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "OperationalRisk": "STABLE",
+    "BlastRadius": "LOW",
+    "DecisionPriority": "NORMAL",
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "TradeoffScore": 88,
+    "DecisionIndexedAt": "2026-05-19T07:27:12.6172998Z"
+  }
+]

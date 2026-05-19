@@ -1,0 +1,9 @@
+{
+  "HighRiskTopologyCount": 0,
+  "DivergedCognitionCount": 5,
+  "GovernanceCriticalCount": 1,
+  "ContinuityState": "FRAGILE",
+  "ResilienceScore": 90,
+  "SurvivabilityForecast": "UNSTABLE_EVOLUTION",
+  "AnalyzedAt": "2026-05-19T07:22:02.6280001Z"
+}

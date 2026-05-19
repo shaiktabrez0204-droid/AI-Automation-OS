@@ -1,0 +1,482 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.746817Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7473186Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7476043Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7478395Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7480394Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7482423Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "PENDING_RECONCILIATION",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7484537Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7486949Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7489231Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7491805Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7494312Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7496786Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7499341Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "PENDING_RECONCILIATION",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7501935Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7504609Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.750739Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.751071Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7514737Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7517985Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7521023Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "PENDING_RECONCILIATION",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.752409Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7526799Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.752932Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7532234Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7534927Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7537648Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7540426Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "PENDING_RECONCILIATION",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7543262Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7546037Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7548852Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7552114Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7555102Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7557981Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "PolicyMode": "LOCKDOWN",
+    "LocalExecutionState": "ISOLATED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "FEDERATED",
+    "PolicyAction": "BLOCK_NON_CRITICAL_MUTATIONS",
+    "ConsensusExecutionState": "RESTRICTED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7560781Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "PENDING_RECONCILIATION",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7563727Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7584481Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7588002Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7590825Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7593865Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7596736Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.759965Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "PENDING_RECONCILIATION",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7602604Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7605605Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7608659Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.761203Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7615168Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7618317Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "LocalExecutionState": "ENABLED",
+    "SynchronizationState": "SYNCHRONIZED",
+    "ConstraintScope": "LOCAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "ConsensusExecutionState": "ALLOWED",
+    "GovernanceTimestamp": "2026-05-19T07:47:12.7622045Z"
+  }
+]

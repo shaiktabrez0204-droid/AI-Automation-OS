@@ -1,0 +1,482 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4593413Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4597407Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4599806Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4602205Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4604984Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4607603Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4610722Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4615155Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4618621Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4623062Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4628672Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.463445Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4640541Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4646303Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4651557Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4656256Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4661702Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4667552Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4674005Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4681206Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4688942Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4696381Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4704125Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4711469Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4718137Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4725227Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.473186Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4738915Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4746414Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4754389Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4761581Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4768462Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4775617Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "HIGH",
+    "AdmissionState": "REVIEW_REQUIRED",
+    "GovernanceGate": "RESTRICTED",
+    "ConstraintSeverity": "HIGH",
+    "ConsensusExecutionState": "RESTRICTED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4804108Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4808422Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.481175Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4815055Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4818364Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4822026Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4825524Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4829263Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4833593Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.483761Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4841674Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.484543Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4849034Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "MEDIUM",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4852689Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "ConstraintSeverity": "LOW",
+    "ConsensusExecutionState": "ALLOWED",
+    "AdmissionTimestamp": "2026-05-19T07:44:07.4856401Z"
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9454336Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9468182Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.946763Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9467097Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9466523Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9465806Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9465219Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9464747Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9464157Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9463652Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9463326Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9462993Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9462652Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9462144Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9461641Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9468617Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.946126Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9460374Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9460057Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9459726Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.945941Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9459095Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9458778Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.945845Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9458132Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9457804Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9457458Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9457008Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9456447Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9456074Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9455658Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9460694Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "ExecutionPriority": 0,
+    "Dependencies": null,
+    "CoordinationWeight": 0,
+    "PlannedAt": "2026-05-19T07:08:14.9469443Z"
+  }
+]

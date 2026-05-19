@@ -1,0 +1,266 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5071163Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5072373Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.507281Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5073182Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.507353Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5073895Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5074235Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5074571Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.507512Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5075573Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.507706Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5077527Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5077879Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5078214Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5078562Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5078894Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.507948Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.507997Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5080357Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5080792Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5081424Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5082076Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5082675Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5083154Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5083508Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5083855Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5084187Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5084512Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.508485Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5085321Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5085967Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.5086625Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "DependencyCount": 0,
+    "RiskLevel": "LOW",
+    "TopologyIntegrity": true,
+    "CoordinationSurface": 0,
+    "DiagnosedAt": "2026-05-19T07:09:15.508702Z"
+  }
+]

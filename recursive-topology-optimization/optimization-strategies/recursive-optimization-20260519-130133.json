@@ -1,0 +1,482 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3150465Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3156476Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3161287Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3165283Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3169293Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3173593Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3177843Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3182582Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3187274Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3191661Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3196154Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.320101Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3205861Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3210132Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3214391Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3219196Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.32247Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3229308Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.323346Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.323714Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3241095Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3245046Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3249081Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3252732Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3256414Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3260312Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3264357Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3268037Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3271776Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3305425Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3310075Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3313391Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3316644Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "OptimizationStrategy": "ROLLBACK_MUTATION",
+    "GovernanceWeight": 5,
+    "EvolutionScore": 0,
+    "MutationRisk": "HIGH",
+    "SurvivabilityScore": 20,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3319928Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3323565Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3326951Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3330148Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3333371Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3336797Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3339957Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.334337Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.334664Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3349961Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3353337Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3356557Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3359784Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 2,
+    "EvolutionScore": 30,
+    "MutationRisk": "MODERATE",
+    "SurvivabilityScore": 50,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3363308Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "OptimizationStrategy": "MAINTAIN",
+    "GovernanceWeight": 1,
+    "EvolutionScore": 60,
+    "MutationRisk": "LOW",
+    "SurvivabilityScore": 70,
+    "CoordinationStrategy": "PRIORITIZE_STABILIZATION",
+    "OptimizationTimestamp": "2026-05-19T07:31:33.3366793Z"
+  }
+]

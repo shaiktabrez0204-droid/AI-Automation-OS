@@ -1,0 +1,482 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0933553Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0936601Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0937621Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0938567Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0963074Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0964416Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0965401Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0966277Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0967374Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0968269Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0969359Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0970218Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.097107Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0971947Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0972788Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0973666Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0974705Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0975691Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0976688Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0977693Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0979042Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0980245Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0981425Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0982465Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.098382Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0985244Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0986611Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0990478Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0992948Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0995857Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0997813Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.0999664Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1001327Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "FeedbackStrength": "ESCALATED",
+    "PolicyAdaptation": "ENABLE_STRICT_SURVIVABILITY_MODE",
+    "GovernanceScore": 20,
+    "RollbackRequired": true,
+    "RecoveryPriority": "CRITICAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1003159Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1005529Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1007764Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.100967Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1011386Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1013173Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1014934Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1016502Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1018136Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1019741Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1021442Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1023131Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1025304Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "HIGH",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.102717Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "FeedbackStrength": "STABLE",
+    "PolicyAdaptation": "NONE",
+    "GovernanceScore": 100,
+    "RollbackRequired": false,
+    "RecoveryPriority": "NORMAL",
+    "GovernanceState": "CRITICAL",
+    "FeedbackGeneratedAt": "2026-05-19T07:34:13.1028742Z"
+  }
+]

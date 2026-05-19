@@ -1,0 +1,289 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4282258Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4288404Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4291874Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4294696Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "SemanticIndexed": false,
+    "ContractIndexed": false,
+    "ConsistencyState": "COGNITION_ORPHAN",
+    "ValidatedAt": "2026-05-19T07:14:40.4311719Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4317365Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4322088Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4325426Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.432879Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4332602Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4335884Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4339491Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4343283Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4346588Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4350284Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4353787Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4357591Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4361457Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.436594Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4371381Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4377407Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.441776Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "SemanticIndexed": false,
+    "ContractIndexed": true,
+    "ConsistencyState": "SEMANTIC_MISSING",
+    "ValidatedAt": "2026-05-19T07:14:40.4428669Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4440084Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.445092Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4461151Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4471206Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4480139Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4492241Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4502141Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4513604Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4524149Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4536013Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4546627Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4558393Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4569389Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4578579Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4587726Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4597679Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4662725Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "SemanticIndexed": true,
+    "ContractIndexed": true,
+    "ConsistencyState": "CONSISTENT",
+    "ValidatedAt": "2026-05-19T07:14:40.4669797Z"
+  }
+]

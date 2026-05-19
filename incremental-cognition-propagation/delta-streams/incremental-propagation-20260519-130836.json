@@ -1,0 +1,434 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "89bcb87b-ead9-4ac8-8e5f-d60e9f948d35",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1779384Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "6c4ca54d-387b-4404-8fe8-3e73c07fd228",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1783295Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "d7881040-3b4e-4c1f-8a43-81ae5b59f9f8",
+    "PropagationTimestamp": "2026-05-19T07:38:36.17858Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "e2baf98f-3926-4960-b0bc-73b6df7db676",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1788232Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "a82c5fd6-0155-4603-a5f1-f1c4d983ac4c",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1790342Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "b3415b85-d2b4-42d0-8fd5-a631d5e89116",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1792494Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "dff3c28f-6b58-46bf-9a67-e35a62984d50",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1795664Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "17cbb5d6-a37c-4bad-a839-e24c3d729d21",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1800304Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "b72df0b9-aebd-437c-92e3-a653b3a41ab3",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1804984Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "087fbc1f-e656-4a29-8e90-07bc5ad39bfe",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1809539Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "d995bf90-521f-4a93-aae7-35941f2b7a8a",
+    "PropagationTimestamp": "2026-05-19T07:38:36.181375Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "34d14ed4-0acb-41b0-9616-a00fae6c0000",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1817337Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "96f3faf3-3f47-4b80-8a0b-9d3e469d8998",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1820924Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "e24b4363-a558-4309-89fa-f732a5ad829b",
+    "PropagationTimestamp": "2026-05-19T07:38:36.182445Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "8f7e6469-001a-4346-9001-5d78eecbd84e",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1828261Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "5f0426f3-9b97-43dc-b600-681b937e8429",
+    "PropagationTimestamp": "2026-05-19T07:38:36.183229Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "90208ae2-413c-48f2-a850-bc5ab9602d56",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1836489Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "5e9e21f5-01e1-419c-96f3-83faeae512fe",
+    "PropagationTimestamp": "2026-05-19T07:38:36.184181Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "42a9f605-173e-4790-82f9-520f155a4b25",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1847273Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "71f2c835-a9fe-4f0f-8e97-7edbc03139ad",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1856488Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "d19049fc-ebf3-4b6e-81bd-d2ab7182b233",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1888512Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "b2f75d1c-7b91-4e48-925e-b072185843fe",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1892219Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "df4e0402-643f-4659-8295-8f31493da137",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1894942Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "c7a499de-c193-4318-a5b2-92d151e8f0f9",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1897659Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "4bdeb693-edff-4823-bd0f-d4289edd0361",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1900473Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "66915d40-63ca-4299-a1d8-e68731714831",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1903242Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "98df4f7a-a99b-4c7c-9efc-044049b17213",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1906022Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "9e759232-446e-480f-9230-1963293ca3e3",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1909878Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "1af21873-d71f-4655-9492-750b7312449b",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1913585Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "2f26ec2a-2070-407e-b039-6ab368489bc9",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1916809Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "72c8128b-e0eb-4eee-9a0e-ecc792115eda",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1920032Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "c04bd9df-db94-4e50-83d1-07174b8f6c8e",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1923287Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "2a6131bc-d66a-410f-bc2f-412678ef18c4",
+    "PropagationTimestamp": "2026-05-19T07:38:36.192659Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "DeltaType": "RECOVERY_PROPAGATION",
+    "MutationRisk": "HIGH",
+    "PropagationPriority": "CRITICAL",
+    "HealingStrategy": "RUNTIME_RECOVERY",
+    "DeltaHash": "5745fe10-5e75-4ffe-8382-17e758b6fa82",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1930285Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "0a5fe6e0-57d5-4ec6-b07c-349fbfed9939",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1933955Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "1ea611fe-1d74-46b2-8ea8-7cdb8beacb0d",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1937594Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "6f4a3af9-1414-48e4-a64e-51da4f58fb41",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1941265Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "310db8da-4d5b-4852-b4e3-e32c9334547a",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1944832Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "c2365b47-25b7-48ea-a184-34f171f1a369",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1948672Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "74aa8ffb-1c2f-45f9-acbc-3cb6a9317ad7",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1952105Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "10705873-aecc-43cf-8150-8a3fd66eac23",
+    "PropagationTimestamp": "2026-05-19T07:38:36.195554Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "18f68ffe-8787-498b-be60-9623dda88581",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1959032Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "b0de95d8-440a-4b75-818e-d497de69af1e",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1962574Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "9240dc00-c7f0-494e-93e4-b4ec3d83096e",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1966152Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "48a20ec5-9ca6-4813-b3c3-583f4249cbaf",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1970035Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "67e03d96-966d-48d6-9373-8e1e27e7d30f",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1973765Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "PropagationPriority": "HIGH",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "11a577ec-8920-4fd3-86c1-c9f7f9010a20",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1977716Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "DeltaType": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "PropagationPriority": "NORMAL",
+    "HealingStrategy": "STABLE",
+    "DeltaHash": "ce4ecb8f-fedc-4ac0-a47f-19fd2106cbdb",
+    "PropagationTimestamp": "2026-05-19T07:38:36.1981807Z"
+  }
+]

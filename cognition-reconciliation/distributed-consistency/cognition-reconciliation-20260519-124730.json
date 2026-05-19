@@ -1,0 +1,414 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4795734Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4812169Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.482317Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4832528Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "SemanticIndexed": false,
+    "LineageIndexed": false,
+    "IntentIndexed": true,
+    "ReconciliationState": "DIVERGED",
+    "RepairActions": [
+      "REBUILD_SEMANTIC_INDEX",
+      "REBUILD_LINEAGE"
+    ],
+    "ReconciledAt": "2026-05-19T07:17:30.4866326Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "SemanticIndexed": false,
+    "LineageIndexed": false,
+    "IntentIndexed": false,
+    "ReconciliationState": "DIVERGED",
+    "RepairActions": [
+      "REBUILD_SEMANTIC_INDEX",
+      "REBUILD_LINEAGE",
+      "REBUILD_INTENT"
+    ],
+    "ReconciledAt": "2026-05-19T07:17:30.4874566Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4882217Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4889983Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4897409Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4905146Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4913467Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "SemanticIndexed": false,
+    "LineageIndexed": false,
+    "IntentIndexed": true,
+    "ReconciliationState": "DIVERGED",
+    "RepairActions": [
+      "REBUILD_SEMANTIC_INDEX",
+      "REBUILD_LINEAGE"
+    ],
+    "ReconciledAt": "2026-05-19T07:17:30.492145Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4930094Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4938425Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "SemanticIndexed": false,
+    "LineageIndexed": false,
+    "IntentIndexed": true,
+    "ReconciliationState": "DIVERGED",
+    "RepairActions": [
+      "REBUILD_SEMANTIC_INDEX",
+      "REBUILD_LINEAGE"
+    ],
+    "ReconciledAt": "2026-05-19T07:17:30.4946124Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4988418Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.4997408Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5006083Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5021337Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5028939Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5036043Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5048997Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5056418Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5063715Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5076224Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "SemanticIndexed": false,
+    "LineageIndexed": false,
+    "IntentIndexed": true,
+    "ReconciliationState": "DIVERGED",
+    "RepairActions": [
+      "REBUILD_SEMANTIC_INDEX",
+      "REBUILD_LINEAGE"
+    ],
+    "ReconciledAt": "2026-05-19T07:17:30.5084012Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5091463Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5098511Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5111815Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5119398Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5126853Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5139981Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5147944Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.515531Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5169099Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5177254Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.518473Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5192204Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5205707Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5213324Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5220505Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5234222Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.5241993Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "SemanticIndexed": true,
+    "LineageIndexed": true,
+    "IntentIndexed": true,
+    "ReconciliationState": "SYNCHRONIZED",
+    "RepairActions": [],
+    "ReconciledAt": "2026-05-19T07:17:30.525001Z"
+  }
+]

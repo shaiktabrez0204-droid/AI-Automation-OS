@@ -1,0 +1,254 @@
+{
+  "MemoryId": "22de9e77-b2a8-4989-bbca-d7f6562d9b47",
+  "GeneratedAt": "2026-05-19T07:07:38.3731391Z",
+  "RepositoryState": {
+    "FileCount": 144,
+    "TotalBytes": 400994.0,
+    "ExtensionDistribution": [
+      {
+        "Name": ".ps1",
+        "Count": 43
+      },
+      {
+        "Name": ".json",
+        "Count": 32
+      },
+      {
+        "Name": ".md",
+        "Count": 27
+      },
+      {
+        "Name": ".psm1",
+        "Count": 19
+      },
+      {
+        "Name": ".yaml",
+        "Count": 12
+      },
+      {
+        "Name": ".txt",
+        "Count": 8
+      },
+      {
+        "Name": "",
+        "Count": 1
+      },
+      {
+        "Name": ".csv",
+        "Count": 1
+      },
+      {
+        "Name": ".gitignore",
+        "Count": 1
+      }
+    ]
+  },
+  "RuntimeTopology": {
+    "RuntimeCount": 33,
+    "Runtimes": [
+      {
+        "Runtime": "agent-coordination.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\agent-coordination.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:31:40.2699204Z"
+      },
+      {
+        "Runtime": "architecture-diff.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\architecture-diff.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T03:40:44.4042801Z"
+      },
+      {
+        "Runtime": "autonomous-orchestration.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\autonomous-orchestration.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:49:21.2983236Z"
+      },
+      {
+        "Runtime": "deadlock-detection.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\deadlock-detection.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:59:51.367911Z"
+      },
+      {
+        "Runtime": "deadlock-recovery.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\deadlock-recovery.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T06:00:51.1101678Z"
+      },
+      {
+        "Runtime": "distributed-cognition.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\distributed-cognition.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:26:36.9775621Z"
+      },
+      {
+        "Runtime": "distributed-event-stream.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\distributed-event-stream.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:35:52.2518183Z"
+      },
+      {
+        "Runtime": "distributed-locking.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\distributed-locking.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:56:54.9232211Z"
+      },
+      {
+        "Runtime": "execution-delegation.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-delegation.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:32:34.9267621Z"
+      },
+      {
+        "Runtime": "execution-planner.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-planner.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T03:42:44.0554911Z"
+      },
+      {
+        "Runtime": "execution-session.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-session.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:43:06.3586721Z"
+      },
+      {
+        "Runtime": "execution-state-machine.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-state-machine.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T03:26:35.1131979Z"
+      },
+      {
+        "Runtime": "execution-worker.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-worker.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:38:08.9680506Z"
+      },
+      {
+        "Runtime": "federation-coordination.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\federation-coordination.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:54:56.7118961Z"
+      },
+      {
+        "Runtime": "federation-topology.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\federation-topology.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T06:02:12.4408672Z"
+      },
+      {
+        "Runtime": "orchestration-consensus.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-consensus.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:34:44.778037Z"
+      },
+      {
+        "Runtime": "orchestration-recovery.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-recovery.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:44:17.8731166Z"
+      },
+      {
+        "Runtime": "orchestration-scheduler.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-scheduler.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T06:04:21.640962Z"
+      },
+      {
+        "Runtime": "orchestration-state.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-state.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T03:24:18.3457019Z"
+      },
+      {
+        "Runtime": "orchestration-supervisor.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-supervisor.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T03:32:19.2001898Z"
+      },
+      {
+        "Runtime": "repository-cognition.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\repository-cognition.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T07:05:54.3317005Z"
+      },
+      {
+        "Runtime": "repository-graph.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\repository-graph.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T07:06:38.4959068Z"
+      },
+      {
+        "Runtime": "repository-indexing.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\repository-indexing.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T07:05:42.584382Z"
+      },
+      {
+        "Runtime": "repository-snapshot.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\repository-snapshot.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T07:05:43.0667112Z"
+      },
+      {
+        "Runtime": "runtime-capability.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-capability.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:33:48.3971219Z"
+      },
+      {
+        "Runtime": "runtime-coordination.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-coordination.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T03:43:35.1783102Z"
+      },
+      {
+        "Runtime": "runtime-event-bus.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-event-bus.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T03:25:21.5892979Z"
+      },
+      {
+        "Runtime": "runtime-health.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-health.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T03:37:49.808761Z"
+      },
+      {
+        "Runtime": "runtime-intelligence.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-intelligence.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:47:07.6160695Z"
+      },
+      {
+        "Runtime": "runtime-memory.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-memory.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:45:24.16449Z"
+      },
+      {
+        "Runtime": "runtime-messaging.runtime.psm1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-messaging.runtime.psm1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T05:53:56.6608556Z"
+      },
+      {
+        "Runtime": "topology-analysis.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\topology-analysis.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T07:07:04.2172053Z"
+      },
+      {
+        "Runtime": "workflow-propagation.runtime.ps1",
+        "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\workflow-propagation.runtime.ps1",
+        "References": null,
+        "LastWriteTime": "2026-05-19T03:28:30.9188225Z"
+      }
+    ]
+  },
+  "CognitionState": {
+    "RepositoryCognition": true,
+    "RuntimeTopologyCognition": true,
+    "DependencyGraphCognition": true
+  }
+}

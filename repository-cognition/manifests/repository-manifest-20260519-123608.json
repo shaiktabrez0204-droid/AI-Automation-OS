@@ -1,0 +1,1054 @@
+{
+  "RepositoryId": "703d1d96-3ba7-4096-8946-241051a62307",
+  "GeneratedAt": "2026-05-19T07:06:08.6788133Z",
+  "FileCount": 144,
+  "TotalBytes": 400994.0,
+  "Extensions": [
+    {
+      "Name": ".ps1",
+      "Count": 43
+    },
+    {
+      "Name": ".json",
+      "Count": 32
+    },
+    {
+      "Name": ".md",
+      "Count": 27
+    },
+    {
+      "Name": ".psm1",
+      "Count": 19
+    },
+    {
+      "Name": ".yaml",
+      "Count": 12
+    },
+    {
+      "Name": ".txt",
+      "Count": 8
+    },
+    {
+      "Name": "",
+      "Count": 1
+    },
+    {
+      "Name": ".csv",
+      "Count": 1
+    },
+    {
+      "Name": ".gitignore",
+      "Count": 1
+    }
+  ],
+  "Hashes": [
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\-RuntimeId",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": "",
+      "LastWriteTime": "2026-05-19T05:41:29.6127746Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\.gitignore",
+      "Hash": "2000BEED78D233B1E83D7A6917FD5C1074870B0506CD13744E0F2F25B222FAAD",
+      "Size": 222,
+      "Extension": ".gitignore",
+      "LastWriteTime": "2026-05-19T06:45:43.9857555Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\README.md",
+      "Hash": "808A054FF800E39DC23E9591C50DA5ED7A33297E128EBE0E31E845ACCF25B092",
+      "Size": 3366,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-19T07:02:32.3658061Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\architecture\\architecture-diff.json",
+      "Hash": "91251D12FD7D65501DEF158E9C21BD6032577277D069F2EDA529E8EBD1F8A456",
+      "Size": 405,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:40:51.9450937Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\architecture\\current-architecture.json",
+      "Hash": "02AE39C24512881B295BBB50D5727B7F1622B2DCC8B7B6F1309600482C886D42",
+      "Size": 1875,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:40:51.9450937Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\architecture\\previous-architecture.json",
+      "Hash": "02AE39C24512881B295BBB50D5727B7F1622B2DCC8B7B6F1309600482C886D42",
+      "Size": 1875,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:40:51.9450937Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\active-runtime-context.json",
+      "Hash": "FD88152AAD787424311FCE3562B1BA15E7681CB2C6257BA7C47025D6B5C6BAFD",
+      "Size": 3564,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:50:34.7107822Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\current-context.md",
+      "Hash": "E450334AB2BFC5FD82931D9179C404A65CC9EE288CC667909E440843853DB98F",
+      "Size": 1294,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:11:01.7899525Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\session-context.md",
+      "Hash": "9DF967451EFA734DE70517CBE67EA5E81E09D99BE876371D610131A36352985C",
+      "Size": 1206,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-19T02:51:31.6996606Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\claude-runtime\\claude-context.runtime.ps1",
+      "Hash": "37CC0C6D16ED0FB858D30D8A8203ED5440787CE78CA5397F8F1891C4C282BAA8",
+      "Size": 1651,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:29:04.3006064Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\claude-runtime\\assemblers\\engineering-context.assembler.ps1",
+      "Hash": "662B4140EA7269E7600A95193D2120B00DBBFC194924429EC43F816A4946742F",
+      "Size": 2312,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:45:53.4695494Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\claude-runtime\\exports\\dynamic-engineering-context.json",
+      "Hash": "72E3BDEFB10F3753890728FD50F77E1A37222DDDAD715378D8A5CFF208650077",
+      "Size": 18703,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:45:58.7175543Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\claude-runtime\\exports\\engineering-context.json",
+      "Hash": "3FDF3496970A950C8CB2053A3ED7F0956BE592CA70A81F571D8B08446ED4ACB9",
+      "Size": 5210,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:38:53.3911558Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\claude-runtime\\loaders\\active-context-loader.ps1",
+      "Hash": "F6B52B4A7C5DA28D845A4A9F0398202869CC4CB974DB30E1152F59643F2B52E5",
+      "Size": 2373,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:50:28.0191264Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\claude-runtime\\loaders\\engineering-session-bootstrap.ps1",
+      "Hash": "3BA9EF126A07359AD30E9B0954769C349E6F231851CAB3BDABAF91C85424925D",
+      "Size": 1914,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:51:26.5031049Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\claude-runtime\\profiles\\engineering.profile.json",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:21:41.4620069Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\profiles\\agent.json",
+      "Hash": "E160A179507953C4F873CF2554E0E6377CFE30321877477CACA74785685F736C",
+      "Size": 368,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-18T12:18:44.0652334Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\profiles\\architecture.json",
+      "Hash": "FD6A1AE73DE7F72477078B4904EE17F0B989DA8F2D35E6B25E6FB2E50A1DC13C",
+      "Size": 468,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-18T12:17:00.3764155Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\profiles\\project.json",
+      "Hash": "AFD954C2D8974718FC0C3E1ADA76BB9E8AF9F2412966214EDE9DFD1229609EB9",
+      "Size": 458,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-18T12:18:10.9445734Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\context\\profiles\\workflow.json",
+      "Hash": "9E021012CA1143833035A9E2EAC00445C89BFF8EB23517F5325B31F500198F4C",
+      "Size": 478,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-18T12:17:36.2494954Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\coordination\\runtime-coordination.json",
+      "Hash": "B966C250C07F9ABEC0129C867AA2059DB160D0F1E87BB6595BBD9A000322146D",
+      "Size": 702,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:43:40.978643Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\core\\operating-principles.md",
+      "Hash": "BBFC6FAF4E0FB7D7D3516D3B8874F43DDE54787ED06DD75143F75460D035D44F",
+      "Size": 1219,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:09:56.7256876Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\distributed-runtime-state\\distributed-runtime-state.json",
+      "Hash": "316BB0B6E97CA4D4BE341916B3652D25937171A8F25E0F4A1BFBF2AD0D3B8D9D",
+      "Size": 11565,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T06:04:36.2350043Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\distributed-runtime-state\\event-streams\\6a69dc66-4e26-4905-9458-cc473986b503.json",
+      "Hash": "2A7EE59A10D815C008330F324F82BDB117180FC8BF8B73743E0484C7E4998A72",
+      "Size": 355,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T05:36:05.200446Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\docs\\system-architecture.md",
+      "Hash": "BEA55A34DE2F54A4CF4519FF65E0102DCD977E172344F16BB33381F0DAB5E044",
+      "Size": 879,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:29:15.0964968Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\events\\runtime-events.json",
+      "Hash": "61AB99A42F6F89C8D43B0C3D7B57E1623874F95BBE951FF84BB4991F2F9E427A",
+      "Size": 742,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:25:28.4093239Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\executions\\artifacts\\execution-log-template.yaml",
+      "Hash": "1C2D13AF2830B355B68B7DB363EBE3EE15EEA8A3BB3F66D3997C74B07CA5D12C",
+      "Size": 600,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T12:43:52.1713013Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\executions\\completed\\3794bcf1-8f52-47df-9f81-1d77252480da\\execution-log.txt",
+      "Hash": "765099291F65214F2E16D29184A472809528CC60BAD320B34C057B7AFF38A017",
+      "Size": 188,
+      "Extension": ".txt",
+      "LastWriteTime": "2026-05-18T12:45:33.7270234Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\executions\\completed\\8826ddea-947b-4637-b80e-4d9fe6015e96\\telemetry-report.txt",
+      "Hash": "07F387C52FE35BFA009ECF1C17F12E881D5DB05FB4C02E5DF46F0BC3D87FAE54",
+      "Size": 664,
+      "Extension": ".txt",
+      "LastWriteTime": "2026-05-18T12:51:27.5611467Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\executions\\completed\\f9aa6da8-520f-4cc1-aa42-a7c3b8f044dd\\runtime-log.txt",
+      "Hash": "D08A4FE8EAD7763544D7DEB213D0DEAB555C7B8758ED3224A10BD1890908C598",
+      "Size": 449,
+      "Extension": ".txt",
+      "LastWriteTime": "2026-05-18T12:47:28.6559146Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\executions\\failed\\b6aa3fad-2de1-444a-af6b-a0826923f145\\runtime-log.txt",
+      "Hash": "FF08E934A90CB1F091D415EEA6AB3CC1934CC8F18F40C4978E5B0A1FE79EC970",
+      "Size": 478,
+      "Extension": ".txt",
+      "LastWriteTime": "2026-05-18T12:48:24.6723139Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\exports\\agent-context.txt",
+      "Hash": "89C5F66195B2ABB090DE16E27522E4384671965AFB61B7EF4A68598394A7BA1C",
+      "Size": 4962,
+      "Extension": ".txt",
+      "LastWriteTime": "2026-05-18T11:58:51.8397823Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\exports\\combined-context.txt",
+      "Hash": "586929160786A649B6E02834C0068E6A327E14C258EF58D45368C2A6A88150AF",
+      "Size": 20375,
+      "Extension": ".txt",
+      "LastWriteTime": "2026-05-18T12:20:35.9679227Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\exports\\context-output.txt",
+      "Hash": "CB8CFD7235295D0046FC992479E1829AE8A60DFAAC8D4EAA5BC44416D7C359AB",
+      "Size": 4757,
+      "Extension": ".txt",
+      "LastWriteTime": "2026-05-18T11:47:21.3708986Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\exports\\workflow-context.txt",
+      "Hash": "5A0BFE22A86682556CD3035309841724A5A9B843375E122C3644D0A154BCA396",
+      "Size": 7757,
+      "Extension": ".txt",
+      "LastWriteTime": "2026-05-18T11:51:16.6790736Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\health\\runtime-health.json",
+      "Hash": "2E75E510266AC127B50F6EA45E3E301EFF0EB26BE7B616483CA6C54962691AB5",
+      "Size": 1244,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:37:55.3282883Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\architecture-evolution.runtime.ps1",
+      "Hash": "76D9C49C8852781A4D6733C66CD111CAE8FEDBB20A49D04E5754F235E0DB88E3",
+      "Size": 2138,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:49:15.8952066Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\execution-graph.runtime.ps1",
+      "Hash": "BE46469BD37E01933770C9A0D0B1610B89251D998537E5E25F0D0C1057EFB4D1",
+      "Size": 2078,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:52:57.6637038Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\repo-intelligence.runtime.ps1",
+      "Hash": "B539876C0911DB01AAC8ADB43E5F0A226A734499B0014B8F4544AAC39F398689",
+      "Size": 2436,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:33:52.4381292Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\analyzers\\module-relationship.analyzer.ps1",
+      "Hash": "8CF51259CCE6CDD70E8B93BB2C927780E2B09E272CB9E040F827C8AE99930BFF",
+      "Size": 2420,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:42:14.4143095Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\exports\\repo-cognition-export.json",
+      "Hash": "9FBDE6F002C8C81E760627280BDEB115EB304616872D88C9095BE0038129356B",
+      "Size": 30597,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:38:51.6080957Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\models\\repo-module.model.json",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:21:41.4193643Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\scanners\\repo-topology.scanner.ps1",
+      "Hash": "86EE8F34F9156520FEA79905EBA563AD197C1C4AA3558FB8A3C8416CB1A8D038",
+      "Size": 1994,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:24:29.5632611Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\topology\\module-relationships.json",
+      "Hash": "B964587872145A13EDE67F1C9AEBC33902E588FC32ED129FE60B3A6866C681B0",
+      "Size": 7337,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:42:22.8942629Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\topology\\runtime-registry.json",
+      "Hash": "0136643942665AB94D252ED148C5C2B4DBF48F3C278856FE4BE285363A8E15BA",
+      "Size": 1402,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:31:49.4571635Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure\\repo-intelligence\\topology\\topology-map.json",
+      "Hash": "1CF176B4F590888706D8C3A48BA9A7B6FF1B6B298665D095B3DC07AC4B3A8A9E",
+      "Size": 17384,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:24:37.7011597Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\logs\\operational-log.md",
+      "Hash": "B30F566B2DF6550FD7D1A64872D3C4B1117CBB5B35D4D5164A7124355EF0708A",
+      "Size": 2762,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:54:49.5871802Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\retrieval-index.md",
+      "Hash": "583D74003DB6E8B76664A32806E214357B0B1F8C8C252B853A0FC93F974DF3F4",
+      "Size": 2489,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:35:56.1486769Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\system-memory.md",
+      "Hash": "7D878A5E198DD46AB011901A04DA00A911AA9308DE364AC4B96139B94BD0AF85",
+      "Size": 1326,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:10:33.265743Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\agents\\README.md",
+      "Hash": "AE5F81305566285D9BF9E3EB1DD115358F1CA4342B6551963A35A536363034CF",
+      "Size": 1051,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:21:23.9696164Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\architecture\\system-patterns.md",
+      "Hash": "957142F1EBAE116EB5C6FC5939204079400514E5A573F6D5A56BF0429B64B430",
+      "Size": 897,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:30:33.9496383Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\architecture-state\\current-runtime-state.md",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-19T02:21:41.4939642Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\decisions\\decision-log.md",
+      "Hash": "0DFBC373A99F0C505C1CFBFF75AE144185D8E008F3381B568FA961F63A4FAABB",
+      "Size": 1598,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:37:26.2826049Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\decisions\\README.md",
+      "Hash": "4B6D34C96579146C9A4DE45281FDF032DFC730900BE108E0A540463E64DA7311",
+      "Size": 774,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:17:52.017566Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\implementation-history\\architecture-evolution.json",
+      "Hash": "A548E52C7DDF726770C6C7AD16942561879E0B8AB3E5F2975B6E4C78534E6C55",
+      "Size": 4989,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:49:23.3299223Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\implementation-history\\phase-5-init.md",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-19T02:21:41.5193862Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\insights\\README.md",
+      "Hash": "7F9A26F39549C11E9E92C6BBF0FE049DBE909674308A24FE9A7DFB16B4DE2F8C",
+      "Size": 1095,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:22:09.3342837Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\projects\\README.md",
+      "Hash": "22F43943EB9D0457D3F24246ACA4CFE3E35083C63E89A19EE63EAF1AB21A2045",
+      "Size": 941,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:20:47.2284184Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\memory\\workflows\\README.md",
+      "Hash": "CECB12257CDC61EB70948CE329F67EEBF967FC61BCCB3E8D1D82F1139C1FA164",
+      "Size": 1056,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:18:54.9647708Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\planning\\execution-plan.json",
+      "Hash": "789CCADBE7B5323A2F72B25A4945FFE215E568FA7D813DE59557068612C1AA47",
+      "Size": 529,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:42:49.3911628Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\propagation\\workflow-propagation.json",
+      "Hash": "C83D333D80EE04F9BFAF2D31CCF5B7F13475124D93C60527FE3E56D18AD7EB27",
+      "Size": 1955,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:28:43.7233769Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\protocols\\execution-protocol.md",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T12:43:01.6522107Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\protocols\\task-lifecycle.md",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T12:43:01.7208975Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\protocols\\workflow-contracts.md",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T12:43:01.6914541Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\repository-cognition\\manifests\\repository-manifest-20260519-123600.json",
+      "Hash": "614FACC974E12E331FD23B62DB33534AD8A11B2ACB4B848596416B6302AE7421",
+      "Size": 43285,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T07:06:00.1335455Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\retrieval\\repo-aware\\repo-retrieval.runtime.ps1",
+      "Hash": "5B68529A02D3C3648F415F34F03DAE3FA449C1610A922CB68C4CE4E527ABC13D",
+      "Size": 1617,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T02:44:13.518931Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\retrieval\\repo-aware\\indexing\\retrieval-context.json",
+      "Hash": "962A3A69CF692B64553EE72CA6927394E53C1717C3302589A700C2ABFB6EFD85",
+      "Size": 19126,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:44:20.5864968Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\agent-coordination.runtime.psm1",
+      "Hash": "E9C4C1955E05A4DF9C6569A88A72A49315476DF006B9333F2A330534ED858239",
+      "Size": 2459,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:31:40.2699204Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\architecture-diff.runtime.ps1",
+      "Hash": "CB45CCEB18FC98EDBD2458F253B2866DE8331BB62FBF9BE4F72A1B353861087F",
+      "Size": 3772,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T03:40:44.4042801Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\autonomous-orchestration.runtime.psm1",
+      "Hash": "61C54E2ED8C7F9A1B89E21B39783E356C071097A5A28709634B715965B6DC253",
+      "Size": 903,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:49:21.2983236Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\deadlock-detection.runtime.psm1",
+      "Hash": "21D039597CC6F37323A45CB97AA232748048E5A51316B84665C51C3CC99D9DD6",
+      "Size": 2440,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:59:51.367911Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\deadlock-recovery.runtime.psm1",
+      "Hash": "EFDF92E6880B66B3E5311A7E54427E3258D631727BAB95AB5A59CB1B4A0487A9",
+      "Size": 1993,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T06:00:51.1101678Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\distributed-cognition.runtime.psm1",
+      "Hash": "FC9483694342011A73156F2AF50C8B551DFAC52093D7D56059C4ED1BD63F73DB",
+      "Size": 1363,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:26:36.9775621Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\distributed-event-stream.runtime.psm1",
+      "Hash": "162588A3B77A021F85AC3F8CE9C506B40D0D379F26DAF3179126E04583CCB274",
+      "Size": 1558,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:35:52.2518183Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\distributed-locking.runtime.psm1",
+      "Hash": "39519B279A40233033E097C63D0D302E91143286C7A2EBC2DB69F83355D85D7C",
+      "Size": 3394,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:56:54.9232211Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-delegation.runtime.psm1",
+      "Hash": "E811CBE03669EC98558749B835220670918B3AB2066D5B1D15D2582F2A878958",
+      "Size": 2001,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:32:34.9267621Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-planner.runtime.ps1",
+      "Hash": "A3D6D2C21A728443A5EE1580D3655A687B75B6CEEF7496A028C453D7EDE1A4CC",
+      "Size": 4021,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T03:42:44.0554911Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-session.runtime.psm1",
+      "Hash": "FF36B08B1235E4BC848D1C9B8AEB3B4CA7FC1FE0DB465FBD186AD5865C8F272E",
+      "Size": 3526,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:43:06.3586721Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-state-machine.ps1",
+      "Hash": "A8DAB5CB38924BFE6C3642020EB908D3ED752150851948004E16465769599916",
+      "Size": 3749,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T03:26:35.1131979Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-worker.runtime.psm1",
+      "Hash": "0FAABF26FD7B145A5BA9AD64DE398A574E4D43659FAA7365B85AC557E40BDDCC",
+      "Size": 1813,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:38:08.9680506Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\federation-coordination.runtime.psm1",
+      "Hash": "1257272A94BECAB3E835015EBDD17D504C041F3DDD36BDCF2E89FF93669F9318",
+      "Size": 2589,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:54:56.7118961Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\federation-topology.runtime.psm1",
+      "Hash": "22F7664C9CBAC388B0CA468E09303E24C765EB22DD92B820052E99889972E346",
+      "Size": 2266,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T06:02:12.4408672Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-consensus.runtime.psm1",
+      "Hash": "D157974A827FC8DE9BA82846AE8F5382544CBA357959E34645257A59BF2F723C",
+      "Size": 2114,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:34:44.778037Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-recovery.runtime.psm1",
+      "Hash": "A83BBC05F8C7518CC4D4DECF19C977D76D14EE18AB1ACB4FF86A55D7460D237A",
+      "Size": 1909,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:44:17.8731166Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-scheduler.runtime.psm1",
+      "Hash": "97DAE35A456C7DE85A30C8D30F71BA510797BD5CB052C4F447271330667CD027",
+      "Size": 6028,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T06:04:21.640962Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-state.runtime.ps1",
+      "Hash": "23E9BC2218EB730EBE9236F02CA53648605185EE3500849CE462FC0C8E0B81D6",
+      "Size": 3748,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T03:24:18.3457019Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-supervisor.runtime.ps1",
+      "Hash": "7628E86270F02E6ACA1C41DBF412986F4CC2D3590DDC3EF00F957AAAD1DE0F22",
+      "Size": 4887,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T03:32:19.2001898Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\repository-cognition.runtime.ps1",
+      "Hash": "FC1F557D7E02380A539CE08592672BA625CD6EB45E8441A3BE16F2CD62DC9BB3",
+      "Size": 2239,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T07:05:54.3317005Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\repository-graph.runtime.ps1",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T07:05:42.6237382Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\repository-indexing.runtime.ps1",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T07:05:42.584382Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\repository-snapshot.runtime.ps1",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T07:05:43.0667112Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-capability.runtime.psm1",
+      "Hash": "0E5F380A375CC8CDFFBD3FB96E2DCD7A98891AC44FCA022D0B0A8AE7376AC6B9",
+      "Size": 1986,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:33:48.3971219Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-coordination.runtime.ps1",
+      "Hash": "2909DBF402A02EFECEC742447B172B53D1BC3B41214A083C1915C1CD2BA2EC45",
+      "Size": 4611,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T03:43:35.1783102Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-event-bus.ps1",
+      "Hash": "723EABE2A014B96D09BB25D1859FE9A1C638B40F73E74A5BE5F54F018A77A63F",
+      "Size": 3259,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T03:25:21.5892979Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-health.runtime.ps1",
+      "Hash": "871613446FBAC8B75C4084307AB8714DC853B62FDCABCBBE2EBC011A351E04BD",
+      "Size": 7674,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T03:37:49.808761Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-intelligence.runtime.psm1",
+      "Hash": "7BC128D20B9056020A9F003B745F6B193EDBC2F11FB1FF2413ED654C0948790A",
+      "Size": 2649,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:47:07.6160695Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-memory.runtime.psm1",
+      "Hash": "C5A3FC7B7CC7EEFBD75CCA13D5FCFECECA62D7F45681D94CE68961A8E2F674F9",
+      "Size": 2124,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:45:24.16449Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-messaging.runtime.psm1",
+      "Hash": "B604C57439315E239DD60FC546BA362D484DE8F715B296B1D2D22DD50FD4282C",
+      "Size": 2508,
+      "Extension": ".psm1",
+      "LastWriteTime": "2026-05-19T05:53:56.6608556Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\workflow-propagation.runtime.ps1",
+      "Hash": "A29AFC6DA9240E794A523E8AD793370DF9D319909847D1DB4E575901D63F564D",
+      "Size": 4892,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-19T03:28:30.9188225Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\artifacts\\workflow-output.json",
+      "Hash": "7500FB1ED88FA7259B95B5754623514F78FF41A2A12A50644548D06C968E0213",
+      "Size": 165,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-18T13:19:47.0871849Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\queue\\execution-queue.json",
+      "Hash": "193AA4B92F93D3080DCEDC8EA371FA552999CE18441FBC68463B4C1098AA724D",
+      "Size": 1032,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-18T13:13:54.6709932Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\state\\execution-graph.json",
+      "Hash": "D2322C245B1BFF3864C8ABE674BEE6754D5A19AB30A98711340D19D5D2BB1C9A",
+      "Size": 7145,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T02:53:07.3955799Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\telemetry\\execution-registry.csv",
+      "Hash": "810F143C2D8509D6BAE94A1CB54B95D8F3C5C62821F4F151B7F31C021C1EAF0E",
+      "Size": 174,
+      "Extension": ".csv",
+      "LastWriteTime": "2026-05-18T12:53:24.4204681Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\bootstrap.ps1",
+      "Hash": "DF49E3594C232AE795A4352F54802FF937DF335D9939129E69E67C9E50548ED1",
+      "Size": 970,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T11:32:54.8498912Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\context-loader.ps1",
+      "Hash": "4E962BABB92D657621684F3B126790C1AC7256D91CDD8B24E64F1B3271D88D07",
+      "Size": 1490,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T12:20:27.0264371Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\dependency-graph-runtime.ps1",
+      "Hash": "EAE692C44E0F22C221E4D2C41A7EC3AEB4B25FA287ACE3658FC93A9CD795CC43",
+      "Size": 2629,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:21:59.4960843Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\dependency-pipeline-runtime.ps1",
+      "Hash": "8E0B24074DFDED2AC8963A8D72BE9104C476BBCEBFEB8097C6D498988B9C165E",
+      "Size": 1608,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:01:31.2700688Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\dynamic-workflow-runtime.ps1",
+      "Hash": "0CBB941C75E64B61D1EAA91ECE6170B052CC497544F57261E263583B0F16C0C4",
+      "Size": 1814,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T12:47:08.9252964Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\execution-dispatcher.ps1",
+      "Hash": "9CE9264E143C0A6FAE2E0B852D51AE5AB94E5DAA5FB695585FE0D516B22855FC",
+      "Size": 1832,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:13:05.5391427Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\execution-runtime.ps1",
+      "Hash": "79A41415FF5B4F86960422810C0661F6A10480ADD8820446479BF09E6103304D",
+      "Size": 1559,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T12:45:23.3976798Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\pipeline-runtime.ps1",
+      "Hash": "C949BBC44A50F96F60EA0DF125BB3D562A296894F9DCD4981822FF1A11B503EF",
+      "Size": 998,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T12:54:54.495557Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\priority-queue-runtime.ps1",
+      "Hash": "EA9246C6F2EEF6728B493ABB0B14371EC8FAB1375A0EA35C3CC96FC19E9A15B4",
+      "Size": 1498,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:08:31.7358226Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\queue-processor.ps1",
+      "Hash": "F0098598DB687AD299824732755CCEB0018458E42104D25634D882E3C10E9566",
+      "Size": 1379,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:03:49.6733751Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\queue-runtime.ps1",
+      "Hash": "F96B0543858D850800EA7F7362BA0E793CE8D29C29A09DFEF12D65494250C18F",
+      "Size": 917,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:02:45.0378717Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\registry-runtime.ps1",
+      "Hash": "3685877F3A45681781AA2D98E0FE3D03070E8090F5A55AA1576931AA14C605DC",
+      "Size": 3046,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T12:53:11.165902Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\resilient-workflow-runtime.ps1",
+      "Hash": "0BB90FB507F9D8F808A683CC354C42BDF18815578100F26AAE2058B93FA0744C",
+      "Size": 2745,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T12:48:01.2150325Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\runtime-supervisor.ps1",
+      "Hash": "342C55027A1B3F8D79822A998DA806B879A5391BDC96ACE9223161748453B67C",
+      "Size": 1436,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:16:22.1947857Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\scheduler-runtime.ps1",
+      "Hash": "2434E10DE4C86ACBC5B43516922FB2FC87257F572A6CE066CAAA9B1309713141",
+      "Size": 1567,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:11:14.4837775Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\telemetry-runtime.ps1",
+      "Hash": "0EF23CED98EE9BE391395C0CC0B5CDBA8F1A4172B50661E7868E45BFF5A8117C",
+      "Size": 3723,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T12:51:11.9015718Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\workflow-chain-runtime.ps1",
+      "Hash": "55468EADD62B9F7DD983B30AF8212DCAFC34765AF1C24A6C4971D362C06BF279",
+      "Size": 1348,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:15:01.1171279Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\workflow-output-runtime.ps1",
+      "Hash": "45F7244BBB3009ACE6D3A92BA9DE44843F93B999824ED7E0CF776CA266585F53",
+      "Size": 1657,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T13:18:42.4688442Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\workflow-parser.ps1",
+      "Hash": "7D785D270CFE79A4045E759565E5B51D4DAFF51F1060331D99CAF6F7E59645C1",
+      "Size": 1049,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T12:46:08.8789443Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\workflow-runner.ps1",
+      "Hash": "9BA1B87342E9FE9B135674D291B39D48BE4BB7178A788BB0177C66D1C3060CA4",
+      "Size": 851,
+      "Extension": ".ps1",
+      "LastWriteTime": "2026-05-18T12:44:12.0031528Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\state\\execution-state-machine.json",
+      "Hash": "14DDEBE8EA0184A525265841EEC07939522E2C3B531B7B84F7DD442137E27C3C",
+      "Size": 1046,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:26:49.6077133Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\state\\orchestration-state.json",
+      "Hash": "EA6BDC1E4ECD2EAA38DF305B6FD1CFF0D3DAD36AE3AF4360544549740A222E29",
+      "Size": 934,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:24:23.8802695Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\supervision\\orchestration-supervision.json",
+      "Hash": "842E6EFED519C2E866539A13C9F91D58A8BF70CD93CCD43CE3AFC2FC19DDD326",
+      "Size": 897,
+      "Extension": ".json",
+      "LastWriteTime": "2026-05-19T03:32:26.7168359Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\telemetry\\execution-metrics.md",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T12:43:01.8630376Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\telemetry\\failure-analysis.md",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T12:43:01.9104318Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\telemetry\\workflow-performance.md",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T12:43:01.8945752Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\templates\\execution-template.yaml",
+      "Hash": "9C5841F9BF8ECF2F9FEAC6298EB7F87ACA2D511BC7EE2516AF37471769D318A9",
+      "Size": 290,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T12:43:02.2106502Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\templates\\pipeline-template.yaml",
+      "Hash": "6A3E2F23C9C069F56F36644CC6613044620715F0B7B974DEE342AE5793734723",
+      "Size": 214,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T12:43:02.3154944Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\templates\\workflow-template.yaml",
+      "Hash": "96D02660978EECD722D5413760810A73E432625714F029FF600D86C7A702F2EF",
+      "Size": 512,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T12:43:02.1068785Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\context-loading-workflow.md",
+      "Hash": "AD70CA2D56DB693FAF075227B65395C1AF7FF8BA8319DA812B195C5F2E68A0A0",
+      "Size": 2136,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T11:36:42.9304742Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\workflow-index.md",
+      "Hash": "AB5671A876C99DB421440D2B44E4A532E6AFCE05EEAEA225F5FDFF0FEE89DFD4",
+      "Size": 2376,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T10:53:36.0802978Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\engineering\\implementation\\implementation-workflow.template.md",
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "Size": 0,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-19T02:21:42.5861119Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\pipelines\\context-execution-pipeline.yaml",
+      "Hash": "90543C6454A055BB8A28A0586CF1A50F6D873FFA14E87DB9D034B90905D7733C",
+      "Size": 400,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T12:54:47.2104681Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\pipelines\\dependency-graph.yaml",
+      "Hash": "340C63180072B125C18859F03304C75F953C0F8B3BB8412F96B3B41F2AD0848B",
+      "Size": 353,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T13:21:52.5461203Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\pipelines\\workflow-chain.yaml",
+      "Hash": "6AFC70329073191F115585C1E73B192E683879B126D730E6569EB7C45F0C09AD",
+      "Size": 285,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T13:14:39.5592614Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\runtime\\runtime-state-machine.md",
+      "Hash": "4C16ADA7583AFEBD8BE71778958CED64F8795AA6E693FD0657BE2E11D1AF8B08",
+      "Size": 527,
+      "Extension": ".md",
+      "LastWriteTime": "2026-05-18T12:43:03.0832536Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\tasks\\task-template.yaml",
+      "Hash": "19833492DE32F889C9DE2F947A3DE4125062FBB3DBE2EDF26454EB046D735CFA",
+      "Size": 115,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T12:43:02.4005774Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\templates\\artifact-generation-workflow.yaml",
+      "Hash": "0F4DB8EDE0D5B8F20856AFF9A68C8F213DCFA878EF734FD6C929815EDD992864",
+      "Size": 97,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T13:01:49.2338048Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\templates\\context-assembly-workflow.yaml",
+      "Hash": "B50004C913F1AA89DCDB08F53D6F9BC212DF62D2DF277AE47474B4D235C68DBE",
+      "Size": 1583,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T12:43:26.8180527Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\templates\\execution-planning-workflow.yaml",
+      "Hash": "7EC808ECE31C199CF5B0B9C9964C6B3713E01BEA08FFDAEEBE1B4B0049EEADCD",
+      "Size": 95,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T13:01:48.2377539Z"
+    },
+    {
+      "Path": "C:\\Users\\shaik\\AI-Automation-OS\\workflows\\templates\\summary-workflow.yaml",
+      "Hash": "A03884B743983FBCA1A6C2DBEA88C7417147BD7313863953BCB33122D258147C",
+      "Size": 73,
+      "Extension": ".yaml",
+      "LastWriteTime": "2026-05-18T13:14:52.079229Z"
+    }
+  ]
+}

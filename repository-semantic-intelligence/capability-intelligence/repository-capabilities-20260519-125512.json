@@ -1,0 +1,728 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9225129Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 65,
+    "IndexedAt": "2026-05-19T07:25:11.9238953Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 75,
+    "IndexedAt": "2026-05-19T07:25:11.9253135Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "OperationalDomain": "GENERAL_INFRASTRUCTURE",
+    "InfrastructureCapabilities": null,
+    "CapabilityCount": 0,
+    "IntentComplexity": 1,
+    "SemanticCapabilityScore": 1,
+    "IndexedAt": "2026-05-19T07:25:11.9276667Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": null,
+    "SemanticCapabilityScore": 70,
+    "IndexedAt": "2026-05-19T07:25:11.9308287Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 75,
+    "IndexedAt": "2026-05-19T07:25:11.9325401Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": null,
+    "SemanticCapabilityScore": 70,
+    "IndexedAt": "2026-05-19T07:25:11.934032Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": null,
+    "SemanticCapabilityScore": 70,
+    "IndexedAt": "2026-05-19T07:25:11.9357622Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9377357Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.939613Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 4,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 44,
+    "IndexedAt": "2026-05-19T07:25:11.9420393Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 65,
+    "IndexedAt": "2026-05-19T07:25:11.9452991Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9473525Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": null,
+    "SemanticCapabilityScore": 70,
+    "IndexedAt": "2026-05-19T07:25:11.9487411Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 75,
+    "IndexedAt": "2026-05-19T07:25:11.9501986Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 65,
+    "IndexedAt": "2026-05-19T07:25:11.9515895Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9531695Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 75,
+    "IndexedAt": "2026-05-19T07:25:11.9546294Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 4,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 44,
+    "IndexedAt": "2026-05-19T07:25:11.956006Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 65,
+    "IndexedAt": "2026-05-19T07:25:11.9572998Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9593198Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 65,
+    "IndexedAt": "2026-05-19T07:25:11.961688Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 4,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 44,
+    "IndexedAt": "2026-05-19T07:25:11.963335Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9675016Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9697431Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9713773Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 65,
+    "IndexedAt": "2026-05-19T07:25:11.9728928Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 4,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 44,
+    "IndexedAt": "2026-05-19T07:25:11.9743061Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 75,
+    "IndexedAt": "2026-05-19T07:25:11.9761045Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9774402Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 64,
+    "IndexedAt": "2026-05-19T07:25:11.9794906Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 4,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 44,
+    "IndexedAt": "2026-05-19T07:25:11.9807237Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 4,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 44,
+    "IndexedAt": "2026-05-19T07:25:11.9819505Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "INFRASTRUCTURE_ANALYTICS",
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 8,
+    "IntentComplexity": null,
+    "SemanticCapabilityScore": 80,
+    "IndexedAt": "2026-05-19T07:25:11.9835113Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "INFRASTRUCTURE_ANALYTICS",
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 64,
+    "IndexedAt": "2026-05-19T07:25:11.9848079Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 7,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 75,
+    "IndexedAt": "2026-05-19T07:25:11.9860886Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "OperationalDomain": "GENERAL_INFRASTRUCTURE",
+    "InfrastructureCapabilities": null,
+    "CapabilityCount": 0,
+    "IntentComplexity": 0,
+    "SemanticCapabilityScore": 0,
+    "IndexedAt": "2026-05-19T07:25:11.9905023Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "OperationalDomain": "GENERAL_INFRASTRUCTURE",
+    "InfrastructureCapabilities": null,
+    "CapabilityCount": 0,
+    "IntentComplexity": 0,
+    "SemanticCapabilityScore": 0,
+    "IndexedAt": "2026-05-19T07:25:11.9922409Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9936084Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 4,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 44,
+    "IndexedAt": "2026-05-19T07:25:11.9949653Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 4,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 44,
+    "IndexedAt": "2026-05-19T07:25:11.9962906Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "OperationalDomain": "INFRASTRUCTURE_ANALYSIS",
+    "InfrastructureCapabilities": [
+      "INFRASTRUCTURE_ANALYTICS",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:11.9975826Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "OperationalDomain": "INFRASTRUCTURE_ANALYSIS",
+    "InfrastructureCapabilities": [
+      "INFRASTRUCTURE_ANALYTICS",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 64,
+    "IndexedAt": "2026-05-19T07:25:11.999691Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:12.0010532Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION",
+      "TOPOLOGY_FILTERING"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:12.0023193Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 6,
+    "IntentComplexity": 5,
+    "SemanticCapabilityScore": 65,
+    "IndexedAt": "2026-05-19T07:25:12.003564Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "InfrastructureCapabilities": [
+      "ORCHESTRATION_PRIORITIZATION",
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "REPOSITORY_ENUMERATION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 5,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 54,
+    "IndexedAt": "2026-05-19T07:25:12.0047185Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "InfrastructureCapabilities": [
+      "PERSISTENT_STATE_READS",
+      "PERSISTENT_STATE_WRITES",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CapabilityCount": 4,
+    "IntentComplexity": 4,
+    "SemanticCapabilityScore": 44,
+    "IndexedAt": "2026-05-19T07:25:12.0059001Z"
+  }
+]

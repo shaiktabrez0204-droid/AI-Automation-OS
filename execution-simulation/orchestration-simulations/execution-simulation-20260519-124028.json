@@ -1,0 +1,266 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4145415Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4147012Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4148175Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4149379Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.415056Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4151423Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4152128Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4152741Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4153271Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.415383Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4154362Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4154884Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.415543Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4155943Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4156611Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4157174Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4158286Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4159237Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4159922Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4160459Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4161024Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4161555Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4162078Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4162609Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4163202Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4163747Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4164269Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4164768Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4165277Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4165804Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4166311Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4166828Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "DependencyCount": 0,
+    "CascadeRisk": "LOW",
+    "ProjectedCoordinationCost": 12,
+    "ExecutionSurvivability": "STABLE",
+    "SimulatedAt": "2026-05-19T07:10:28.4167346Z"
+  }
+]

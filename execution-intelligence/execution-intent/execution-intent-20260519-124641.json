@@ -1,0 +1,559 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "Role": "UNKNOWN",
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": "f9b56d30-b2af-4fd6-af0e-59344f759ae6",
+    "IntentIndexedAt": "2026-05-19T07:16:41.0751096Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0781782Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0801839Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": "EXECUTION_VISIBILITY",
+    "IntentComplexity": 1,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0814837Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0827094Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0841607Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0852031Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0862371Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0872482Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0882859Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0893004Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0903752Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0912979Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0947433Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0956507Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0964729Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0976805Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.0988475Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1000447Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1013368Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1023112Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1032395Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1041814Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1051115Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1062608Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1072747Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1082703Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1092924Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1102827Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1112345Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1122109Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": null,
+    "IntentComplexity": 0,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1133178Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": null,
+    "IntentComplexity": 0,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1145712Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1155987Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1166034Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1174808Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1183198Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1192067Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1200501Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1208913Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 5,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1217282Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_DISCOVERY",
+      "INFRASTRUCTURE_MUTATION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1225308Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "Role": null,
+    "ExecutionObjectives": [
+      "COGNITION_PERSISTENCE",
+      "EXECUTION_VISIBILITY",
+      "INFRASTRUCTURE_MUTATION",
+      "STATE_RECONSTRUCTION"
+    ],
+    "IntentComplexity": 4,
+    "OperationalLineage": null,
+    "IntentIndexedAt": "2026-05-19T07:16:41.1234274Z"
+  }
+]

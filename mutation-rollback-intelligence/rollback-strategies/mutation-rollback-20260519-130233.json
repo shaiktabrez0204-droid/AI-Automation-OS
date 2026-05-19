@@ -1,0 +1,434 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7566335Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7575955Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.757926Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.758094Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7582393Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7583725Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7585036Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7586321Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7587326Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.758995Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7591646Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7593006Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7594939Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7597433Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.76003Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7602758Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7605222Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7607585Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7609151Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7610786Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7612298Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7614079Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7615673Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7617321Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7619016Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7620792Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7622645Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7624248Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7625782Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7627677Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7629687Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7631963Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7634308Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "RollbackRequired": true,
+    "RollbackStrategy": "FULL_TOPOLOGY_RESTORE",
+    "RecoveryPriority": "CRITICAL",
+    "MutationRisk": "HIGH",
+    "EvolutionScore": 0,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7637863Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7640896Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7644016Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7646075Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7647929Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.764982Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7651549Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7653246Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7657792Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7661432Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7663475Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7665225Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7666892Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "HIGH",
+    "MutationRisk": "MODERATE",
+    "EvolutionScore": 30,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7668674Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "RollbackRequired": false,
+    "RollbackStrategy": "NO_ACTION",
+    "RecoveryPriority": "NORMAL",
+    "MutationRisk": "LOW",
+    "EvolutionScore": 60,
+    "RecoveryGeneratedAt": "2026-05-19T07:32:33.7670506Z"
+  }
+]

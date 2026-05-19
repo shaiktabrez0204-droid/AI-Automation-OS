@@ -1,0 +1,386 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7671426Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7676065Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7679113Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7682002Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7684742Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7687701Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7690455Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7693607Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.769667Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7699769Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7702903Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7705705Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7712025Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7717259Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7721561Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7725914Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7730268Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7734272Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7738755Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7742769Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7746774Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7750698Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7754546Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7759065Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7763685Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7767893Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7771994Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7775842Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7780593Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7785083Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7789044Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7793806Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7799605Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "ExpansionStrategy": "LIMIT_EXECUTION_EXPANSION",
+    "ScalingFactor": 1,
+    "GovernanceScore": 20,
+    "EvolutionScore": 0,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7805706Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7811202Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7816408Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7822022Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7840554Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7844716Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7848176Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7851593Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7855108Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7858833Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7862349Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7865936Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.786952Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 1,
+    "GovernanceScore": 100,
+    "EvolutionScore": 30,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7874317Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "ExpansionStrategy": "MAINTAIN",
+    "ScalingFactor": 2,
+    "GovernanceScore": 100,
+    "EvolutionScore": 60,
+    "ExpansionGeneratedAt": "2026-05-19T07:34:44.7887449Z"
+  }
+]

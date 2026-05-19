@@ -1,0 +1,9 @@
+{
+  "Policy": "TOPOLOGY_STABILITY",
+  "Enforcement": "STRICT",
+  "HighRiskRuntimes": 0,
+  "DivergedRuntimes": 5,
+  "ArchitectureDrift": true,
+  "GovernanceState": "CRITICAL",
+  "GovernedAt": "2026-05-19T07:18:39.0279333Z"
+}

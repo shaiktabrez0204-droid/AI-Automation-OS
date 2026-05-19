@@ -1,0 +1,434 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3248872Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 125,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3252086Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 145,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.32624Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "OperationalDomain": "GENERAL_INFRASTRUCTURE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 1,
+    "CapabilitySurface": 0,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3264988Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 140,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3268159Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 145,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.32709Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 140,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3273613Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 140,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.327631Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3277983Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3279709Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 84,
+    "CapabilitySurface": 4,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3281522Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 125,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3283545Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.328524Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 140,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3287766Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 145,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3290045Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 125,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3292313Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3294133Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 145,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3296571Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 84,
+    "CapabilitySurface": 4,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3298276Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 125,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3300709Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3302411Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 125,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.330472Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 84,
+    "CapabilitySurface": 4,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3306654Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3308447Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3310244Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.331207Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 125,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3314372Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 84,
+    "CapabilitySurface": 4,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3316237Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 145,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3318978Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3321873Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 124,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3324567Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 84,
+    "CapabilitySurface": 4,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3327292Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 84,
+    "CapabilitySurface": 4,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3329935Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "HIGH",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 160,
+    "CapabilitySurface": 8,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3335054Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 124,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3338383Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 145,
+    "CapabilitySurface": 7,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3357939Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "OperationalDomain": "GENERAL_INFRASTRUCTURE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 0,
+    "CapabilitySurface": 0,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3361704Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "OperationalDomain": "GENERAL_INFRASTRUCTURE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 0,
+    "CapabilitySurface": 0,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.33644Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3367245Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 84,
+    "CapabilitySurface": 4,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3369628Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 84,
+    "CapabilitySurface": 4,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.337203Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "OperationalDomain": "INFRASTRUCTURE_ANALYSIS",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3374489Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "OperationalDomain": "INFRASTRUCTURE_ANALYSIS",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 124,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3376987Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3379481Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3381953Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 125,
+    "CapabilitySurface": 6,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3384298Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "OperationalDomain": "ORCHESTRATION_INTELLIGENCE",
+    "BlastRadius": "MEDIUM",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 104,
+    "CapabilitySurface": 5,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.338708Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "OperationalDomain": "COGNITION_PERSISTENCE",
+    "BlastRadius": "LOW",
+    "OperationalRisk": "STABLE",
+    "ConsequenceScore": 84,
+    "CapabilitySurface": 4,
+    "ConsequenceIndexedAt": "2026-05-19T07:26:08.3389654Z"
+  }
+]

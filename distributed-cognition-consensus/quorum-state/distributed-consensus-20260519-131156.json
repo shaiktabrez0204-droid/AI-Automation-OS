@@ -1,0 +1,482 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "EventSequence": 1,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 0.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.178067Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "EventSequence": 2,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 0.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1782906Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "EventSequence": 3,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 0.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1783719Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "EventSequence": 4,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 0.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1784362Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "EventSequence": 5,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 0.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1784995Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "EventSequence": 6,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 0.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1785599Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "EventSequence": 7,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "RESEQUENCING_REQUIRED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 0.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1786431Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "EventSequence": 8,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 0.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1787064Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "EventSequence": 9,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 0.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1787664Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "EventSequence": 10,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1879993Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "EventSequence": 11,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1881585Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "EventSequence": 12,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1882284Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "EventSequence": 13,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.188292Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "EventSequence": 14,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "RESEQUENCING_REQUIRED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1883568Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "EventSequence": 15,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1884182Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "EventSequence": 16,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1884837Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "EventSequence": 17,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1885841Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "EventSequence": 18,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1886605Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "EventSequence": 19,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 1.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1887212Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "EventSequence": 20,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1888983Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "EventSequence": 21,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "RESEQUENCING_REQUIRED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.188978Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "EventSequence": 22,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1890393Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "EventSequence": 23,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1890968Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "EventSequence": 24,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1891489Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "EventSequence": 25,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.189203Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "EventSequence": 26,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1892561Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "EventSequence": 27,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1893096Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "EventSequence": 28,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "RESEQUENCING_REQUIRED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1893619Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "EventSequence": 29,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 2.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1894738Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "EventSequence": 30,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1895415Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "EventSequence": 31,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1895982Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "EventSequence": 32,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1896522Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "EventSequence": 33,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1897058Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "EventSequence": 34,
+    "EventType": "RECOVERY_EVENT",
+    "QuorumState": "REVIEW_REQUIRED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1897622Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "EventSequence": 35,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "RESEQUENCING_REQUIRED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1898246Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "EventSequence": 36,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1898769Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "EventSequence": 37,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1899304Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "EventSequence": 38,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1899839Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "EventSequence": 39,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 3.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1900435Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "EventSequence": 40,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 4.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1901482Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "EventSequence": 41,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 4.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1902246Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "EventSequence": 42,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "RESEQUENCING_REQUIRED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 4.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1902902Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "EventSequence": 43,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 4.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1903499Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "EventSequence": 44,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 4.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1903994Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "EventSequence": 45,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 4.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1904476Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "EventSequence": 46,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 4.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1904974Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "EventSequence": 47,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 4.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1905467Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "EventSequence": 48,
+    "EventType": "STATE_UPDATE",
+    "QuorumState": "ACCEPTED",
+    "OrderingState": "ORDERED",
+    "ConflictState": "NONE",
+    "JournalEpoch": 4.0,
+    "ConsensusTimestamp": "2026-05-19T07:41:56.1905963Z"
+  }
+]

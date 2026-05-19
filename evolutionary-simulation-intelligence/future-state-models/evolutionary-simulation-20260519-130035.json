@@ -1,0 +1,434 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8720293Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8723178Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8724994Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8726602Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8727721Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8729173Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8730032Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8730709Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8731971Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8732953Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.873357Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8785494Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8787528Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8788728Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8789875Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8790962Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8792272Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8793627Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.879586Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8797967Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8800529Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8803769Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8806269Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8808775Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8811371Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8813744Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8815558Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8817027Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8818593Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.882039Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8822631Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8824648Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8826564Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "HIGH",
+    "SimulatedFutureState": "UNSTABLE",
+    "GovernanceValidation": "REJECTED",
+    "SurvivabilityScore": 20,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8829322Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8831162Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8832926Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8834357Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8835829Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.883734Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8839001Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8840838Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8843213Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8845179Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8846974Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8848839Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8850728Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "MODERATE",
+    "SimulatedFutureState": "ELEVATED_RISK",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 50,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8852608Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "MutationStrategy": "NO_CHANGE",
+    "MutationRisk": "LOW",
+    "SimulatedFutureState": "STABLE",
+    "GovernanceValidation": "APPROVED",
+    "SurvivabilityScore": 70,
+    "SimulationTimestamp": "2026-05-19T07:30:35.8854367Z"
+  }
+]

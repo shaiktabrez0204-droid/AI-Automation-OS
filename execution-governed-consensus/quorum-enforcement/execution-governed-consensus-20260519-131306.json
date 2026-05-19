@@ -1,0 +1,482 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "EventSequence": 1,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4023641Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "EventSequence": 2,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4024944Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "EventSequence": 3,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4025445Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "EventSequence": 4,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4025907Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "EventSequence": 5,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4026359Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "EventSequence": 6,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.402678Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "EventSequence": 7,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "REVALIDATE",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4027208Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "EventSequence": 8,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4027632Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "EventSequence": 9,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4028268Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "EventSequence": 10,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4028715Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "EventSequence": 11,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4029141Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "EventSequence": 12,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4029567Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "EventSequence": 13,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4029991Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "EventSequence": 14,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "REVALIDATE",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4030418Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "EventSequence": 15,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4030845Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "EventSequence": 16,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.403127Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "EventSequence": 17,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4031775Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "EventSequence": 18,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4032256Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "EventSequence": 19,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4032686Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "EventSequence": 20,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4033102Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "EventSequence": 21,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "REVALIDATE",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4033528Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "EventSequence": 22,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4033943Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "EventSequence": 23,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4034365Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "EventSequence": 24,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4034781Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "EventSequence": 25,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4035202Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "EventSequence": 26,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4035618Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "EventSequence": 27,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4036044Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "EventSequence": 28,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "REVALIDATE",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4036462Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "EventSequence": 29,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4036905Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "EventSequence": 30,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4037332Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "EventSequence": 31,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4037768Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "EventSequence": 32,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4038195Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "EventSequence": 33,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4038632Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "EventSequence": 34,
+    "ExecutionState": "RESTRICTED",
+    "ConstraintLevel": "HIGH",
+    "PropagationValidation": "VALID",
+    "QuorumState": "REVIEW_REQUIRED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4039049Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "EventSequence": 35,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "REVALIDATE",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4039543Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "EventSequence": 36,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4039962Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "EventSequence": 37,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4040388Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "EventSequence": 38,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4040806Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "EventSequence": 39,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4041219Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "EventSequence": 40,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4041633Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "EventSequence": 41,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4042285Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "EventSequence": 42,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "REVALIDATE",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4042734Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "EventSequence": 43,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4043147Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "EventSequence": 44,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4043568Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "EventSequence": 45,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4043979Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "EventSequence": 46,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4044404Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "EventSequence": 47,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4044818Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "EventSequence": 48,
+    "ExecutionState": "ALLOWED",
+    "ConstraintLevel": "NORMAL",
+    "PropagationValidation": "VALID",
+    "QuorumState": "ACCEPTED",
+    "ConflictState": "NONE",
+    "GovernanceTimestamp": "2026-05-19T07:43:06.4045233Z"
+  }
+]

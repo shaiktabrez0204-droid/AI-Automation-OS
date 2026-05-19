@@ -1,0 +1,482 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "EventSequence": 1,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "f5806ec7-93d0-4429-b95f-262d52ea9fc9",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0729029Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "EventSequence": 2,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "061f56b3-b56a-4597-9032-0407f5beaf62",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0738121Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "EventSequence": 3,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "5d0db977-65b8-48d3-8926-1a8f6ceefb8b",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0743743Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "EventSequence": 4,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "32b3b768-b8b2-4100-9fc1-2af9c03398ac",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0749093Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "EventSequence": 5,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "7fb2b7ae-7668-45ac-a365-888728d64ee1",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0754765Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "EventSequence": 6,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "8b3a7168-1500-4bef-961c-8ddabae92d85",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0760197Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "EventSequence": 7,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "50fed5d1-2d26-438c-a1e1-1f65f3a01d4a",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0766122Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "EventSequence": 8,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "0c65d11d-7c14-4dfc-8deb-fa735f04ff41",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0774823Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "EventSequence": 9,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "21ed3a69-0887-4e74-b883-24e6182314e8",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0782741Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "EventSequence": 10,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "f700607a-9679-4123-b032-5b2f3a428dd5",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0789187Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "EventSequence": 11,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "11123c2d-58e6-4ed9-84c0-fc64b88ed59a",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0794262Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "EventSequence": 12,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "bf08e2dd-973e-4386-8c86-e95435a49544",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0798835Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "EventSequence": 13,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "bf5e8b70-3ef5-4023-b02c-cfff0bae4f11",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0803121Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "EventSequence": 14,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "00f785f5-6b64-48bd-aa36-dc2d7e83ba4f",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0807746Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "EventSequence": 15,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "bb330954-3350-4745-b5a6-752fe04f7f69",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0812262Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "EventSequence": 16,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "30e368b4-d11e-40bb-a095-4334134ebc6c",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0816979Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "EventSequence": 17,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "22ce2e7d-a498-4db2-b63b-508800976655",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0822023Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "EventSequence": 18,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "036ac6a4-a37a-40cd-9646-436890fd4561",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0826491Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "EventSequence": 19,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "0b5a17cc-ad2b-4b26-ad7b-23d855a6edae",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0862579Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "EventSequence": 20,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "51b2720f-6666-471f-919b-962d3641b566",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.086826Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "EventSequence": 21,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "6d2d4103-bc74-4cd9-b828-dd88b1b40afd",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0874356Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "EventSequence": 22,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "c8c5db39-eef4-4323-b500-58e43a78ff9b",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0879449Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "EventSequence": 23,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "f68f06cf-0a9a-4f03-91a0-030c3c2120fa",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0883457Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "EventSequence": 24,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "2af6843c-446b-47ba-a7fb-65b6c78bd4ab",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0886926Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "EventSequence": 25,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "9d116a27-445e-45ab-b9e4-695fb4146a8f",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0890664Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "EventSequence": 26,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "dac8725f-bdc4-49e1-a362-c42af3b83056",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0894741Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "EventSequence": 27,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "ca05295e-3d56-49a9-b1e8-f5ad95bb3ce2",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0898859Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "EventSequence": 28,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "208f2847-8c83-4ede-be05-60c1263cf54c",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0902641Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "EventSequence": 29,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "0082e662-2064-4df5-ac94-c09b53e98315",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0905845Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "EventSequence": 30,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "e30c33e9-1fe0-419c-961b-c3ebf60818fa",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0909143Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "EventSequence": 31,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "668dfb20-9b80-4acd-bc4b-4471d8ebf3ac",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0912252Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "EventSequence": 32,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "1915c5bc-45ed-4d51-ac32-255a7369fc23",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0915344Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "EventSequence": 33,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "4e71122a-ec4e-4317-8fd2-745baa857fc2",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0919218Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "EventSequence": 34,
+    "EventType": "RECOVERY_EVENT",
+    "JournalHash": "90c9fcef-80c9-4ccb-b435-9d5c761e821e",
+    "ReplayState": "REQUIRES_VALIDATION",
+    "CheckpointState": "LOCKED",
+    "GovernanceScope": "FEDERATED",
+    "JournalTimestamp": "2026-05-19T07:48:43.0922283Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "EventSequence": 35,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "6c422fe0-2adb-4d13-abec-a63daa8806f2",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0925452Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "EventSequence": 36,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "2f421991-5763-42b6-a5d7-6e070b52d1b7",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0931001Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "EventSequence": 37,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "64f7e35e-8baa-4b81-99ae-bf18fdceb955",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.093553Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "EventSequence": 38,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "68cf031d-edac-4a45-9cfe-1e1448c59b1d",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.093909Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "EventSequence": 39,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "7acd7289-10f8-426f-9b30-f08e9acba4b6",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.09423Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "EventSequence": 40,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "498d21ae-b179-46b6-a571-485e93be345d",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0945468Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "EventSequence": 41,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "a9539a8d-f9b3-471c-b251-03b6fb411ec2",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0949033Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "EventSequence": 42,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "3182528e-4247-4353-b6d5-ceeee6d4e35e",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0952299Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "EventSequence": 43,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "f48348e9-357d-4462-9f11-7f096a273abb",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0955837Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "EventSequence": 44,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "aba67565-ce18-4f88-8328-827ff027e311",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0959196Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "EventSequence": 45,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "bc215b8a-8384-4f6a-a5e5-279ac56e6b10",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0962846Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "EventSequence": 46,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "d1234ec7-02b1-4585-a21d-ba52e3b1f57c",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0966366Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "EventSequence": 47,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "36f36ebf-882b-432e-89b4-bca339383695",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0970176Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "EventSequence": 48,
+    "EventType": "STATE_UPDATE",
+    "JournalHash": "08dfad76-82c6-4339-a48e-73f643833ac1",
+    "ReplayState": "REPLAYABLE",
+    "CheckpointState": "ACTIVE",
+    "GovernanceScope": "LOCAL",
+    "JournalTimestamp": "2026-05-19T07:48:43.0973728Z"
+  }
+]

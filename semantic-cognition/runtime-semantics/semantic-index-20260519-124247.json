@@ -1,0 +1,463 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "E9C4C1955E05A4DF9C6569A88A72A49315476DF006B9333F2A330534ED858239",
+    "IndexedAt": "2026-05-19T07:12:47.2122358Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "CB45CCEB18FC98EDBD2458F253B2866DE8331BB62FBF9BE4F72A1B353861087F",
+    "IndexedAt": "2026-05-19T07:12:47.2143996Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "2F9C074E1319154A352FEA16095B4100CD22801B6657657720B2590BBC101595",
+    "IndexedAt": "2026-05-19T07:12:47.2165535Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": null,
+    "SemanticHash": "61C54E2ED8C7F9A1B89E21B39783E356C071097A5A28709634B715965B6DC253",
+    "IndexedAt": "2026-05-19T07:12:47.2182767Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "21D039597CC6F37323A45CB97AA232748048E5A51316B84665C51C3CC99D9DD6",
+    "IndexedAt": "2026-05-19T07:12:47.22019Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "EFDF92E6880B66B3E5311A7E54427E3258D631727BAB95AB5A59CB1B4A0487A9",
+    "IndexedAt": "2026-05-19T07:12:47.2223372Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "Role": "ENGINEERING_COGNITION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "FC9483694342011A73156F2AF50C8B551DFAC52093D7D56059C4ED1BD63F73DB",
+    "IndexedAt": "2026-05-19T07:12:47.224275Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "162588A3B77A021F85AC3F8CE9C506B40D0D379F26DAF3179126E04583CCB274",
+    "IndexedAt": "2026-05-19T07:12:47.2260563Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "39519B279A40233033E097C63D0D302E91143286C7A2EBC2DB69F83355D85D7C",
+    "IndexedAt": "2026-05-19T07:12:47.2281764Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "Role": "ENGINEERING_MEMORY",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "4A7A1202311ED9B2322754F8F8C9EFCAA1310BD55B905711E2D37FD34FEA27AA",
+    "IndexedAt": "2026-05-19T07:12:47.2301694Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "E811CBE03669EC98558749B835220670918B3AB2066D5B1D15D2582F2A878958",
+    "IndexedAt": "2026-05-19T07:12:47.2317602Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "A3D6D2C21A728443A5EE1580D3655A687B75B6CEEF7496A028C453D7EDE1A4CC",
+    "IndexedAt": "2026-05-19T07:12:47.2336465Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "CA06AF4C8E31B7213EE30E665A1F6DAF23B2B1762504C8D5E7AEFA7FD003BAFC",
+    "IndexedAt": "2026-05-19T07:12:47.2351643Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "FF36B08B1235E4BC848D1C9B8AEB3B4CA7FC1FE0DB465FBD186AD5865C8F272E",
+    "IndexedAt": "2026-05-19T07:12:47.2373001Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "Role": "EXECUTION_SIMULATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "9940F24F145DA25916B460B43271A4E38E13FAA55EE2448A2D9B71F4D0DC371C",
+    "IndexedAt": "2026-05-19T07:12:47.239638Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "A8DAB5CB38924BFE6C3642020EB908D3ED752150851948004E16465769599916",
+    "IndexedAt": "2026-05-19T07:12:47.2412476Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "0FAABF26FD7B145A5BA9AD64DE398A574E4D43659FAA7365B85AC557E40BDDCC",
+    "IndexedAt": "2026-05-19T07:12:47.2428322Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "1257272A94BECAB3E835015EBDD17D504C041F3DDD36BDCF2E89FF93669F9318",
+    "IndexedAt": "2026-05-19T07:12:47.2482522Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "Role": "TOPOLOGY_ANALYSIS",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "22F7664C9CBAC388B0CA468E09303E24C765EB22DD92B820052E99889972E346",
+    "IndexedAt": "2026-05-19T07:12:47.2506018Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "Role": "INFRASTRUCTURE_DIAGNOSTICS",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "937D473220B1591996A455294D3C352F1B16FE22579C0C283B09DE99F219F343",
+    "IndexedAt": "2026-05-19T07:12:47.2524001Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "D157974A827FC8DE9BA82846AE8F5382544CBA357959E34645257A59BF2F723C",
+    "IndexedAt": "2026-05-19T07:12:47.2540413Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "A83BBC05F8C7518CC4D4DECF19C977D76D14EE18AB1ACB4FF86A55D7460D237A",
+    "IndexedAt": "2026-05-19T07:12:47.2556049Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "97DAE35A456C7DE85A30C8D30F71BA510797BD5CB052C4F447271330667CD027",
+    "IndexedAt": "2026-05-19T07:12:47.2574127Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "23E9BC2218EB730EBE9236F02CA53648605185EE3500849CE462FC0C8E0B81D6",
+    "IndexedAt": "2026-05-19T07:12:47.2591509Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "7628E86270F02E6ACA1C41DBF412986F4CC2D3590DDC3EF00F957AAAD1DE0F22",
+    "IndexedAt": "2026-05-19T07:12:47.2609384Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "Role": "ENGINEERING_COGNITION",
+    "OperationalIntent": [
+      "REPOSITORY_DISCOVERY",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "FC1F557D7E02380A539CE08592672BA625CD6EB45E8441A3BE16F2CD62DC9BB3",
+    "IndexedAt": "2026-05-19T07:12:47.2625122Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "79EC0E5371C2AC2250D69D38C01DE40CDE7BCFAA99E39B3DAA5B1FBF37C66130",
+    "IndexedAt": "2026-05-19T07:12:47.2642397Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": "EMPTY_RUNTIME",
+    "SemanticHash": "EMPTY_RUNTIME",
+    "IndexedAt": "2026-05-19T07:12:47.2655362Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": "EMPTY_RUNTIME",
+    "SemanticHash": "EMPTY_RUNTIME",
+    "IndexedAt": "2026-05-19T07:12:47.2667653Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "0E5F380A375CC8CDFFBD3FB96E2DCD7A98891AC44FCA022D0B0A8AE7376AC6B9",
+    "IndexedAt": "2026-05-19T07:12:47.2681788Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "2909DBF402A02EFECEC742447B172B53D1BC3B41214A083C1915C1CD2BA2EC45",
+    "IndexedAt": "2026-05-19T07:12:47.2697756Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "723EABE2A014B96D09BB25D1859FE9A1C638B40F73E74A5BE5F54F018A77A63F",
+    "IndexedAt": "2026-05-19T07:12:47.2712622Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "871613446FBAC8B75C4084307AB8714DC853B62FDCABCBBE2EBC011A351E04BD",
+    "IndexedAt": "2026-05-19T07:12:47.2733726Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "7BC128D20B9056020A9F003B745F6B193EDBC2F11FB1FF2413ED654C0948790A",
+    "IndexedAt": "2026-05-19T07:12:47.2748746Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "Role": "ENGINEERING_MEMORY",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "C5A3FC7B7CC7EEFBD75CCA13D5FCFECECA62D7F45681D94CE68961A8E2F674F9",
+    "IndexedAt": "2026-05-19T07:12:47.2766199Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "B604C57439315E239DD60FC546BA362D484DE8F715B296B1D2D22DD50FD4282C",
+    "IndexedAt": "2026-05-19T07:12:47.2787586Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "Role": "ENGINEERING_COGNITION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "EE5EA9F3132EE98162DBB29A1F34BF9330F3CB55CE52184087C00A5B123CDB31",
+    "IndexedAt": "2026-05-19T07:12:47.2807268Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "Role": "TOPOLOGY_ANALYSIS",
+    "OperationalIntent": [
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "308723D6EA647904BD368A9E4354F20EED9971910ACD4CBC91951A6148E6A18C",
+    "IndexedAt": "2026-05-19T07:12:47.2825248Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "SemanticHash": "A29AFC6DA9240E794A523E8AD793370DF9D319909847D1DB4E575901D63F564D",
+    "IndexedAt": "2026-05-19T07:12:47.2842305Z"
+  }
+]

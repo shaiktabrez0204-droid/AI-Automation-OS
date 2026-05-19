@@ -1,0 +1,482 @@
+[
+  {
+    "QueueId": "1be23d45-09b2-4d06-9fa7-19a26c4ac99c",
+    "Runtime": "agent-coordination.runtime.psm1",
+    "WorkerId": "970528e7-3603-4b25-acfe-84cc79eaa981",
+    "ReplayState": "PARTIAL_RESTORE",
+    "VerificationState": "REQUIRES_VALIDATION",
+    "RestorationLineage": "476023f3-4027-4e90-ad87-68d05b1f42b7",
+    "ReplaySequence": "e0848401-f92c-497c-8d53-82e165ccbcf2",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4413549Z"
+  },
+  {
+    "QueueId": "6f30dd50-6d69-4a00-a21f-73d067dba472",
+    "Runtime": "architecture-diff.runtime.ps1",
+    "WorkerId": "78b31ec1-69c8-4ee9-88ab-89954a297132",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "a611850c-46b7-4173-bbe3-897d075b7990",
+    "ReplaySequence": "873dcc01-57da-433f-ba03-2a7b4298debc",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4415585Z"
+  },
+  {
+    "QueueId": "9dbb26e7-b392-49f6-a1b4-8b5ca477b267",
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "WorkerId": "ca9de214-ee8a-42d6-b40d-1e9eb4c80d8f",
+    "ReplayState": "PARTIAL_RESTORE",
+    "VerificationState": "REQUIRES_VALIDATION",
+    "RestorationLineage": "545a5e14-9d0a-4c93-96f1-de2fa9987ae6",
+    "ReplaySequence": "49a85e62-c93d-4741-bb62-b810896c38e4",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4416887Z"
+  },
+  {
+    "QueueId": "8ee88141-31d8-4b2d-ab18-d7fad93be13d",
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "WorkerId": "88a57635-208c-4915-80a5-65db9eac7d1b",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "592748ad-e1e3-4563-9e4c-ee4eae675742",
+    "ReplaySequence": "e4b436ff-dbf9-4d1d-8183-dc8c41c77d5a",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4418142Z"
+  },
+  {
+    "QueueId": "f673a4bb-3c47-46e3-9e42-779ec70a9a4d",
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "WorkerId": "3982e51b-1bd6-4ba7-b496-2802f640f194",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "90f25736-7920-4a3a-acfa-bfe12f3ff334",
+    "ReplaySequence": "8cbcf50f-e22e-49dd-b4df-8bfcdf010862",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4419372Z"
+  },
+  {
+    "QueueId": "6bdcdeee-6ab7-42b0-81eb-8bae1171c7ed",
+    "Runtime": "cognition-governance.runtime.ps1",
+    "WorkerId": "39036075-5af7-4155-8f86-3b823e3b5a83",
+    "ReplayState": "PARTIAL_RESTORE",
+    "VerificationState": "REQUIRES_VALIDATION",
+    "RestorationLineage": "d33bf61d-468e-41d5-b3cf-2c4990a7cd24",
+    "ReplaySequence": "69bdd00c-f3f1-4aea-a346-8ffb1d5629f1",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4420563Z"
+  },
+  {
+    "QueueId": "8cb30ac7-3a80-4283-bded-1b137ca8fd60",
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "WorkerId": "a06b7c51-a1a2-4047-b7f4-fc8579ecf629",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "418f6ca9-51ea-453c-9cc7-3919777215df",
+    "ReplaySequence": "0cf0b71c-9218-41c6-b1a4-6474894ff284",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4421766Z"
+  },
+  {
+    "QueueId": "5573e16d-0cc8-4630-9697-3b48756e2a21",
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "WorkerId": "b469a98e-e732-4801-ad4d-c56493d185d2",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "c1c6f48a-4e15-467e-a999-3f8c642ebadd",
+    "ReplaySequence": "ca51ab15-736a-4035-bb34-ea86e9c151f1",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4422991Z"
+  },
+  {
+    "QueueId": "f2fe2fed-e602-4603-bf25-e676b9bcb681",
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "WorkerId": "c734c51b-4a68-4270-840d-848d7aee3cae",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "39394010-bbcc-4d47-a278-9885c6b4d427",
+    "ReplaySequence": "b6a299b6-020d-404f-90b1-11140d36e2a3",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4424516Z"
+  },
+  {
+    "QueueId": "bf100cc3-3f69-474d-a22f-b6e718a98b78",
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "WorkerId": "dc370f83-4623-4a42-91a6-fe82dd1a7048",
+    "ReplayState": "PARTIAL_RESTORE",
+    "VerificationState": "REQUIRES_VALIDATION",
+    "RestorationLineage": "6a94b74f-dc29-40c8-8ee9-cd82c12050f2",
+    "ReplaySequence": "db1da5c3-9e9b-4a85-83ea-ec828a3f83b5",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4425815Z"
+  },
+  {
+    "QueueId": "b5a82a03-d7b4-4ef6-9d70-ff9a41385206",
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "WorkerId": "1bf6e45f-299a-465d-a83f-1250f34eeb3b",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "55763db9-57d4-4f06-b15a-2f6e77ca40e0",
+    "ReplaySequence": "2dc819a2-13b1-4231-a930-6740f7aec03f",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4427Z"
+  },
+  {
+    "QueueId": "7ef00fdf-7c1c-49bf-a421-5f539f3a8adc",
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "WorkerId": "3aa9c2f8-43e9-433d-ba09-e8344d7dfffd",
+    "ReplayState": "PARTIAL_RESTORE",
+    "VerificationState": "REQUIRES_VALIDATION",
+    "RestorationLineage": "c6d0ff62-7b8e-4ffe-a873-6f59cb7975b1",
+    "ReplaySequence": "118ba302-c0d9-45ea-bc13-c3b01e48e10e",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4428197Z"
+  },
+  {
+    "QueueId": "bc83cff9-7059-4bca-af8a-eb258b1d37af",
+    "Runtime": "distributed-locking.runtime.psm1",
+    "WorkerId": "20e1b30e-0cca-4aca-9283-ffdd8cacc63a",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "080f4307-2581-457f-b9b6-64e5ee245c60",
+    "ReplaySequence": "9a015a5b-7483-43d2-8e93-1ec56e0327f3",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4429385Z"
+  },
+  {
+    "QueueId": "e3f78163-3eec-495a-b0ac-4ed08ffd7df7",
+    "Runtime": "engineering-governance.runtime.ps1",
+    "WorkerId": "b3693d12-e493-4266-9b71-6febac8e6f08",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "1ecca349-721c-413e-ad0a-f992cdfe329e",
+    "ReplaySequence": "84d436f1-9e6d-4cf3-a3b0-ca4cc7c1f1cd",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4430566Z"
+  },
+  {
+    "QueueId": "bee0bcf9-0883-424e-aa20-e933a752678f",
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "WorkerId": "8598e726-2475-4f74-989a-443fe8f1eec5",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "17359914-02e2-40d3-9409-46c2b9ed08b8",
+    "ReplaySequence": "0732430f-2872-4f3a-8caa-ccf6f96504ab",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4431705Z"
+  },
+  {
+    "QueueId": "ab518f01-b696-43c1-810e-7f1170faa901",
+    "Runtime": "engineering-memory.runtime.ps1",
+    "WorkerId": "f0e469d7-b6ea-460c-abbd-192ac80268d6",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "4dd0228b-75e6-4d1c-8d86-3947279bfe4d",
+    "ReplaySequence": "eb238b25-ba1b-442b-9226-58fd5b3b392d",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4432921Z"
+  },
+  {
+    "QueueId": "3b042ff5-de67-4911-992c-12ded2085e6b",
+    "Runtime": "execution-delegation.runtime.psm1",
+    "WorkerId": "0192f7e7-c529-4f28-8a6c-6c43d011f812",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "5c61ba22-003d-4036-bf6d-3e130c31bfc0",
+    "ReplaySequence": "f1d80391-e962-4e8d-a6d3-5006f566ecd2",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4434274Z"
+  },
+  {
+    "QueueId": "7f9abb79-144b-4d15-86a3-61af3bafb8e6",
+    "Runtime": "execution-intent.runtime.ps1",
+    "WorkerId": "11dc1e6f-5b11-4623-b989-fb5b7cb66686",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "7cac2be2-7376-41e7-acab-0ff084f9cc26",
+    "ReplaySequence": "3118c965-ba17-4ea6-9619-563b081f5a5a",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4435445Z"
+  },
+  {
+    "QueueId": "7e782381-f297-4378-ab0f-e3775dc2e4bb",
+    "Runtime": "execution-planner.runtime.ps1",
+    "WorkerId": "b055f584-7805-44d7-ba5e-ce0e4c48a1d5",
+    "ReplayState": "PARTIAL_RESTORE",
+    "VerificationState": "REQUIRES_VALIDATION",
+    "RestorationLineage": "c81cc701-76c0-4b46-a863-d9fc3922f36b",
+    "ReplaySequence": "3ebdb743-09dd-4210-a622-cc698103b9fd",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4436606Z"
+  },
+  {
+    "QueueId": "9d9870c0-8c1a-4d03-86f4-df1e3b0bbc1f",
+    "Runtime": "execution-planning.runtime.ps1",
+    "WorkerId": "7213d0a4-2c6d-4a8d-a76b-ed1cdcd6dd9e",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "65d84a4b-946e-446e-97c0-a4fc53983dd6",
+    "ReplaySequence": "692c16a6-ec96-408d-9195-a7e7e5d587d9",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4437786Z"
+  },
+  {
+    "QueueId": "f39262ea-2cc8-4e73-b25a-cc56a26caee4",
+    "Runtime": "execution-session.runtime.psm1",
+    "WorkerId": "83ba37b1-2015-404e-b6b2-ef8e4f706e54",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "9ff33c5e-93db-4ae1-aecc-de0416b4f566",
+    "ReplaySequence": "8ba21066-10c6-474b-8a57-0327a1d4d817",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4438951Z"
+  },
+  {
+    "QueueId": "a1f65b3a-4ac8-4e5c-ba87-5fa5cf46528f",
+    "Runtime": "execution-simulation.runtime.ps1",
+    "WorkerId": "5dd99abe-aaf5-4f49-a521-c30ad787f27d",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "16181d59-81e7-474a-ae1a-63225441e48c",
+    "ReplaySequence": "741f09c9-6194-404e-9012-546124943116",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4440116Z"
+  },
+  {
+    "QueueId": "8fa017f0-e0e2-400c-a673-2c3a19eeb7e3",
+    "Runtime": "execution-state-machine.ps1",
+    "WorkerId": "d2af324b-8065-46d6-831a-a7b528a1dfba",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "20b1ca3b-9bf7-4228-8ff4-646230d7f72c",
+    "ReplaySequence": "f74bdd9e-142b-48f1-a72f-ff105f3f468f",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4441273Z"
+  },
+  {
+    "QueueId": "febd2759-bf95-4bf7-bbef-f4e869cbcef9",
+    "Runtime": "execution-worker.runtime.psm1",
+    "WorkerId": "51d353df-ba1f-4000-ad13-f052c125f538",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "1e12d35e-18c7-4511-abeb-8886cdd92207",
+    "ReplaySequence": "bb8b7e5d-7494-4ad6-831e-6987c59468c5",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4442455Z"
+  },
+  {
+    "QueueId": "5fd6c52b-5cb4-4684-9c87-b4dc02667130",
+    "Runtime": "federation-coordination.runtime.psm1",
+    "WorkerId": "20b1e0ac-689f-4db9-994f-a860434780fc",
+    "ReplayState": "PARTIAL_RESTORE",
+    "VerificationState": "REQUIRES_VALIDATION",
+    "RestorationLineage": "ef7d53c0-0be7-4e94-934e-11ce3db27eee",
+    "ReplaySequence": "37451e2f-4049-4107-bd43-8f5c85895251",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4443614Z"
+  },
+  {
+    "QueueId": "f8316e7a-3091-4b05-9a28-84430cbf352e",
+    "Runtime": "federation-topology.runtime.psm1",
+    "WorkerId": "4bbc34c6-e836-456f-8417-1a8b55921307",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "1df6cb77-10a3-4c2d-a73a-6f0ce51072c7",
+    "ReplaySequence": "2379b323-2ed4-4093-9547-192ce2f0d3e6",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.444515Z"
+  },
+  {
+    "QueueId": "1fbf77c7-19c1-4ddd-b998-eca6f5f8de1f",
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "WorkerId": "43bda4bd-d7be-47c3-b9d7-1258761cafd9",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "fcd656ba-4f57-4afa-911f-a3b5e5e08493",
+    "ReplaySequence": "2e42441a-b1f6-44bc-af69-f7a01b0f502b",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4446353Z"
+  },
+  {
+    "QueueId": "8f1c9ef0-ea8d-4b86-bab8-b913d1a640e4",
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "WorkerId": "596e3cd1-db19-4694-b799-8340a3c89b7b",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "072d55d7-0ba4-4085-9892-5727aa441b68",
+    "ReplaySequence": "7f9f8133-0ae8-4b55-aa6e-dfb4ce977ccb",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.444753Z"
+  },
+  {
+    "QueueId": "cf0eddda-08df-4a54-81a9-f82ac87e1512",
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "WorkerId": "16b7769d-f01f-48c5-9ba9-9bba6b5a1993",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "2d2e229f-a05a-43d8-b5ba-17134d53987a",
+    "ReplaySequence": "dcaad2ed-2ad8-4a52-98fb-4698062a79ef",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4448684Z"
+  },
+  {
+    "QueueId": "0ef9d979-32d2-465a-9a8f-c72eacfa10a3",
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "WorkerId": "f2e770c8-255a-4f56-80be-5cd56963d651",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "03ea18b8-e6b8-4460-ac00-66b0bdf76863",
+    "ReplaySequence": "a144ceaa-9570-4d33-8d97-c58917f74e96",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4449846Z"
+  },
+  {
+    "QueueId": "1c0127bb-9dea-42b9-9ccd-b9fe7cbf30be",
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "WorkerId": "3c487a23-ccfc-4bcc-9b23-383d93407c73",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "0bca39a1-b298-4b56-a7af-4607a70d307e",
+    "ReplaySequence": "b2e91b1f-c5ab-4776-8a6c-7c02ccf6c00b",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4451023Z"
+  },
+  {
+    "QueueId": "ce8f07e5-7579-42b3-b087-390ca060a536",
+    "Runtime": "orchestration-state.runtime.ps1",
+    "WorkerId": "edf43aae-3091-45a5-b760-724d33c7acaa",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "cc84f598-86af-4318-8e6e-b813f9364efb",
+    "ReplaySequence": "0b447fef-f213-41c8-a0da-74ae675b0eac",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4452329Z"
+  },
+  {
+    "QueueId": "c5ae0a67-593b-4155-a3f9-9ce600e8f9f8",
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "WorkerId": "9c4e0209-0dbb-4013-86d5-f7cf5289d343",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "d34371ae-5759-4765-be1c-4991f1250cab",
+    "ReplaySequence": "d5f6e3d1-1edb-4674-a13e-475d80ae8f4f",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.445384Z"
+  },
+  {
+    "QueueId": "6d62aca7-d3d9-46f0-bf36-495168095847",
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "WorkerId": "e90996bc-6dbb-4f51-a9c3-7fed6f614778",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "c01510ed-dc05-463f-9a6b-91d69bcbf2cc",
+    "ReplaySequence": "54b027af-12af-4ef3-9dce-62ccfc437a9a",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4455044Z"
+  },
+  {
+    "QueueId": "59fc859e-ede0-47bb-872a-15a088daafc2",
+    "Runtime": "repository-cognition.runtime.ps1",
+    "WorkerId": "f6fac572-cc01-42f2-85f3-c76d3280dad3",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "16706ac1-a3db-40e6-b46b-76212736c338",
+    "ReplaySequence": "be4519b1-fe7d-42f9-a02b-50dac596d48c",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4456217Z"
+  },
+  {
+    "QueueId": "b67d73cd-405b-49be-a9ac-7bef9b624e16",
+    "Runtime": "repository-graph.runtime.ps1",
+    "WorkerId": "c91a4ac6-1f6b-4051-810a-bdb5d5013c16",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "0e035daa-e728-4048-a9d3-628cb4461ac0",
+    "ReplaySequence": "c2af325d-41b6-4d88-a068-1550201fdcc5",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.445739Z"
+  },
+  {
+    "QueueId": "91377cef-eefe-45d5-b420-cb10cd702bae",
+    "Runtime": "repository-indexing.runtime.ps1",
+    "WorkerId": "1b24b31a-d313-419a-91bd-786e0253e4f2",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "65d9911e-5f07-4e68-b295-99f706a70615",
+    "ReplaySequence": "01867e29-6ba8-4c21-aa95-69c4298b62ca",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.445855Z"
+  },
+  {
+    "QueueId": "bac723b5-333a-43f6-b086-25c2fc60d55e",
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "WorkerId": "b5ab3e92-3369-4165-b83a-dc74b6114194",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "d44a12d5-8e2e-4983-8bd8-fe5114e6ad67",
+    "ReplaySequence": "73046ed2-3620-4a00-8d38-6c47da4c8291",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4459717Z"
+  },
+  {
+    "QueueId": "25b599c4-62de-4d3e-9237-c97bf8e78e0d",
+    "Runtime": "runtime-capability.runtime.psm1",
+    "WorkerId": "01debfdb-7c45-4bfb-ad95-f980e0b50145",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "a8a69062-b35c-4d32-9d23-e9c99e3841b3",
+    "ReplaySequence": "b7517a5d-adbc-49cc-88c2-da270e6a1d36",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4460901Z"
+  },
+  {
+    "QueueId": "28bc5c4e-8a98-4c8e-bf01-59a080d7f826",
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "WorkerId": "eaae4900-0a54-4633-b1e3-e25be02445e2",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "6717ada3-6b3a-42f8-9941-30b9c2e02ff3",
+    "ReplaySequence": "a4d9bf53-e5b3-49c7-af01-69130dd73241",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4462253Z"
+  },
+  {
+    "QueueId": "fcf1e697-6b7d-46d1-a2d5-b8483c73870f",
+    "Runtime": "runtime-event-bus.ps1",
+    "WorkerId": "3a2c0902-843f-4c06-bf54-ab32fa66d43f",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "5fabdeab-9283-4057-8631-a28fe9937bda",
+    "ReplaySequence": "d3f54cd1-252d-49d3-a43c-134babdbdb30",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4463843Z"
+  },
+  {
+    "QueueId": "6f54db41-d098-4414-83ad-0b1b9bdd0059",
+    "Runtime": "runtime-health.runtime.ps1",
+    "WorkerId": "912f70f8-af4a-43a9-9915-76dce8817172",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "84b6ad20-04e7-4ece-947f-7fcb4143130b",
+    "ReplaySequence": "88aebcb4-1b87-40dc-aa36-7146686c4151",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.446532Z"
+  },
+  {
+    "QueueId": "33668932-9b8a-405a-9641-5468b14bfb01",
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "WorkerId": "772a4f85-bfd4-4f8f-9a04-96da15bfa285",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "6733544d-8236-4002-aac5-e3bd5e4eeaf3",
+    "ReplaySequence": "52df09cb-c3dc-4cab-97df-f80e8ca3bafc",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4466877Z"
+  },
+  {
+    "QueueId": "c12d9deb-c23e-41ad-9591-fac15db10426",
+    "Runtime": "runtime-memory.runtime.psm1",
+    "WorkerId": "2bcc7ea8-2abe-4726-8285-1c530e9251fe",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "5c27be45-088c-4e61-b949-e98f5af37f77",
+    "ReplaySequence": "f906fa86-2419-43f1-b583-3c6cb6af9b38",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.446846Z"
+  },
+  {
+    "QueueId": "14847ac0-413d-4d26-8119-98688fbfa6c0",
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "WorkerId": "c506d20c-b8b8-40f6-aefc-bf49aa1b92f1",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "e4731d50-1f66-4a1b-a40d-e76fcd0a0f58",
+    "ReplaySequence": "718dedda-064b-4127-bb0a-cc1b19b647da",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4469641Z"
+  },
+  {
+    "QueueId": "4011db14-6545-4ce0-aa3e-0f7d4913f0b1",
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "WorkerId": "7e22313b-8cc3-46b9-bfed-fe16dbe2532f",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "2d9886c1-ae56-4852-9dff-0c29b297afcf",
+    "ReplaySequence": "a6434f1d-0b5c-45e2-be1e-085d8c7ca8b7",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4470809Z"
+  },
+  {
+    "QueueId": "323cbd2e-e9b1-4799-b5bb-4acde36e003d",
+    "Runtime": "topology-analysis.runtime.ps1",
+    "WorkerId": "5c2d5d9d-f850-41d6-ba49-7463236d73d9",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "4cc74a01-06cf-4e12-a388-55883a94929a",
+    "ReplaySequence": "b736a6da-fbe7-4ac4-b817-0bb685bc8806",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.4471996Z"
+  },
+  {
+    "QueueId": "be8e2db1-fed7-4da6-b086-19f963c226a5",
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "WorkerId": "860ae83c-f1e1-4364-9cdf-d8f4b6819b9a",
+    "ReplayState": "RESTORED",
+    "VerificationState": "VERIFIED",
+    "RestorationLineage": "266e2084-5e97-479f-9536-537b340e915f",
+    "ReplaySequence": "4201f18c-a6d6-4374-95db-522503a64d0c",
+    "ReconstructionTimestamp": "2026-05-19T08:22:18.447339Z"
+  }
+]

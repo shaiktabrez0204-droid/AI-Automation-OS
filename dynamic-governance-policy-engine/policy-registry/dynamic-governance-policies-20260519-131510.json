@@ -1,0 +1,434 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5550021Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5553761Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.555586Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5557653Z"
+  },
+  {
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5559523Z"
+  },
+  {
+    "Runtime": "cognition-governance.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5561383Z"
+  },
+  {
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5563265Z"
+  },
+  {
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5565451Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5567703Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.557028Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5574655Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5580355Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.558539Z"
+  },
+  {
+    "Runtime": "engineering-governance.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5591065Z"
+  },
+  {
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5597445Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5602144Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5607922Z"
+  },
+  {
+    "Runtime": "execution-intent.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5613466Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5619487Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5624786Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5631093Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.563784Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5644539Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5648639Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5652109Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5655517Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5658924Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5662429Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5665948Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5670953Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5678912Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5687645Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.569584Z"
+  },
+  {
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "PolicyMode": "LOCKDOWN",
+    "PolicyAction": "BLOCK_NON_CRITICAL_MUTATIONS",
+    "PolicyScore": 30,
+    "AdmissionState": "REVIEW_REQUIRED",
+    "GovernanceGate": "RESTRICTED",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5700674Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.570538Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5709727Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5714668Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5739405Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5744676Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5747967Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5751244Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5754758Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5758236Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5761785Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5765513Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5769257Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "PolicyMode": "RESTRICTED",
+    "PolicyAction": "LIMIT_MUTATION_SCOPE",
+    "PolicyScore": 80,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5773274Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "PolicyMode": "NORMAL",
+    "PolicyAction": "ALLOW_EXECUTION",
+    "PolicyScore": 100,
+    "AdmissionState": "ADMITTED",
+    "GovernanceGate": "OPEN",
+    "PolicyGeneratedAt": "2026-05-19T07:45:10.5777687Z"
+  }
+]

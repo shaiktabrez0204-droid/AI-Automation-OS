@@ -1,0 +1,482 @@
+[
+  {
+    "EventSequence": 1,
+    "Runtime": "agent-coordination.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "89bcb87b-ead9-4ac8-8e5f-d60e9f948d35",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4354343Z"
+  },
+  {
+    "EventSequence": 2,
+    "Runtime": "architecture-diff.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "6c4ca54d-387b-4404-8fe8-3e73c07fd228",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4356067Z"
+  },
+  {
+    "EventSequence": 3,
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "d7881040-3b4e-4c1f-8a43-81ae5b59f9f8",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4356655Z"
+  },
+  {
+    "EventSequence": 4,
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "e2baf98f-3926-4960-b0bc-73b6df7db676",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4357193Z"
+  },
+  {
+    "EventSequence": 5,
+    "Runtime": "autonomous-remediation.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "a82c5fd6-0155-4603-a5f1-f1c4d983ac4c",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4357695Z"
+  },
+  {
+    "EventSequence": 6,
+    "Runtime": "cognition-governance.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "b3415b85-d2b4-42d0-8fd5-a631d5e89116",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4358222Z"
+  },
+  {
+    "EventSequence": 7,
+    "Runtime": "cognition-reconciliation.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "dff3c28f-6b58-46bf-9a67-e35a62984d50",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4358713Z"
+  },
+  {
+    "EventSequence": 8,
+    "Runtime": "continuity-intelligence.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "17cbb5d6-a37c-4bad-a839-e24c3d729d21",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.435921Z"
+  },
+  {
+    "EventSequence": 9,
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "b72df0b9-aebd-437c-92e3-a653b3a41ab3",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4359958Z"
+  },
+  {
+    "EventSequence": 10,
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "087fbc1f-e656-4a29-8e90-07bc5ad39bfe",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4360996Z"
+  },
+  {
+    "EventSequence": 11,
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "d995bf90-521f-4a93-aae7-35941f2b7a8a",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4361859Z"
+  },
+  {
+    "EventSequence": 12,
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "34d14ed4-0acb-41b0-9616-a00fae6c0000",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4362554Z"
+  },
+  {
+    "EventSequence": 13,
+    "Runtime": "distributed-locking.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "96f3faf3-3f47-4b80-8a0b-9d3e469d8998",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4363152Z"
+  },
+  {
+    "EventSequence": 14,
+    "Runtime": "engineering-governance.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "e24b4363-a558-4309-89fa-f732a5ad829b",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4411594Z"
+  },
+  {
+    "EventSequence": 15,
+    "Runtime": "engineering-lineage.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "8f7e6469-001a-4346-9001-5d78eecbd84e",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4414194Z"
+  },
+  {
+    "EventSequence": 16,
+    "Runtime": "engineering-memory.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "5f0426f3-9b97-43dc-b600-681b937e8429",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4415204Z"
+  },
+  {
+    "EventSequence": 17,
+    "Runtime": "execution-delegation.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "90208ae2-413c-48f2-a850-bc5ab9602d56",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4416284Z"
+  },
+  {
+    "EventSequence": 18,
+    "Runtime": "execution-intent.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "5e9e21f5-01e1-419c-96f3-83faeae512fe",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4417366Z"
+  },
+  {
+    "EventSequence": 19,
+    "Runtime": "execution-planner.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "42a9f605-173e-4790-82f9-520f155a4b25",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4418221Z"
+  },
+  {
+    "EventSequence": 20,
+    "Runtime": "execution-planning.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "71f2c835-a9fe-4f0f-8e97-7edbc03139ad",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4419108Z"
+  },
+  {
+    "EventSequence": 21,
+    "Runtime": "execution-session.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "d19049fc-ebf3-4b6e-81bd-d2ab7182b233",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4419986Z"
+  },
+  {
+    "EventSequence": 22,
+    "Runtime": "execution-simulation.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "b2f75d1c-7b91-4e48-925e-b072185843fe",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4420896Z"
+  },
+  {
+    "EventSequence": 23,
+    "Runtime": "execution-state-machine.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "df4e0402-643f-4659-8295-8f31493da137",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4421848Z"
+  },
+  {
+    "EventSequence": 24,
+    "Runtime": "execution-worker.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "c7a499de-c193-4318-a5b2-92d151e8f0f9",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4422796Z"
+  },
+  {
+    "EventSequence": 25,
+    "Runtime": "federation-coordination.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "4bdeb693-edff-4823-bd0f-d4289edd0361",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4423706Z"
+  },
+  {
+    "EventSequence": 26,
+    "Runtime": "federation-topology.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "66915d40-63ca-4299-a1d8-e68731714831",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4424858Z"
+  },
+  {
+    "EventSequence": 27,
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "98df4f7a-a99b-4c7c-9efc-044049b17213",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4425855Z"
+  },
+  {
+    "EventSequence": 28,
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "9e759232-446e-480f-9230-1963293ca3e3",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4426746Z"
+  },
+  {
+    "EventSequence": 29,
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "1af21873-d71f-4655-9492-750b7312449b",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4427618Z"
+  },
+  {
+    "EventSequence": 30,
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "2f26ec2a-2070-407e-b039-6ab368489bc9",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.442838Z"
+  },
+  {
+    "EventSequence": 31,
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "72c8128b-e0eb-4eee-9a0e-ecc792115eda",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4429113Z"
+  },
+  {
+    "EventSequence": 32,
+    "Runtime": "orchestration-state.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "c04bd9df-db94-4e50-83d1-07174b8f6c8e",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4429905Z"
+  },
+  {
+    "EventSequence": 33,
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "2a6131bc-d66a-410f-bc2f-412678ef18c4",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4430762Z"
+  },
+  {
+    "EventSequence": 34,
+    "Runtime": "repository-capability-intelligence.runtime.ps1",
+    "EventType": "RECOVERY_EVENT",
+    "EventPriority": "CRITICAL",
+    "DeltaHash": "5745fe10-5e75-4ffe-8382-17e758b6fa82",
+    "MutationRisk": "HIGH",
+    "HealingStrategy": "RUNTIME_RECOVERY",
+    "EventTimestamp": "2026-05-19T07:39:45.4431594Z"
+  },
+  {
+    "EventSequence": 35,
+    "Runtime": "repository-cognition.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "0a5fe6e0-57d5-4ec6-b07c-349fbfed9939",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4432562Z"
+  },
+  {
+    "EventSequence": 36,
+    "Runtime": "repository-graph.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "1ea611fe-1d74-46b2-8ea8-7cdb8beacb0d",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.443327Z"
+  },
+  {
+    "EventSequence": 37,
+    "Runtime": "repository-indexing.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "6f4a3af9-1414-48e4-a64e-51da4f58fb41",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4433954Z"
+  },
+  {
+    "EventSequence": 38,
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "310db8da-4d5b-4852-b4e3-e32c9334547a",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4434669Z"
+  },
+  {
+    "EventSequence": 39,
+    "Runtime": "runtime-capability.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "c2365b47-25b7-48ea-a184-34f171f1a369",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4435416Z"
+  },
+  {
+    "EventSequence": 40,
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "74aa8ffb-1c2f-45f9-acbc-3cb6a9317ad7",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4436205Z"
+  },
+  {
+    "EventSequence": 41,
+    "Runtime": "runtime-event-bus.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "10705873-aecc-43cf-8150-8a3fd66eac23",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.443707Z"
+  },
+  {
+    "EventSequence": 42,
+    "Runtime": "runtime-health.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "18f68ffe-8787-498b-be60-9623dda88581",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4437945Z"
+  },
+  {
+    "EventSequence": 43,
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "b0de95d8-440a-4b75-818e-d497de69af1e",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4438597Z"
+  },
+  {
+    "EventSequence": 44,
+    "Runtime": "runtime-memory.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "9240dc00-c7f0-494e-93e4-b4ec3d83096e",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4439127Z"
+  },
+  {
+    "EventSequence": 45,
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "48a20ec5-9ca6-4813-b3c3-583f4249cbaf",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4439891Z"
+  },
+  {
+    "EventSequence": 46,
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "67e03d96-966d-48d6-9373-8e1e27e7d30f",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4440811Z"
+  },
+  {
+    "EventSequence": 47,
+    "Runtime": "topology-analysis.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "ELEVATED",
+    "DeltaHash": "11a577ec-8920-4fd3-86c1-c9f7f9010a20",
+    "MutationRisk": "MODERATE",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4441608Z"
+  },
+  {
+    "EventSequence": 48,
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "EventType": "STATE_UPDATE",
+    "EventPriority": "NORMAL",
+    "DeltaHash": "ce4ecb8f-fedc-4ac0-a47f-19fd2106cbdb",
+    "MutationRisk": "LOW",
+    "HealingStrategy": "STABLE",
+    "EventTimestamp": "2026-05-19T07:39:45.4442679Z"
+  }
+]

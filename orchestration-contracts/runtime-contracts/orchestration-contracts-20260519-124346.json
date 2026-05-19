@@ -1,0 +1,729 @@
+[
+  {
+    "Runtime": "agent-coordination.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7102095Z"
+  },
+  {
+    "Runtime": "architecture-diff.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7116859Z"
+  },
+  {
+    "Runtime": "architecture-evolution.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7130836Z"
+  },
+  {
+    "Runtime": "autonomous-orchestration.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": null,
+    "ExecutionContracts": "PARAMETERIZED_EXECUTION",
+    "CoordinationSurface": 1,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7156064Z"
+  },
+  {
+    "Runtime": "deadlock-detection.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7170003Z"
+  },
+  {
+    "Runtime": "deadlock-recovery.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7184944Z"
+  },
+  {
+    "Runtime": "distributed-cognition.runtime.psm1",
+    "Role": "ENGINEERING_COGNITION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7198743Z"
+  },
+  {
+    "Runtime": "distributed-event-stream.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.721044Z"
+  },
+  {
+    "Runtime": "distributed-locking.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7223162Z"
+  },
+  {
+    "Runtime": "engineering-memory.runtime.ps1",
+    "Role": "ENGINEERING_MEMORY",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.723527Z"
+  },
+  {
+    "Runtime": "execution-delegation.runtime.psm1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.724705Z"
+  },
+  {
+    "Runtime": "execution-planner.runtime.ps1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7258295Z"
+  },
+  {
+    "Runtime": "execution-planning.runtime.ps1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7269932Z"
+  },
+  {
+    "Runtime": "execution-session.runtime.psm1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7284202Z"
+  },
+  {
+    "Runtime": "execution-simulation.runtime.ps1",
+    "Role": "EXECUTION_SIMULATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7296507Z"
+  },
+  {
+    "Runtime": "execution-state-machine.ps1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7308417Z"
+  },
+  {
+    "Runtime": "execution-worker.runtime.psm1",
+    "Role": "EXECUTION_PLANNING",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7321676Z"
+  },
+  {
+    "Runtime": "federation-coordination.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7334337Z"
+  },
+  {
+    "Runtime": "federation-topology.runtime.psm1",
+    "Role": "TOPOLOGY_ANALYSIS",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.734711Z"
+  },
+  {
+    "Runtime": "infrastructure-diagnostics.runtime.ps1",
+    "Role": "INFRASTRUCTURE_DIAGNOSTICS",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7359532Z"
+  },
+  {
+    "Runtime": "orchestration-consensus.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7391214Z"
+  },
+  {
+    "Runtime": "orchestration-contracts.runtime.ps1",
+    "Role": null,
+    "OperationalIntent": null,
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7427146Z"
+  },
+  {
+    "Runtime": "orchestration-recovery.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7440584Z"
+  },
+  {
+    "Runtime": "orchestration-scheduler.runtime.psm1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7454983Z"
+  },
+  {
+    "Runtime": "orchestration-state.runtime.ps1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7468011Z"
+  },
+  {
+    "Runtime": "orchestration-supervisor.runtime.ps1",
+    "Role": "ORCHESTRATION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7483605Z"
+  },
+  {
+    "Runtime": "repository-cognition.runtime.ps1",
+    "Role": "ENGINEERING_COGNITION",
+    "OperationalIntent": [
+      "REPOSITORY_DISCOVERY",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 3,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7500114Z"
+  },
+  {
+    "Runtime": "repository-graph.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7517277Z"
+  },
+  {
+    "Runtime": "repository-indexing.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": "EMPTY_RUNTIME",
+    "ExecutionContracts": null,
+    "CoordinationSurface": 0,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7533107Z"
+  },
+  {
+    "Runtime": "repository-snapshot.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": "EMPTY_RUNTIME",
+    "ExecutionContracts": null,
+    "CoordinationSurface": 0,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7550584Z"
+  },
+  {
+    "Runtime": "runtime-capability.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7564371Z"
+  },
+  {
+    "Runtime": "runtime-coordination.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7578559Z"
+  },
+  {
+    "Runtime": "runtime-event-bus.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7602813Z"
+  },
+  {
+    "Runtime": "runtime-health.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7617348Z"
+  },
+  {
+    "Runtime": "runtime-intelligence.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7632239Z"
+  },
+  {
+    "Runtime": "runtime-memory.runtime.psm1",
+    "Role": "ENGINEERING_MEMORY",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7647342Z"
+  },
+  {
+    "Runtime": "runtime-messaging.runtime.psm1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7668562Z"
+  },
+  {
+    "Runtime": "semantic-cognition.runtime.ps1",
+    "Role": "ENGINEERING_COGNITION",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7688911Z"
+  },
+  {
+    "Runtime": "topology-analysis.runtime.ps1",
+    "Role": "TOPOLOGY_ANALYSIS",
+    "OperationalIntent": [
+      "REPOSITORY_DISCOVERY",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 4,
+    "ContractIndexedAt": "2026-05-19T07:13:46.7747795Z"
+  },
+  {
+    "Runtime": "workflow-propagation.runtime.ps1",
+    "Role": "UNKNOWN",
+    "OperationalIntent": [
+      "COGNITION_RECONSTRUCTION",
+      "STATE_INSPECTION",
+      "STATE_PERSISTENCE",
+      "STATE_SERIALIZATION"
+    ],
+    "ExecutionContracts": [
+      "PARAMETERIZED_EXECUTION",
+      "PERSISTENT_STATE_MUTATION",
+      "STATE_DEPENDENCY",
+      "STATE_RECONSTRUCTION",
+      "STATE_SERIALIZATION"
+    ],
+    "CoordinationSurface": 5,
+    "ContractIndexedAt": "2026-05-19T07:13:46.776321Z"
+  }
+]
