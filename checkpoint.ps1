@@ -65,7 +65,10 @@ $timestamp = Get-Date -Format "yyyy-MM-dd_HH-mm-ss"
 # -----------------------------
 $checkpointId = "checkpoint-$timestamp"
 
+$previousCheckpoint = $state.last_checkpoint
+
 $checkpointMetadata = @{
+    parent_checkpoint = $previousCheckpoint
     checkpoint_id = $checkpointId
     timestamp = $timestamp
     phase = $state.phase
@@ -77,6 +80,7 @@ $checkpointMetadata = @{
 # -----------------------------
 # UPDATE STATE
 # -----------------------------
+$state | Add-Member -Force -MemberType NoteProperty -Name parent_checkpoint -Value $state.last_checkpoint
 $state.last_checkpoint = $timestamp
 
 if (-not $state.execution_history) {
