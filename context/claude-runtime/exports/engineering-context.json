@@ -1,0 +1,95 @@
+{
+    "activeInfrastructureZones":  [
+                                      {
+                                          "zone":  "context",
+                                          "classification":  "ai-context-runtime",
+                                          "totalFiles":  8
+                                      },
+                                      {
+                                          "zone":  "core",
+                                          "classification":  "unclassified",
+                                          "totalFiles":  1
+                                      },
+                                      {
+                                          "zone":  "docs",
+                                          "classification":  "unclassified",
+                                          "totalFiles":  1
+                                      },
+                                      {
+                                          "zone":  "executions",
+                                          "classification":  "execution-artifacts",
+                                          "totalFiles":  5
+                                      },
+                                      {
+                                          "zone":  "exports",
+                                          "classification":  "unclassified",
+                                          "totalFiles":  4
+                                      },
+                                      {
+                                          "zone":  "infrastructure",
+                                          "classification":  "meta-runtime-infrastructure",
+                                          "totalFiles":  5
+                                      },
+                                      {
+                                          "zone":  "logs",
+                                          "classification":  "unclassified",
+                                          "totalFiles":  1
+                                      },
+                                      {
+                                          "zone":  "memory",
+                                          "classification":  "operational-memory",
+                                          "totalFiles":  11
+                                      },
+                                      {
+                                          "zone":  "protocols",
+                                          "classification":  "unclassified",
+                                          "totalFiles":  3
+                                      },
+                                      {
+                                          "zone":  "retrieval",
+                                          "classification":  "retrieval-infrastructure",
+                                          "totalFiles":  1
+                                      },
+                                      {
+                                          "zone":  "runtime",
+                                          "classification":  "execution-runtime",
+                                          "totalFiles":  3
+                                      },
+                                      {
+                                          "zone":  "scripts",
+                                          "classification":  "orchestration-runtime",
+                                          "totalFiles":  20
+                                      },
+                                      {
+                                          "zone":  "telemetry",
+                                          "classification":  "observability",
+                                          "totalFiles":  3
+                                      },
+                                      {
+                                          "zone":  "templates",
+                                          "classification":  "unclassified",
+                                          "totalFiles":  3
+                                      },
+                                      {
+                                          "zone":  "workflows",
+                                          "classification":  "workflow-infrastructure",
+                                          "totalFiles":  12
+                                      }
+                                  ],
+    "architectureSummary":  {
+                                "infrastructureType":  "AI-native operational infrastructure",
+                                "memorySystem":  "operational-memory",
+                                "cognitionLayer":  "claude-runtime",
+                                "retrievalSystem":  "repo-aware retrieval",
+                                "primaryRuntime":  "orchestration-runtime"
+                            },
+    "generatedAt":  "2026-05-19T08:08:53",
+    "highDependencyModules":  {
+
+                              },
+    "operationalState":  {
+                             "orchestrationScripts":  20,
+                             "topologyZones":  17,
+                             "runtimeModules":  6
+                         }
+}

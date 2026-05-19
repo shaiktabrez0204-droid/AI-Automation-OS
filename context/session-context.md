@@ -1,67 +1,42 @@
-# Session Context
+# AI-Automation-OS :: Engineering Session Context
 
-## Current Session Objective
+## Operational State
 
-Upgrade AI-Automation-OS from foundational infrastructure into retrieval-oriented operational intelligence.
+- Primary Runtime: orchestration-runtime
+- Highest Priority Module: execution-runtime.ps1
+- Orchestration Scripts: 20
+- Topology Zones: 17
 
----
+## Operational Focus
 
-# Current Active Work
+execution orchestration, runtime supervision, pipeline coordination, repo cognition, retrieval-aware infrastructure
 
-Currently implementing:
+## Engineering Directives
 
-- retrieval-oriented memory structure
-- modular context architecture
-- AI-readable operational systems
-- scalable workflow foundations
-- persistent execution continuity
+- prioritize orchestration-critical systems
+- maintain modular runtime boundaries
+- preserve retrieval-aware cognition
+- optimize operational continuity
+- prevent architecture drift
 
----
+## Critical Runtime Systems
 
-# Current Session Focus
+- execution-runtime.ps1 [core-execution-runtime] Score=130
+- execution-dispatcher.ps1 [runtime-dispatch] Score=100
+- pipeline-runtime.ps1 [pipeline-orchestration] Score=80
+- runtime-supervisor.ps1 [runtime-supervision] Score=80
+- queue-runtime.ps1 [async-orchestration] Score=70
 
-Immediate priorities:
+## Cognition Capabilities
 
-1. improve context retrieval quality
-2. modularize operational memory
-3. reduce future context noise
-4. optimize AI collaboration quality
-5. prepare scalable automation workflows
+- Retrieval-Aware Cognition Enabled
+- Runtime Ranking Enabled
+- Dynamic Context Assembly Enabled
+- Orchestration Intelligence Enabled
 
----
+## Session Objective
 
-# Active Architectural Decisions
-
-Current implementation strategy:
-
-- modular filesystem-first architecture
-- markdown-based operational memory
-- retrieval-oriented organization
-- explicit operational state management
-- AI-readable context systems
-
----
-
-# Current Constraints
-
-Avoid:
-- giant unstructured context
-- premature automation complexity
-- noisy memory systems
-- unnecessary abstraction
-- fragmented operational state
-
-Priority remains:
-clarity + retrieval precision.
-
----
-
-# Current Important Insight
-
-Retrieval quality heavily influences:
-- AI reasoning quality
-- execution consistency
-- workflow scalability
-- operational continuity
-
-Well-structured context behaves like intelligence amplification infrastructure.
+Maintain operational continuity.
+Prioritize orchestration-critical systems.
+Preserve retrieval-aware cognition integrity.
+Prevent architecture drift.

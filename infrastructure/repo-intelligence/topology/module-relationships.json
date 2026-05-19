@@ -1,0 +1,242 @@
+[
+    {
+        "module":  "bootstrap.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\bootstrap.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "standard-runtime"
+    },
+    {
+        "module":  "context-loader.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\context-loader.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "standard-runtime"
+    },
+    {
+        "module":  "dependency-graph-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\dependency-graph-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "dependency-pipeline-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\dependency-pipeline-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "dynamic-workflow-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\dynamic-workflow-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "execution-dispatcher.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\execution-dispatcher.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "execution-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\execution-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "pipeline-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\pipeline-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "priority-queue-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\priority-queue-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "queue-processor.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\queue-processor.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "queue-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\queue-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "registry-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\registry-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "resilient-workflow-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\resilient-workflow-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "runtime-supervisor.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\runtime-supervisor.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "scheduler-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\scheduler-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "telemetry-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\telemetry-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "workflow-chain-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\workflow-chain-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "workflow-output-runtime.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\workflow-output-runtime.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "core-orchestration"
+    },
+    {
+        "module":  "workflow-parser.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\workflow-parser.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "standard-runtime"
+    },
+    {
+        "module":  "workflow-runner.ps1",
+        "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts\\workflow-runner.ps1",
+        "dependencyCount":  0,
+        "dependencies":  [
+
+                         ],
+        "dependencyFrequency":  [
+
+                                ],
+        "orchestrationRole":  "standard-runtime"
+    }
+]

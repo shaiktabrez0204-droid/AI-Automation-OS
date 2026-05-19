@@ -1,0 +1,445 @@
+{
+    "runtimeSummary":  {
+                           "orchestrationScripts":  20,
+                           "topologyZones":  17,
+                           "generatedAt":  "2026-05-19T08:08:51",
+                           "runtimeModules":  6
+                       },
+    "topology":  {
+                     "root":  "C:\\Users\\shaik\\AI-Automation-OS",
+                     "generatedAt":  "2026-05-19T07:54:37",
+                     "zones":  [
+                                   {
+                                       "zone":  "agents",
+                                       "sampleFiles":  null,
+                                       "classification":  "unclassified",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\agents",
+                                       "fileTypes":  [
+
+                                                     ],
+                                       "totalFiles":  0
+                                   },
+                                   {
+                                       "zone":  "context",
+                                       "sampleFiles":  [
+                                                           "context\\current-context.md",
+                                                           "context\\session-context.md",
+                                                           "context\\claude-runtime\\claude-context.runtime.ps1",
+                                                           "context\\claude-runtime\\profiles\\engineering.profile.json",
+                                                           "context\\profiles\\agent.json",
+                                                           "context\\profiles\\architecture.json",
+                                                           "context\\profiles\\project.json",
+                                                           "context\\profiles\\workflow.json"
+                                                       ],
+                                       "classification":  "ai-context-runtime",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\context",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  5,
+                                                             "extension":  ".json"
+                                                         },
+                                                         {
+                                                             "count":  2,
+                                                             "extension":  ".md"
+                                                         },
+                                                         {
+                                                             "count":  1,
+                                                             "extension":  ".ps1"
+                                                         }
+                                                     ],
+                                       "totalFiles":  8
+                                   },
+                                   {
+                                       "zone":  "core",
+                                       "sampleFiles":  "core\\operating-principles.md",
+                                       "classification":  "unclassified",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\core",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  1,
+                                                             "extension":  ".md"
+                                                         }
+                                                     ],
+                                       "totalFiles":  1
+                                   },
+                                   {
+                                       "zone":  "docs",
+                                       "sampleFiles":  "docs\\system-architecture.md",
+                                       "classification":  "unclassified",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\docs",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  1,
+                                                             "extension":  ".md"
+                                                         }
+                                                     ],
+                                       "totalFiles":  1
+                                   },
+                                   {
+                                       "zone":  "executions",
+                                       "sampleFiles":  [
+                                                           "executions\\artifacts\\execution-log-template.yaml",
+                                                           "executions\\completed\\3794bcf1-8f52-47df-9f81-1d77252480da\\execution-log.txt",
+                                                           "executions\\completed\\8826ddea-947b-4637-b80e-4d9fe6015e96\\telemetry-report.txt",
+                                                           "executions\\completed\\f9aa6da8-520f-4cc1-aa42-a7c3b8f044dd\\runtime-log.txt",
+                                                           "executions\\failed\\b6aa3fad-2de1-444a-af6b-a0826923f145\\runtime-log.txt"
+                                                       ],
+                                       "classification":  "execution-artifacts",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\executions",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  4,
+                                                             "extension":  ".txt"
+                                                         },
+                                                         {
+                                                             "count":  1,
+                                                             "extension":  ".yaml"
+                                                         }
+                                                     ],
+                                       "totalFiles":  5
+                                   },
+                                   {
+                                       "zone":  "exports",
+                                       "sampleFiles":  [
+                                                           "exports\\agent-context.txt",
+                                                           "exports\\combined-context.txt",
+                                                           "exports\\context-output.txt",
+                                                           "exports\\workflow-context.txt"
+                                                       ],
+                                       "classification":  "unclassified",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\exports",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  4,
+                                                             "extension":  ".txt"
+                                                         }
+                                                     ],
+                                       "totalFiles":  4
+                                   },
+                                   {
+                                       "zone":  "infrastructure",
+                                       "sampleFiles":  [
+                                                           "infrastructure\\repo-intelligence\\repo-intelligence.runtime.ps1",
+                                                           "infrastructure\\repo-intelligence\\analyzers\\module-relationship.analyzer.ps1",
+                                                           "infrastructure\\repo-intelligence\\models\\repo-module.model.json",
+                                                           "infrastructure\\repo-intelligence\\scanners\\repo-topology.scanner.ps1",
+                                                           "infrastructure\\repo-intelligence\\topology\\topology-map.json"
+                                                       ],
+                                       "classification":  "meta-runtime-infrastructure",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\infrastructure",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  3,
+                                                             "extension":  ".ps1"
+                                                         },
+                                                         {
+                                                             "count":  2,
+                                                             "extension":  ".json"
+                                                         }
+                                                     ],
+                                       "totalFiles":  5
+                                   },
+                                   {
+                                       "zone":  "logs",
+                                       "sampleFiles":  "logs\\operational-log.md",
+                                       "classification":  "unclassified",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\logs",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  1,
+                                                             "extension":  ".md"
+                                                         }
+                                                     ],
+                                       "totalFiles":  1
+                                   },
+                                   {
+                                       "zone":  "memory",
+                                       "sampleFiles":  [
+                                                           "memory\\retrieval-index.md",
+                                                           "memory\\system-memory.md",
+                                                           "memory\\agents\\README.md",
+                                                           "memory\\architecture\\system-patterns.md",
+                                                           "memory\\architecture-state\\current-runtime-state.md",
+                                                           "memory\\decisions\\decision-log.md",
+                                                           "memory\\decisions\\README.md",
+                                                           "memory\\implementation-history\\phase-5-init.md",
+                                                           "memory\\insights\\README.md",
+                                                           "memory\\projects\\README.md"
+                                                       ],
+                                       "classification":  "operational-memory",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\memory",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  11,
+                                                             "extension":  ".md"
+                                                         }
+                                                     ],
+                                       "totalFiles":  11
+                                   },
+                                   {
+                                       "zone":  "projects",
+                                       "sampleFiles":  null,
+                                       "classification":  "unclassified",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\projects",
+                                       "fileTypes":  [
+
+                                                     ],
+                                       "totalFiles":  0
+                                   },
+                                   {
+                                       "zone":  "protocols",
+                                       "sampleFiles":  [
+                                                           "protocols\\execution-protocol.md",
+                                                           "protocols\\task-lifecycle.md",
+                                                           "protocols\\workflow-contracts.md"
+                                                       ],
+                                       "classification":  "unclassified",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\protocols",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  3,
+                                                             "extension":  ".md"
+                                                         }
+                                                     ],
+                                       "totalFiles":  3
+                                   },
+                                   {
+                                       "zone":  "retrieval",
+                                       "sampleFiles":  "retrieval\\repo-aware\\repo-retrieval.runtime.ps1",
+                                       "classification":  "retrieval-infrastructure",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\retrieval",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  1,
+                                                             "extension":  ".ps1"
+                                                         }
+                                                     ],
+                                       "totalFiles":  1
+                                   },
+                                   {
+                                       "zone":  "runtime",
+                                       "sampleFiles":  [
+                                                           "runtime\\artifacts\\workflow-output.json",
+                                                           "runtime\\queue\\execution-queue.json",
+                                                           "runtime\\telemetry\\execution-registry.csv"
+                                                       ],
+                                       "classification":  "execution-runtime",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\runtime",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  2,
+                                                             "extension":  ".json"
+                                                         },
+                                                         {
+                                                             "count":  1,
+                                                             "extension":  ".csv"
+                                                         }
+                                                     ],
+                                       "totalFiles":  3
+                                   },
+                                   {
+                                       "zone":  "scripts",
+                                       "sampleFiles":  [
+                                                           "scripts\\bootstrap.ps1",
+                                                           "scripts\\context-loader.ps1",
+                                                           "scripts\\dependency-graph-runtime.ps1",
+                                                           "scripts\\dependency-pipeline-runtime.ps1",
+                                                           "scripts\\dynamic-workflow-runtime.ps1",
+                                                           "scripts\\execution-dispatcher.ps1",
+                                                           "scripts\\execution-runtime.ps1",
+                                                           "scripts\\pipeline-runtime.ps1",
+                                                           "scripts\\priority-queue-runtime.ps1",
+                                                           "scripts\\queue-processor.ps1"
+                                                       ],
+                                       "classification":  "orchestration-runtime",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\scripts",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  20,
+                                                             "extension":  ".ps1"
+                                                         }
+                                                     ],
+                                       "totalFiles":  20
+                                   },
+                                   {
+                                       "zone":  "telemetry",
+                                       "sampleFiles":  [
+                                                           "telemetry\\execution-metrics.md",
+                                                           "telemetry\\failure-analysis.md",
+                                                           "telemetry\\workflow-performance.md"
+                                                       ],
+                                       "classification":  "observability",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\telemetry",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  3,
+                                                             "extension":  ".md"
+                                                         }
+                                                     ],
+                                       "totalFiles":  3
+                                   },
+                                   {
+                                       "zone":  "templates",
+                                       "sampleFiles":  [
+                                                           "templates\\execution-template.yaml",
+                                                           "templates\\pipeline-template.yaml",
+                                                           "templates\\workflow-template.yaml"
+                                                       ],
+                                       "classification":  "unclassified",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\templates",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  3,
+                                                             "extension":  ".yaml"
+                                                         }
+                                                     ],
+                                       "totalFiles":  3
+                                   },
+                                   {
+                                       "zone":  "workflows",
+                                       "sampleFiles":  [
+                                                           "workflows\\context-loading-workflow.md",
+                                                           "workflows\\workflow-index.md",
+                                                           "workflows\\engineering\\implementation\\implementation-workflow.template.md",
+                                                           "workflows\\pipelines\\context-execution-pipeline.yaml",
+                                                           "workflows\\pipelines\\dependency-graph.yaml",
+                                                           "workflows\\pipelines\\workflow-chain.yaml",
+                                                           "workflows\\runtime\\runtime-state-machine.md",
+                                                           "workflows\\tasks\\task-template.yaml",
+                                                           "workflows\\templates\\artifact-generation-workflow.yaml",
+                                                           "workflows\\templates\\context-assembly-workflow.yaml"
+                                                       ],
+                                       "classification":  "workflow-infrastructure",
+                                       "path":  "C:\\Users\\shaik\\AI-Automation-OS\\workflows",
+                                       "fileTypes":  [
+                                                         {
+                                                             "count":  8,
+                                                             "extension":  ".yaml"
+                                                         },
+                                                         {
+                                                             "count":  4,
+                                                             "extension":  ".md"
+                                                         }
+                                                     ],
+                                       "totalFiles":  12
+                                   }
+                               ]
+                 },
+    "runtimeRegistry":  {
+                            "runtimeModules":  [
+                                                   {
+                                                       "module":  "execution-runtime.ps1",
+                                                       "classification":  "core-execution-runtime",
+                                                       "dependencies":  [
+                                                                            "queue-runtime.ps1",
+                                                                            "telemetry-runtime.ps1",
+                                                                            "registry-runtime.ps1"
+                                                                        ],
+                                                       "role":  "workflow execution orchestration"
+                                                   },
+                                                   {
+                                                       "module":  "queue-runtime.ps1",
+                                                       "classification":  "async-orchestration",
+                                                       "dependencies":  [
+                                                                            "queue-processor.ps1",
+                                                                            "priority-queue-runtime.ps1"
+                                                                        ],
+                                                       "role":  "execution queue coordination"
+                                                   },
+                                                   {
+                                                       "module":  "execution-dispatcher.ps1",
+                                                       "classification":  "runtime-dispatch",
+                                                       "dependencies":  [
+                                                                            "execution-runtime.ps1",
+                                                                            "pipeline-runtime.ps1"
+                                                                        ],
+                                                       "role":  "execution routing"
+                                                   },
+                                                   {
+                                                       "module":  "pipeline-runtime.ps1",
+                                                       "classification":  "pipeline-orchestration",
+                                                       "dependencies":  [
+                                                                            "workflow-chain-runtime.ps1"
+                                                                        ],
+                                                       "role":  "workflow pipeline coordination"
+                                                   },
+                                                   {
+                                                       "module":  "runtime-supervisor.ps1",
+                                                       "classification":  "runtime-supervision",
+                                                       "dependencies":  [
+                                                                            "telemetry-runtime.ps1",
+                                                                            "execution-runtime.ps1"
+                                                                        ],
+                                                       "role":  "runtime supervision"
+                                                   },
+                                                   {
+                                                       "module":  "telemetry-runtime.ps1",
+                                                       "classification":  "observability",
+                                                       "dependencies":  [
+
+                                                                        ],
+                                                       "role":  "execution telemetry"
+                                                   }
+                                               ]
+                        },
+    "relationships":  [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null
+                      ],
+    "runtimeImportanceRanking":  [
+                                     {
+                                         "module":  "pipeline-runtime.ps1",
+                                         "importanceScore":  80,
+                                         "role":  "workflow pipeline coordination",
+                                         "classification":  "pipeline-orchestration"
+                                     },
+                                     {
+                                         "module":  "runtime-supervisor.ps1",
+                                         "importanceScore":  80,
+                                         "role":  "runtime supervision",
+                                         "classification":  "runtime-supervision"
+                                     },
+                                     {
+                                         "module":  "telemetry-runtime.ps1",
+                                         "importanceScore":  30,
+                                         "role":  "execution telemetry",
+                                         "classification":  "observability"
+                                     },
+                                     {
+                                         "module":  "execution-runtime.ps1",
+                                         "importanceScore":  130,
+                                         "role":  "workflow execution orchestration",
+                                         "classification":  "core-execution-runtime"
+                                     },
+                                     {
+                                         "module":  "queue-runtime.ps1",
+                                         "importanceScore":  70,
+                                         "role":  "execution queue coordination",
+                                         "classification":  "async-orchestration"
+                                     },
+                                     {
+                                         "module":  "execution-dispatcher.ps1",
+                                         "importanceScore":  100,
+                                         "role":  "execution routing",
+                                         "classification":  "runtime-dispatch"
+                                     }
+                                 ]
+}

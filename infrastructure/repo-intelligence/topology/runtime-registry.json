@@ -1,0 +1,60 @@
+{
+  "runtimeModules": [
+    {
+      "module": "execution-runtime.ps1",
+      "classification": "core-execution-runtime",
+      "dependencies": [
+        "queue-runtime.ps1",
+        "telemetry-runtime.ps1",
+        "registry-runtime.ps1"
+      ],
+      "role": "workflow execution orchestration"
+    },
+
+    {
+      "module": "queue-runtime.ps1",
+      "classification": "async-orchestration",
+      "dependencies": [
+        "queue-processor.ps1",
+        "priority-queue-runtime.ps1"
+      ],
+      "role": "execution queue coordination"
+    },
+
+    {
+      "module": "execution-dispatcher.ps1",
+      "classification": "runtime-dispatch",
+      "dependencies": [
+        "execution-runtime.ps1",
+        "pipeline-runtime.ps1"
+      ],
+      "role": "execution routing"
+    },
+
+    {
+      "module": "pipeline-runtime.ps1",
+      "classification": "pipeline-orchestration",
+      "dependencies": [
+        "workflow-chain-runtime.ps1"
+      ],
+      "role": "workflow pipeline coordination"
+    },
+
+    {
+      "module": "runtime-supervisor.ps1",
+      "classification": "runtime-supervision",
+      "dependencies": [
+        "telemetry-runtime.ps1",
+        "execution-runtime.ps1"
+      ],
+      "role": "runtime supervision"
+    },
+
+    {
+      "module": "telemetry-runtime.ps1",
+      "classification": "observability",
+      "dependencies": [],
+      "role": "execution telemetry"
+    }
+  ]
+}

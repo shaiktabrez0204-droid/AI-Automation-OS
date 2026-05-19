@@ -1,0 +1,58 @@
+{
+    "generatedAt":  "2026-05-19T08:20:34",
+    "activeOperationalState":  {
+                                   "highestPriorityModule":  "execution-runtime.ps1",
+                                   "primaryRuntime":  "orchestration-runtime",
+                                   "orchestrationScripts":  20,
+                                   "topologyZones":  17
+                               },
+    "activeEngineeringFocus":  {
+                                   "operationalFocus":  [
+                                                            "execution orchestration",
+                                                            "runtime supervision",
+                                                            "pipeline coordination",
+                                                            "repo cognition",
+                                                            "retrieval-aware infrastructure"
+                                                        ],
+                                   "engineeringDirectives":  [
+                                                                 "prioritize orchestration-critical systems",
+                                                                 "maintain modular runtime boundaries",
+                                                                 "preserve retrieval-aware cognition",
+                                                                 "optimize operational continuity",
+                                                                 "prevent architecture drift"
+                                                             ]
+                               },
+    "criticalRuntimeSystems":  [
+                                   {
+                                       "module":  "execution-runtime.ps1",
+                                       "importanceScore":  130,
+                                       "classification":  "core-execution-runtime"
+                                   },
+                                   {
+                                       "module":  "execution-dispatcher.ps1",
+                                       "importanceScore":  100,
+                                       "classification":  "runtime-dispatch"
+                                   },
+                                   {
+                                       "module":  "pipeline-runtime.ps1",
+                                       "importanceScore":  80,
+                                       "classification":  "pipeline-orchestration"
+                                   },
+                                   {
+                                       "module":  "runtime-supervisor.ps1",
+                                       "importanceScore":  80,
+                                       "classification":  "runtime-supervision"
+                                   },
+                                   {
+                                       "module":  "queue-runtime.ps1",
+                                       "importanceScore":  70,
+                                       "classification":  "async-orchestration"
+                                   }
+                               ],
+    "cognitionCapabilities":  {
+                                  "retrievalAware":  true,
+                                  "runtimeRankingEnabled":  true,
+                                  "dynamicContextAssembly":  true,
+                                  "orchestrationIntelligence":  true
+                              }
+}

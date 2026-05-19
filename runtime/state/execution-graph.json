@@ -1,0 +1,112 @@
+{
+    "generatedAt":  "2026-05-19T08:23:07",
+    "executionGraph":  {
+                           "nodes":  [
+                                         {
+                                             "module":  "execution-runtime.ps1",
+                                             "classification":  "core-execution-runtime",
+                                             "role":  "workflow execution orchestration",
+                                             "dependencyCount":  3
+                                         },
+                                         {
+                                             "module":  "queue-runtime.ps1",
+                                             "classification":  "async-orchestration",
+                                             "role":  "execution queue coordination",
+                                             "dependencyCount":  2
+                                         },
+                                         {
+                                             "module":  "execution-dispatcher.ps1",
+                                             "classification":  "runtime-dispatch",
+                                             "role":  "execution routing",
+                                             "dependencyCount":  2
+                                         },
+                                         {
+                                             "module":  "pipeline-runtime.ps1",
+                                             "classification":  "pipeline-orchestration",
+                                             "role":  "workflow pipeline coordination",
+                                             "dependencyCount":  1
+                                         },
+                                         {
+                                             "module":  "runtime-supervisor.ps1",
+                                             "classification":  "runtime-supervision",
+                                             "role":  "runtime supervision",
+                                             "dependencyCount":  2
+                                         },
+                                         {
+                                             "module":  "telemetry-runtime.ps1",
+                                             "classification":  "observability",
+                                             "role":  "execution telemetry",
+                                             "dependencyCount":  0
+                                         }
+                                     ],
+                           "edges":  [
+                                         {
+                                             "source":  "execution-runtime.ps1",
+                                             "target":  "queue-runtime.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         },
+                                         {
+                                             "source":  "execution-runtime.ps1",
+                                             "target":  "telemetry-runtime.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         },
+                                         {
+                                             "source":  "execution-runtime.ps1",
+                                             "target":  "registry-runtime.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         },
+                                         {
+                                             "source":  "queue-runtime.ps1",
+                                             "target":  "queue-processor.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         },
+                                         {
+                                             "source":  "queue-runtime.ps1",
+                                             "target":  "priority-queue-runtime.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         },
+                                         {
+                                             "source":  "execution-dispatcher.ps1",
+                                             "target":  "execution-runtime.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         },
+                                         {
+                                             "source":  "execution-dispatcher.ps1",
+                                             "target":  "pipeline-runtime.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         },
+                                         {
+                                             "source":  "pipeline-runtime.ps1",
+                                             "target":  "workflow-chain-runtime.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         },
+                                         {
+                                             "source":  "runtime-supervisor.ps1",
+                                             "target":  "telemetry-runtime.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         },
+                                         {
+                                             "source":  "runtime-supervisor.ps1",
+                                             "target":  "execution-runtime.ps1",
+                                             "relationship":  "runtime-dependency"
+                                         }
+                                     ]
+                       },
+    "orchestrationFlow":  {
+                              "primaryExecutionPath":  [
+                                                           "execution-dispatcher.ps1",
+                                                           "execution-runtime.ps1",
+                                                           "queue-runtime.ps1",
+                                                           "pipeline-runtime.ps1",
+                                                           "runtime-supervisor.ps1",
+                                                           "telemetry-runtime.ps1"
+                                                       ],
+                              "orchestrationType":  "AI-native orchestration runtime",
+                              "executionPriority":  "orchestration-critical"
+                          },
+    "runtimeTopology":  {
+                            "totalNodes":  6,
+                            "totalEdges":  10,
+                            "orchestrationModules":  5
+                        }
+}
