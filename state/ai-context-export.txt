@@ -1,0 +1,55 @@
+AI-Automation-OS :: OPERATIONAL CONTEXT EXPORT
+==============================================
+
+PROJECT
+-------
+Name        : AI-Automation-OS
+Phase       : 9
+Phase Name  : Universal Persistent Execution State Layer
+
+CURRENT STATE
+-------------
+Current Task : Build unified continuity pipeline
+Next Task    : Implement deterministic replay restoration
+
+WORKFLOW SUMMARY
+----------------
+Building persistent execution continuity infrastructure for AI-native engineering workflows.
+
+ARCHITECTURE FOCUS
+------------------
+Checkpoint persistence
+Workflow resumability
+Operational memory
+Deterministic replay
+AI-ready context compression
+
+IMPORTANT FILES
+---------------
+state/project-state.json
+
+KNOWN ISSUES
+------------
+
+
+CONSTRAINTS
+-----------
+AI-tool agnostic architecture
+Terminal-first workflows
+Deterministic operational structure
+Context compression over verbose histories
+Operational simplicity over abstraction complexity
+
+LAST CHECKPOINT
+---------------
+2026-05-19_22-17-00
+
+SYSTEM IDENTITY
+---------------
+Persistent execution continuity infrastructure
+for AI-native engineering workflows.
+
+PRIMARY GOAL
+-------------
+Restore workflow continuity instantly with
+minimal context rebuilding and token usage.
