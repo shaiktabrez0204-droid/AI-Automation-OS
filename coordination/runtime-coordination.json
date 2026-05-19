@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-19T09:13:40.9916474+05:30",
+  "coordination_health": {
+    "runtime_synchronization": "SYNCHRONIZED",
+    "coordination_state": "STABLE"
+  },
+  "active_runtime_allocations": [
+    {
+      "execution_id": "exec-001",
+      "allocation_id": "43b1c01c-0ce4-4c6a-a677-c1fa0269710b",
+      "coordination_state": "STANDARD_COORDINATION",
+      "stage": "dependency-scan",
+      "workflow": "repo-analysis",
+      "timestamp": "2026-05-19T09:13:40.9755511+05:30",
+      "priority": "MEDIUM"
+    }
+  ],
+  "coordination_metrics": {
+    "total_allocations": 1,
+    "synchronized_runtimes": 1,
+    "coordination_conflicts": 0,
+    "degraded_runtimes": 0
+  }
+}

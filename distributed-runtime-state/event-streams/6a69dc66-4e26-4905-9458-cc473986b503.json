@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "delegationId": "delegation-001",
+    "targetRuntime": "architecture-runtime-001",
+    "executionType": "runtime-analysis"
+  },
+  "sourceRuntime": "execution-runtime-001",
+  "eventId": "6a69dc66-4e26-4905-9458-cc473986b503",
+  "eventType": "execution.delegation.created",
+  "timestampUtc": "2026-05-19T05:36:05.1942572Z"
+}

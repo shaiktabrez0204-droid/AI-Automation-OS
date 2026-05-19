@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-19T09:12:49.3905462+05:30",
+  "execution_queue": [
+    {
+      "execution_id": "exec-001",
+      "plan_id": "b6379494-eaba-4860-b524-301a77ca339c",
+      "stage": "dependency-scan",
+      "workflow": "repo-analysis",
+      "timestamp": "2026-05-19T09:12:49.3827810+05:30",
+      "priority": "MEDIUM"
+    }
+  ],
+  "planning_metrics": {
+    "high_priority_executions": 0,
+    "medium_priority_executions": 1,
+    "low_priority_executions": 0,
+    "total_planned_executions": 1
+  }
+}

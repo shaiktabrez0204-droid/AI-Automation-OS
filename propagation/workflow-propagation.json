@@ -1,0 +1,62 @@
+{
+  "propagation_history": [
+    {
+      "source_workflow": "repo-analysis",
+      "trigger_event": "execution.transition",
+      "propagation_id": "39928c81-7fba-4ec4-ae9f-a86c03bdafb9",
+      "execution_id": "exec-001",
+      "propagation_type": "event-driven",
+      "stage": "dependency-scan",
+      "runtime": "repo-intelligence",
+      "propagation_depth": 1,
+      "timestamp": "2026-05-19T08:58:36.402515+05:30",
+      "allowed": true,
+      "target_workflow": "dependency-mapping"
+    },
+    {
+      "source_workflow": "repo-analysis",
+      "trigger_event": "loop.trigger",
+      "propagation_id": "6d71647e-4747-4916-b48f-020d7ea3a178",
+      "execution_id": "exec-999",
+      "propagation_type": "recursive",
+      "stage": "propagation-loop",
+      "runtime": "autonomous-runtime",
+      "propagation_depth": 7,
+      "timestamp": "2026-05-19T08:58:43.6978467+05:30",
+      "allowed": false,
+      "target_workflow": "recursive-runtime"
+    }
+  ],
+  "generated_at": "2026-05-19T08:58:43.7231692+05:30",
+  "propagation_metrics": {
+    "unique_workflows": [
+      "repo-analysis",
+      "dependency-mapping",
+      "recursive-runtime"
+    ],
+    "successful_propagations": 1,
+    "blocked_propagations": 1,
+    "unique_runtimes": [
+      "repo-intelligence",
+      "autonomous-runtime"
+    ],
+    "max_depth_observed": 7,
+    "total_propagations": 2
+  },
+  "propagation_rules": [],
+  "active_propagations": [
+    {
+      "source_workflow": "repo-analysis",
+      "trigger_event": "execution.transition",
+      "propagation_id": "39928c81-7fba-4ec4-ae9f-a86c03bdafb9",
+      "execution_id": "exec-001",
+      "propagation_type": "event-driven",
+      "stage": "dependency-scan",
+      "runtime": "repo-intelligence",
+      "propagation_depth": 1,
+      "timestamp": "2026-05-19T08:58:36.402515+05:30",
+      "allowed": true,
+      "target_workflow": "dependency-mapping"
+    }
+  ]
+}

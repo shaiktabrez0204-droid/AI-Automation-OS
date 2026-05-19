@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-05-19T09:10:51.9143194+05:30",
+  "runtimes": [
+    {
+      "last_modified": "2026-05-19T09:10:44.4042801+05:30",
+      "full_path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\architecture-diff.runtime.ps1",
+      "size_kb": 3.68,
+      "runtime_name": "architecture-diff.runtime.ps1"
+    },
+    {
+      "last_modified": "2026-05-19T08:56:35.1131979+05:30",
+      "full_path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\execution-state-machine.ps1",
+      "size_kb": 3.66,
+      "runtime_name": "execution-state-machine.ps1"
+    },
+    {
+      "last_modified": "2026-05-19T08:54:18.3457019+05:30",
+      "full_path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-state.runtime.ps1",
+      "size_kb": 3.66,
+      "runtime_name": "orchestration-state.runtime.ps1"
+    },
+    {
+      "last_modified": "2026-05-19T09:02:19.2001898+05:30",
+      "full_path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\orchestration-supervisor.runtime.ps1",
+      "size_kb": 4.77,
+      "runtime_name": "orchestration-supervisor.runtime.ps1"
+    },
+    {
+      "last_modified": "2026-05-19T08:55:21.5892979+05:30",
+      "full_path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-event-bus.ps1",
+      "size_kb": 3.18,
+      "runtime_name": "runtime-event-bus.ps1"
+    },
+    {
+      "last_modified": "2026-05-19T09:07:49.8087610+05:30",
+      "full_path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\runtime-health.runtime.ps1",
+      "size_kb": 7.49,
+      "runtime_name": "runtime-health.runtime.ps1"
+    },
+    {
+      "last_modified": "2026-05-19T08:58:30.9188225+05:30",
+      "full_path": "C:\\Users\\shaik\\AI-Automation-OS\\runtime\\workflow-propagation.runtime.ps1",
+      "size_kb": 4.78,
+      "runtime_name": "workflow-propagation.runtime.ps1"
+    }
+  ],
+  "runtime_count": 7
+}

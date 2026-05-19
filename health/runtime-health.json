@@ -1,0 +1,43 @@
+{
+  "degradation_signals": [
+    {
+      "timestamp": "2026-05-19T09:07:55.3131435+05:30",
+      "severity": "HIGH",
+      "type": "INVALID_TRANSITIONS",
+      "impact": "-10 execution score",
+      "signal_id": "c43e60ff-7b33-4d53-8d53-c5edd1454444"
+    },
+    {
+      "timestamp": "2026-05-19T09:07:55.3170948+05:30",
+      "severity": "MEDIUM",
+      "type": "BLOCKED_PROPAGATIONS",
+      "impact": "-15 propagation score",
+      "signal_id": "44ef6898-51f7-4ed2-bd1b-fa62f717d3da"
+    },
+    {
+      "timestamp": "2026-05-19T09:07:55.3265548+05:30",
+      "severity": "HIGH",
+      "type": "RUNTIME_ANOMALIES",
+      "impact": "-20 supervision score",
+      "signal_id": "8be2cb60-cd9b-4d29-bcb9-708e60e4014a"
+    }
+  ],
+  "generated_at": "2026-05-19T09:07:55.3385719+05:30",
+  "runtime_health": {
+    "overall_health": "HEALTHY",
+    "propagation_score": 85,
+    "event_score": 100,
+    "execution_score": 90,
+    "orchestration_score": 100,
+    "supervision_score": 80
+  },
+  "runtime_metrics": {
+    "invalid_transitions": 1,
+    "blocked_propagations": 1,
+    "total_propagations": 2,
+    "total_transitions": 2,
+    "anomaly_count": 2,
+    "active_executions": 1,
+    "total_events": 1
+  }
+}

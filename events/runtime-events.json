@@ -1,0 +1,28 @@
+{
+  "event_metrics": {
+    "total_events": 1,
+    "unique_event_types": [
+      "execution.transition"
+    ],
+    "unique_workflows": [
+      "repo-analysis"
+    ],
+    "unique_runtimes": [
+      "repo-intelligence"
+    ]
+  },
+  "generated_at": "2026-05-19T08:55:28.4205192+05:30",
+  "runtime_events": [
+    {
+      "source": "orchestration-state-runtime",
+      "stage": "dependency-scan",
+      "execution_id": "exec-001",
+      "event_id": "99c098d1-2396-404e-a285-807544448c91",
+      "runtime": "repo-intelligence",
+      "event_type": "execution.transition",
+      "timestamp": "2026-05-19T08:55:28.4017699+05:30",
+      "payload": "execution moved to RUNNING",
+      "workflow": "repo-analysis"
+    }
+  ]
+}

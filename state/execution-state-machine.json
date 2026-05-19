@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-05-19T08:56:49.6032668+05:30",
+  "execution_transitions": [
+    {
+      "execution_id": "exec-001",
+      "current_state": "PENDING",
+      "next_state": "RUNNING",
+      "runtime": "repo-intelligence",
+      "workflow": "repo-analysis",
+      "timestamp": "2026-05-19T08:56:42.0415136+05:30",
+      "valid": true
+    },
+    {
+      "execution_id": "exec-001",
+      "current_state": "COMPLETED",
+      "next_state": "RUNNING",
+      "runtime": "repo-intelligence",
+      "workflow": "repo-analysis",
+      "timestamp": "2026-05-19T08:56:49.5927055+05:30",
+      "valid": false
+    }
+  ],
+  "valid_transitions": {
+    "FAILED": [
+      "RETRYING"
+    ],
+    "PENDING": [
+      "RUNNING"
+    ],
+    "RETRYING": [
+      "RUNNING",
+      "FAILED"
+    ],
+    "COMPLETED": [],
+    "RUNNING": [
+      "COMPLETED",
+      "FAILED",
+      "RETRYING"
+    ]
+  },
+  "transition_metrics": {
+    "invalid_transitions": 1,
+    "total_transitions": 2,
+    "successful_transitions": 1
+  }
+}

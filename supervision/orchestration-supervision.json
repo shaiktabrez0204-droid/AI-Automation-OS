@@ -1,0 +1,30 @@
+{
+  "supervision_summary": {
+    "failed_executions": 0,
+    "invalid_transitions": 1,
+    "total_anomalies": 2,
+    "blocked_propagations": 1
+  },
+  "generated_at": "2026-05-19T09:02:26.7178914+05:30",
+  "runtime_health": {
+    "propagation_health": "DEGRADED",
+    "execution_health": "DEGRADED",
+    "orchestration_health": "HEALTHY"
+  },
+  "detected_anomalies": [
+    {
+      "timestamp": "2026-05-19T09:02:26.7091475+05:30",
+      "severity": "HIGH",
+      "anomaly_id": "7e4c16cd-1326-495e-87e9-f8233727630d",
+      "type": "INVALID_STATE_TRANSITIONS",
+      "details": "1 invalid transitions detected"
+    },
+    {
+      "timestamp": "2026-05-19T09:02:26.7139729+05:30",
+      "severity": "MEDIUM",
+      "anomaly_id": "d74c0ada-c922-4ccb-ae03-75dd51992bf1",
+      "type": "BLOCKED_PROPAGATIONS",
+      "details": "1 blocked propagations detected"
+    }
+  ]
+}

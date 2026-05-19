@@ -1,0 +1,30 @@
+# Runtime State
+distributed-runtime-state/*.json
+
+# Logs
+*.log
+
+# Temp
+temp/
+tmp/
+
+# PowerShell
+*.ps1xml
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Environment
+.env
+.env.*
+
+# Build
+dist/
+build/
