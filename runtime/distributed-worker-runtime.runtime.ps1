@@ -1,3 +1,11 @@
+<#
+AI-Automation-OS runtime stage: distributed worker runtime.
+
+This stage simulates worker execution against the current pending queue. It
+records worker ownership and execution outcome without mutating the queue
+artifact, which keeps downstream lifecycle analysis replayable.
+#>
+
 param(
     [string]$QueueRoot = ".\distributed-execution-queue\pending",
     [string]$OutputRoot = ".\distributed-worker-runtime"
@@ -5,15 +13,30 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+<#
+============================================================
+   ARTIFACT DISCOVERY
+============================================================
+#>
+
 function Get-LatestFile {
     param([string]$Root)
 
+    # The worker stage intentionally consumes the newest queue snapshot rather
+    # than accepting individual task ids. That keeps batch replay possible, but
+    # it also means queue cleanup discipline matters.
     Get-ChildItem `
         -Path $Root `
         -Filter "*.json" |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 }
+
+<#
+============================================================
+   WORKER EXECUTION
+============================================================
+#>
 
 function Invoke-DistributedWorkers {
     param([array]$Queue)
@@ -35,6 +58,9 @@ function Invoke-DistributedWorkers {
             $executionState = "PRIORITY_EXECUTED"
         }
 
+        # Latency is currently modeled rather than measured. Downstream
+        # lifecycle stages still treat high latency as degradation pressure, so
+        # this should become real telemetry before operational use.
         $processingLatency = Get-Random `
             -Minimum 20 `
             -Maximum 200
@@ -55,6 +81,12 @@ function Invoke-DistributedWorkers {
 
     return $results
 }
+
+<#
+============================================================
+   RUNTIME ENTRYPOINT
+============================================================
+#>
 
 Write-Host ""
 Write-Host "======================================="

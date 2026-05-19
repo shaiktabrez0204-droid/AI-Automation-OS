@@ -1,3 +1,11 @@
+<#
+AI-Automation-OS runtime stage: execution lifecycle orchestration.
+
+This stage reconciles pending queue entries with persistent worker state. It
+does not perform recovery directly; it marks queue transitions and retry intent
+so the recovery engine can make the next decision from explicit state.
+#>
+
 param(
     [string]$QueueRoot = ".\distributed-execution-queue\pending",
     [string]$WorkerStateRoot = ".\persistent-worker-lifecycle\worker-state",
@@ -6,15 +14,30 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+<#
+============================================================
+   ARTIFACT DISCOVERY
+============================================================
+#>
+
 function Get-LatestFile {
     param([string]$Root)
 
+    # Lifecycle orchestration depends on queue and worker snapshots from the
+    # same recent run. The current convention picks newest files independently,
+    # so mismatched timestamps are possible if stages are rerun out of order.
     Get-ChildItem `
         -Path $Root `
         -Filter "*.json" |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 }
+
+<#
+============================================================
+   LIFECYCLE RECONCILIATION
+============================================================
+#>
 
 function Invoke-LifecycleOrchestration {
     param(
@@ -43,6 +66,8 @@ function Invoke-LifecycleOrchestration {
 
         $recoveryState = "NONE"
 
+        # Recovery is expressed as intent, not action. The recovery engine owns
+        # the decision to requeue so this stage stays a pure reconciliation pass.
         if (
             $queueTransition -eq
             "REQUEUE_REQUIRED"
@@ -69,6 +94,12 @@ function Invoke-LifecycleOrchestration {
 
     return $lifecycle
 }
+
+<#
+============================================================
+   RUNTIME ENTRYPOINT
+============================================================
+#>
 
 Write-Host ""
 Write-Host "======================================="

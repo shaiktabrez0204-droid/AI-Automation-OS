@@ -1,3 +1,11 @@
+<#
+AI-Automation-OS runtime stage: runtime-local event journaling.
+
+This stage attaches local governance context to event bus records. It creates
+runtime-scoped replay checkpoints before the execution journal commits broader
+queue and recovery state.
+#>
+
 param(
     [string]$EventBusRoot = ".\event-driven-cognition-bus\event-streams",
     [string]$LocalGovernanceRoot = ".\runtime-local-governance\local-policy-state",
@@ -6,15 +14,30 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+<#
+============================================================
+   ARTIFACT DISCOVERY
+============================================================
+#>
+
 function Get-LatestFile {
     param([string]$Root)
 
+    # Event and governance snapshots are paired by "latest file" convention.
+    # That keeps this stage terminal-friendly, but a future runner should pass
+    # explicit artifact ids when strict causality is required.
     Get-ChildItem `
         -Path $Root `
         -Filter "*.json" |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 }
+
+<#
+============================================================
+   LOCAL EVENT JOURNALING
+============================================================
+#>
 
 function Build-RuntimeJournals {
     param(
@@ -34,6 +57,9 @@ function Build-RuntimeJournals {
 
         $checkpointState = "ACTIVE"
 
+        # Local governance affects replay posture. A constrained runtime can
+        # still journal events, but consumers need to know the checkpoint was
+        # created under restricted execution.
         if (
             $governanceRecord.LocalExecutionState -eq
             "CONSTRAINED"
@@ -50,6 +76,8 @@ function Build-RuntimeJournals {
 
         $replayState = "REPLAYABLE"
 
+        # Critical events stay replayable but require validation because their
+        # downstream consequences are allowed to affect recovery decisions.
         if (
             $event.EventPriority -eq "CRITICAL"
         ) {
@@ -60,6 +88,8 @@ function Build-RuntimeJournals {
             [System.Guid]::NewGuid().Guid
         )
 
+        # JournalHash is a generated lineage marker in the current system, not
+        # a content hash. Treat it as identity, not integrity verification.
         $journals += [PSCustomObject]@{
             Runtime = $event.Runtime
             EventSequence = $event.EventSequence
@@ -76,6 +106,12 @@ function Build-RuntimeJournals {
 
     return $journals
 }
+
+<#
+============================================================
+   RUNTIME ENTRYPOINT
+============================================================
+#>
 
 Write-Host ""
 Write-Host "======================================="

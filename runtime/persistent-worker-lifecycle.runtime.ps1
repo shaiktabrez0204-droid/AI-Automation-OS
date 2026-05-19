@@ -1,3 +1,11 @@
+<#
+AI-Automation-OS runtime stage: persistent worker lifecycle.
+
+This stage converts worker execution results into durable worker state. The
+output is the lifecycle source of truth used by orchestration and recovery
+stages to decide whether work can be trusted or must be retried.
+#>
+
 param(
     [string]$WorkerRoot = ".\distributed-worker-runtime\execution-results",
     [string]$OutputRoot = ".\persistent-worker-lifecycle"
@@ -5,15 +13,29 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+<#
+============================================================
+   ARTIFACT DISCOVERY
+============================================================
+#>
+
 function Get-LatestFile {
     param([string]$Root)
 
+    # This runtime follows the repository's append-only artifact convention:
+    # read the newest upstream snapshot and write a new timestamped state file.
     Get-ChildItem `
         -Path $Root `
         -Filter "*.json" |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 }
+
+<#
+============================================================
+   WORKER STATE PROJECTION
+============================================================
+#>
 
 function Build-PersistentWorkers {
     param([array]$Workers)
@@ -35,6 +57,9 @@ function Build-PersistentWorkers {
             $leaseState = "PRIORITY_OWNERSHIP"
         }
 
+        # Degradation is inferred from latency for now. That keeps the pipeline
+        # executable without a live worker pool, but it is a simulation boundary
+        # rather than a definitive health signal.
         if (
             $worker.ProcessingLatencyMs -gt 150
         ) {
@@ -66,6 +91,12 @@ function Build-PersistentWorkers {
 
     return $state
 }
+
+<#
+============================================================
+   RUNTIME ENTRYPOINT
+============================================================
+#>
 
 Write-Host ""
 Write-Host "======================================="

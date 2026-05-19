@@ -1,3 +1,11 @@
+<#
+AI-Automation-OS runtime stage: distributed execution queue.
+
+This stage turns runtime events into queueable execution work. It does not
+dispatch work itself; it classifies intent and priority so worker runtimes can
+consume a stable pending queue artifact.
+#>
+
 param(
     [string]$EventBusRoot = ".\event-driven-cognition-bus\event-streams",
     [string]$OutputRoot = ".\distributed-execution-queue"
@@ -5,15 +13,30 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+<#
+============================================================
+   ARTIFACT DISCOVERY
+============================================================
+#>
+
 function Get-LatestFile {
     param([string]$Root)
 
+    # All current pipeline stages bind to the newest artifact in their upstream
+    # directory. That convention keeps stages composable from the terminal, but
+    # it assumes operators know which artifact was just produced.
     Get-ChildItem `
         -Path $Root `
         -Filter "*.json" |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 }
+
+<#
+============================================================
+   QUEUE CONSTRUCTION
+============================================================
+#>
 
 function Build-ExecutionQueue {
     param([array]$Events)
@@ -24,6 +47,8 @@ function Build-ExecutionQueue {
 
         $executionPriority = "NORMAL"
 
+        # Preserve the event bus priority model while translating it into the
+        # execution vocabulary used by worker and lifecycle stages.
         switch ($event.EventPriority) {
 
             "ELEVATED" {
@@ -39,6 +64,8 @@ function Build-ExecutionQueue {
 
         $executionType = "STANDARD_RUNTIME"
 
+        # Queue consumers do not need the original cognition event taxonomy.
+        # They need to know which operational path should handle the work.
         switch ($event.EventType) {
 
             "MUTATION_EVENT" {
@@ -68,6 +95,12 @@ function Build-ExecutionQueue {
 
     return $queue
 }
+
+<#
+============================================================
+   RUNTIME ENTRYPOINT
+============================================================
+#>
 
 Write-Host ""
 Write-Host "======================================="

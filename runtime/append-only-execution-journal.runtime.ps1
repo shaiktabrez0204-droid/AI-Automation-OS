@@ -1,3 +1,11 @@
+<#
+AI-Automation-OS runtime stage: append-only execution journal.
+
+This stage commits lifecycle and recovery state into a replayable execution log.
+It writes a new timestamped journal file instead of modifying prior journals;
+that append-only behavior is the recovery audit trail.
+#>
+
 param(
     [string]$RecoveryRoot = ".\failure-recovery-engine\execution-recovery",
     [string]$LifecycleRoot = ".\execution-lifecycle-orchestration\execution-transitions",
@@ -6,15 +14,30 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+<#
+============================================================
+   ARTIFACT DISCOVERY
+============================================================
+#>
+
 function Get-LatestFile {
     param([string]$Root)
 
+    # The journal records the most recent recovery and lifecycle snapshots.
+    # This is easy to operate manually, but replay quality depends on those
+    # snapshots being from the same execution pass.
     Get-ChildItem `
         -Path $Root `
         -Filter "*.json" |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 }
+
+<#
+============================================================
+   JOURNAL COMMIT
+============================================================
+#>
 
 function Build-ExecutionJournal {
     param(
@@ -34,6 +57,8 @@ function Build-ExecutionJournal {
 
         $journalState = "COMMITTED"
 
+        # A recovery commit means the work is replayable, but it should not be
+        # treated as a clean success by reconstruction or future audits.
         if (
             $recoveryRecord.RecoveryAction -eq
             "REQUEUE_TASK"
@@ -43,6 +68,8 @@ function Build-ExecutionJournal {
 
         $checkpointState = "CHECKPOINTED"
 
+        # Retry-pending lifecycle entries become explicit recovery checkpoints
+        # so replay can distinguish partial restoration from ordinary restore.
         if (
             $execution.RecoveryState -eq
             "RETRY_PENDING"
@@ -55,6 +82,8 @@ function Build-ExecutionJournal {
             [System.Guid]::NewGuid().Guid
         )
 
+        # ReplaySequence is a correlation id for this journal artifact, not a
+        # stable deterministic hash. Preserve it downstream once emitted.
         $journal += [PSCustomObject]@{
             QueueId = $execution.QueueId
             Runtime = $execution.Runtime
@@ -71,6 +100,12 @@ function Build-ExecutionJournal {
 
     return $journal
 }
+
+<#
+============================================================
+   RUNTIME ENTRYPOINT
+============================================================
+#>
 
 Write-Host ""
 Write-Host "======================================="

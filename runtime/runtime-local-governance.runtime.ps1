@@ -1,3 +1,11 @@
+<#
+AI-Automation-OS runtime stage: runtime-local governance.
+
+This stage resolves global policy and consensus records into local runtime
+execution constraints. The output is consumed by local event journaling so
+events carry the governance context active when they were journaled.
+#>
+
 param(
     [string]$PolicyRoot = ".\dynamic-governance-policy-engine\policy-registry",
     [string]$ConsensusRoot = ".\execution-governed-consensus\quorum-enforcement",
@@ -6,15 +14,30 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+<#
+============================================================
+   ARTIFACT DISCOVERY
+============================================================
+#>
+
 function Get-LatestFile {
     param([string]$Root)
 
+    # Local governance combines independently produced policy and consensus
+    # artifacts. Timestamp skew between those inputs is currently an operator
+    # concern, not something this script resolves.
     Get-ChildItem `
         -Path $Root `
         -Filter "*.json" |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 }
+
+<#
+============================================================
+   LOCAL GOVERNANCE PROJECTION
+============================================================
+#>
 
 function Build-LocalGovernance {
     param(
@@ -34,6 +57,9 @@ function Build-LocalGovernance {
 
         $localExecution = "ENABLED"
 
+        # PolicyMode is intentionally translated into a smaller execution-state
+        # vocabulary so event journaling can reason about local constraints
+        # without reinterpreting global policy rules.
         if (
             $policy.PolicyMode -eq "STRICT"
         ) {
@@ -57,6 +83,8 @@ function Build-LocalGovernance {
 
         $constraintScope = "LOCAL"
 
+        # Lockdown crosses the local boundary because replay and audit need to
+        # know that a federated constraint was active for this runtime.
         if (
             $policy.PolicyMode -eq "LOCKDOWN"
         ) {
@@ -79,6 +107,12 @@ function Build-LocalGovernance {
 
     return $localGovernance
 }
+
+<#
+============================================================
+   RUNTIME ENTRYPOINT
+============================================================
+#>
 
 Write-Host ""
 Write-Host "======================================="

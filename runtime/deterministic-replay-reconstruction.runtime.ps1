@@ -1,3 +1,11 @@
+<#
+AI-Automation-OS runtime stage: deterministic replay reconstruction.
+
+This stage rebuilds replay state from the latest append-only journal artifact.
+It preserves journal replay sequences and emits reconstruction lineage so later
+verification can tell restored entries from entries that still need validation.
+#>
+
 param(
     [string]$JournalRoot = ".\append-only-execution-journal\execution-log",
     [string]$OutputRoot = ".\deterministic-replay-reconstruction"
@@ -5,15 +13,30 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+<#
+============================================================
+   ARTIFACT DISCOVERY
+============================================================
+#>
+
 function Get-LatestFile {
     param([string]$Root)
 
+    # Replay currently reconstructs from the newest journal only. Historical
+    # journals remain available on disk, but this stage does not fold multiple
+    # journal files into a single replay timeline yet.
     Get-ChildItem `
         -Path $Root `
         -Filter "*.json" |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 }
+
+<#
+============================================================
+   REPLAY RECONSTRUCTION
+============================================================
+#>
 
 function Invoke-ReplayReconstruction {
     param([array]$Journal)
@@ -24,6 +47,9 @@ function Invoke-ReplayReconstruction {
 
         $replayState = "RESTORED"
 
+        # Recovery checkpoints are intentionally restored as partial state.
+        # They are visible to operators but still require validation before
+        # being treated as fully reconstructed execution.
         if (
             $entry.CheckpointState -eq
             "RECOVERY_CHECKPOINT"
@@ -33,6 +59,9 @@ function Invoke-ReplayReconstruction {
 
         $verificationState = "VERIFIED"
 
+        # A recovery commit carries useful history, not final confidence.
+        # Keeping it in a validation state protects replay consumers from
+        # silently accepting recovered work as clean execution.
         if (
             $entry.JournalState -eq
             "RECOVERY_COMMITTED"
@@ -45,6 +74,8 @@ function Invoke-ReplayReconstruction {
             [System.Guid]::NewGuid().Guid
         )
 
+        # RestorationLineage identifies this reconstruction pass. ReplaySequence
+        # remains the cross-artifact correlation id from the journal.
         $reconstruction += [PSCustomObject]@{
             QueueId = $entry.QueueId
             Runtime = $entry.Runtime
@@ -61,6 +92,12 @@ function Invoke-ReplayReconstruction {
 
     return $reconstruction
 }
+
+<#
+============================================================
+   RUNTIME ENTRYPOINT
+============================================================
+#>
 
 Write-Host ""
 Write-Host "======================================="

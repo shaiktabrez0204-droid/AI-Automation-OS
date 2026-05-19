@@ -1,3 +1,11 @@
+<#
+AI-Automation-OS runtime stage: event-driven cognition bus.
+
+This stage converts propagation deltas into ordered runtime events. It is a
+snapshot-to-snapshot transform: read the newest upstream artifact, emit a new
+timestamped artifact, and leave prior history untouched for later inspection.
+#>
+
 param(
     [string]$PropagationRoot = ".\incremental-cognition-propagation\delta-streams",
     [string]$OutputRoot = ".\event-driven-cognition-bus"
@@ -5,15 +13,30 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+<#
+============================================================
+   ARTIFACT DISCOVERY
+============================================================
+#>
+
 function Get-LatestFile {
     param([string]$Root)
 
+    # Runtime stages use "latest JSON wins" handoff to keep manual execution
+    # simple. The tradeoff is operational: stale artifacts can steer a run if an
+    # upstream directory contains old output that looks newer than expected.
     Get-ChildItem `
         -Path $Root `
         -Filter "*.json" |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 }
+
+<#
+============================================================
+   EVENT NORMALIZATION
+============================================================
+#>
 
 function Build-CognitionEventBus {
     param([array]$Propagation)
@@ -26,6 +49,9 @@ function Build-CognitionEventBus {
 
         $sequence++
 
+        # Keep event categories intentionally narrow. Downstream queueing only
+        # needs to know whether it is handling ordinary state, mutation, or
+        # recovery pressure.
         $eventType = "STATE_UPDATE"
 
         switch ($delta.DeltaType) {
@@ -41,6 +67,8 @@ function Build-CognitionEventBus {
 
         $eventPriority = "NORMAL"
 
+        # Priority is reduced to a small runtime vocabulary here so worker and
+        # governance stages do not need to understand every propagation detail.
         switch ($delta.PropagationPriority) {
 
             "HIGH" {
@@ -68,6 +96,12 @@ function Build-CognitionEventBus {
 
     return $events
 }
+
+<#
+============================================================
+   RUNTIME ENTRYPOINT
+============================================================
+#>
 
 Write-Host ""
 Write-Host "======================================="

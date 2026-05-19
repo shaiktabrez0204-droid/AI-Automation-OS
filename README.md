@@ -1,140 +1,83 @@
 # AI-Automation-OS
 
-Experimental infrastructure project focused on distributed orchestration, runtime coordination and persistent engineering cognition.
+AI-Automation-OS is infrastructure for replayable runtime execution, repository cognition, and persistent engineering memory.
 
-Started as a workflow/context system.
-Eventually evolved into runtime federation + orchestration infrastructure.
+The repository is terminal-first and PowerShell-heavy. Most active systems transform one timestamped artifact into another instead of running as long-lived services. That keeps execution inspectable and makes failures easier to replay, but it also means operators must understand artifact ordering.
 
-Current direction is moving toward:
-- repository cognition
-- execution planning
-- topology-aware orchestration
-- engineering memory
-- infrastructure diagnostics
-- distributed engineering coordination
+## What This Is
 
-Still heavily experimental.
+- Runtime orchestration and coordination infrastructure.
+- Replayable execution and recovery tooling.
+- Repository-aware engineering cognition experiments.
+- Persistent state, memory, telemetry, and architecture records.
 
----
+## What This Is Not
 
-## What exists right now
+- A chatbot wrapper.
+- A generic app framework.
+- A prompt orchestration product.
+- A place for architecture rewrites without operational need.
 
-Current runtime systems support:
+## Core Systems
 
-- execution scheduling
-- runtime federation
-- orchestration recovery
-- distributed messaging
-- execution delegation
-- topology-aware scheduling
-- runtime capability routing
-- distributed locking
-- deadlock detection + recovery
-- runtime intelligence scoring
-- orchestration consensus
-- autonomous orchestration loops
+| System | Location | Responsibility |
+|---|---|---|
+| Runtime stages | `runtime/` | PowerShell entrypoints and modules that produce runtime artifacts. |
+| Event bus | `event-driven-cognition-bus/` | Timestamped cognition events derived from propagation deltas. |
+| Execution queue | `distributed-execution-queue/` | Pending runtime work derived from events. |
+| Worker lifecycle | `distributed-worker-runtime/`, `persistent-worker-lifecycle/` | Worker execution results and durable worker state. |
+| Recovery | `failure-recovery-engine/` | Recovery decisions based on lifecycle and worker state. |
+| Journal | `append-only-execution-journal/`, `runtime-local-event-journaling/` | Replayable execution and local event history. |
+| Replay | `deterministic-replay-reconstruction/` | Reconstructed execution state from the latest journal artifact. |
+| Memory and cognition | `memory/`, `repository-cognition/`, `semantic-cognition/` | Engineering memory, repository structure, and inferred runtime intent. |
 
-Most orchestration logic currently lives inside:
+There are no root folders named `replay/` or `journal/` today. The active replay and journal systems use explicit subsystem folders.
 
-```text
-/runtime
-```
+## Runtime Flow
 
-Federation state currently persists through:
+The current replayable execution path is:
 
 ```text
-/distributed-runtime-state
+incremental-cognition-propagation
+  -> event-driven-cognition-bus
+  -> distributed-execution-queue
+  -> distributed-worker-runtime
+  -> persistent-worker-lifecycle
+  -> execution-lifecycle-orchestration
+  -> failure-recovery-engine
+  -> append-only-execution-journal
+  -> deterministic-replay-reconstruction
 ```
 
-Engineering memory and architecture evolution tracking currently lives in:
+Local governance and local event journaling run alongside that path:
 
 ```text
-/memory
-/architecture
+dynamic-governance-policy-engine + execution-governed-consensus
+  -> runtime-local-governance
+  -> runtime-local-event-journaling
 ```
 
----
+## Documentation
 
-## Runtime model
+- `docs/architecture.md` - repository architecture and subsystem boundaries.
+- `docs/runtime-flow.md` - execution flow and artifact handoff model.
+- `docs/journal-system.md` - journal responsibilities and risks.
+- `docs/replay-system.md` - replay reconstruction behavior and limitations.
+- `AI_CONTEXT.md` - compact context for AI coding agents.
+- `CURRENT_STATE.md` - current status, risks, and cleanup targets.
+- `SYSTEM_OVERVIEW.md` - high-signal map of the repository.
 
-The system operates through multiple specialized runtimes.
+## Operating Rules
 
-Right now the federation includes things like:
-- execution runtimes
-- retrieval runtimes
-- architecture runtimes
-- telemetry runtimes
+- Preserve architecture unless there is a clear operational reason to change it.
+- Treat timestamped JSON artifacts as execution history.
+- Prefer small, explicit runtime stages over hidden orchestration.
+- Do not delete or rewrite generated state unless the task specifically calls for cleanup.
+- When changing runtime behavior, document how replay and journaling are affected.
 
-Runtimes communicate through:
-- orchestration scheduling
-- federation messaging
-- execution delegation
-- coordination consensus
-- topology relationships
+## Current Risks
 
-Current orchestration model is still centralized in some areas.
-A lot of Phase 8 work is focused on reducing orchestration coupling.
-
----
-
-## Current repo structure
-
-```text
-runtime/                     orchestration + federation runtimes
-memory/                      engineering memory systems
-architecture/                architecture state tracking
-distributed-runtime-state/   federation state persistence
-workflows/                   execution workflows
-protocols/                   runtime governance contracts
-telemetry/                   operational diagnostics
-executions/                  execution artifacts + lineage
-infrastructure/              repository cognition systems
-context/                     context assembly systems
-```
-
----
-
-## Current focus
-
-Main focus right now is building engineering cognition infrastructure on top of the orchestration substrate.
-
-That includes:
-- repository analysis
-- dependency graph cognition
-- execution planning
-- infrastructure reasoning
-- architecture evolution tracking
-- runtime engineering memory
-
-The orchestration substrate is mostly stable now.
-
-Biggest missing piece currently is:
-actual repository-native engineering intelligence.
-
----
-
-## Important
-
-This repo is not intended to become:
-- chatbot infrastructure
-- AI wrapper tooling
-- prompt orchestration SaaS
-- "AI employee" systems
-
-The direction is much closer to:
-- distributed systems infrastructure
-- orchestration cognition
-- engineering execution infrastructure
-- persistent operational memory
-- AI-native runtime coordination
-
----
-
-## Notes
-
-A lot of the system is intentionally terminal-first.
-
-Most runtime generation, orchestration flows and infrastructure updates are executed directly through PowerShell instead of manual editing.
-
-The repo changes structure pretty often right now.
-Still early architecture stage.
+- Many runtime stages select the newest upstream JSON file independently. If stages are rerun out of order, artifacts can be paired across different execution passes.
+- Some lineage fields use generated GUIDs. They are useful for correlation but are not content hashes.
+- Several systems are simulation-backed and should not be treated as production telemetry without replacement inputs.
+- Empty placeholder runtime files exist and should be clarified before they become dependencies.
