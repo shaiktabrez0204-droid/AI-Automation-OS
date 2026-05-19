@@ -81,3 +81,18 @@ dynamic-governance-policy-engine + execution-governed-consensus
 - Some lineage fields use generated GUIDs. They are useful for correlation but are not content hashes.
 - Several systems are simulation-backed and should not be treated as production telemetry without replacement inputs.
 - Empty placeholder runtime files exist and should be clarified before they become dependencies.
+
+## System Architecture
+
+![AI-Automation-OS Architecture](docs/images/system-architecture.png)
+
+## System Architecture
+
+The runtime architecture focuses on:
+- persistent execution coordination
+- append-only journaling
+- deterministic replay reconstruction
+- recovery-oriented runtime orchestration
+
+![AI-Automation-OS Architecture](docs/images/system-architecture.png)
+
